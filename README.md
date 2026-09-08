@@ -56,9 +56,13 @@ Les caselles informen/recullen l’acceptació de privacitat a la interfície; n
 ## Pendents abans de la publicació pública
 
 - Validar les pàgines legals heretades: regió de dades, proveïdors, DPA, dates i textos definitius.
-- Confirmar vigència, període i metodologia dels resultats de casos (≈2.000 €/mes i +25%).
+- Les mètriques dels casos han estat corroborades pel client: restauració ≈2.000 €/mes; immobiliària 100% de consultes ateses i +20% de vendes; retail +40% de ressenyes positives i +25% d’ingressos. No impliquen una previsió per a altres empreses.
 - Validar les garanties de concurrència i les polítiques del backend amb el seu responsable.
 - Fer una reserva real de validació amb dades autoritzades i comprovar-ne la recepció. No s’han creat reserves ni subscripcions de prova en producció.
 - Decidir traduccions reals abans d’incorporar ES/EN. La versió lliurada és CA.
 
 No hi ha testimonis inventats, certificacions, preus, números de clients ni garanties de resultats. Les demostracions estan identificades com a il·lustratives.
+
+## Casos reals: mecanisme i resultat
+
+Cada cas mostra problema, procés assumit per Nintec360, canvi operatiu i resultat. Restauració representa la comanda, la bifurcació entre els dos locals i la derivació humana amb context; immobiliària, la qualificació i la fitxa que rep el comercial; retail, la continuïtat després de la venda i el retorn a una nova oportunitat. Els esquemes són HTML accessible amb passos ordenats i disposició vertical en mòbil; el contingut principal no depèn de clics ni de JavaScript. S’han revisat en escriptori i mòbil, i s’han validat les deu pàgines i els seus enllaços.
