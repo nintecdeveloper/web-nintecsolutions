@@ -2,6 +2,10 @@
 
 Web estàtica de deu pàgines en català. HTML semàntic generat amb Python, CSS compartit i JavaScript sense dependències. No necessita React, un servidor d’aplicació ni biblioteques de tercers al navegador.
 
+## Narrativa del cercle
+
+La home i la pàgina de Nintec360 comparteixen sis etapes amb el CRM al centre. `src/cycle.json` conté el relat problema → acció → benefici de cada etapa; `cycle.py` genera el diagrama i els panells accessibles durant el build. Els continguts es renderitzen en HTML, amb selecció per clic, tacte o teclat. Les campanyes disposen de peces específiques que expliquen la gestió de cada resposta.
+
 ## Desenvolupament
 
 ```sh

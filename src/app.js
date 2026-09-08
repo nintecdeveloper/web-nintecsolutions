@@ -2,20 +2,25 @@
 const menu=document.querySelector('.menu-toggle');
 menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));document.querySelector('.site-header').classList.toggle('menu-open',open)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu?.setAttribute('aria-expanded','false');document.querySelector('.site-header').classList.remove('menu-open')}});
-const scenarios=[
-{label:'OPORTUNITATS QUE ES REFREDEN',title:'Va preguntar.\nDesprés, silenci.',problem:'L’equip va enviar la informació, però el contacte es va quedar al WhatsApp. Ningú va recordar tornar-hi.',action:'Detecta que el procés està aturat i reprèn la conversa en el moment que has definit.',benefit:'Recuperes oportunitats sense perseguir-les manualment.',name:'Laia M.',initials:'LM',detail:'Interessada en un servei',status:'Pendent de resposta',trigger:'S’ha complert el termini de seguiment',message:'Hola, Laia! Vas poder revisar la informació? Si vols, t’ajudo a trobar una hora que et vagi bé.',resultTitle:'Seguiment registrat',resultDesc:'L’equip veu què s’ha enviat i què queda pendent.'},
-{label:'CONFIRMACIONS QUE DONEN FEINA',title:'Té cita demà.\nEncara no ha confirmat.',problem:'L’equip ha de revisar l’agenda i contactar una per una les persones que tenen cita.',action:'Consulta la cita i envia el recordatori segons l’antelació que has configurat.',benefit:'L’equip deixa de perseguir confirmacions manualment.',name:'Jordi P.',initials:'JP',detail:'Cita al calendari',status:'Per confirmar',trigger:'S’apropa la cita del client',message:'Hola, Jordi! Et recordem la teva cita de demà. Ens confirmes si podràs venir? Si necessites canviar-la, t’ajudem.',resultTitle:'Recordatori registrat',resultDesc:'La resposta del client permet actualitzar l’estat de la cita.'},
-{label:'GESTIONS QUE ES QUEDEN A MITGES',title:'Falta un document.\nEl procés s’atura.',problem:'La documentació està incompleta i algú de l’equip ha d’anar recordant al client què falta.',action:'Identifica la tasca pendent i contacta el client amb una petició concreta.',benefit:'Menys temps perseguint documents. Més claredat sobre què falta.',name:'Marta R.',initials:'MR',detail:'Documentació en curs',status:'Document pendent',trigger:'La documentació continua incompleta',message:'Hola, Marta! Per continuar amb la gestió ens falta el document que et vam demanar. Ens el pots fer arribar? Si tens algun dubte, t’ajudem.',resultTitle:'Petició registrada',resultDesc:'El següent pas queda visible fins que es resol la tasca.'}
-];
-function selectScenario(index){
- const s=scenarios[index];if(!s)return;
- const mapping={'scenario-label':s.label,'scenario-title':s.title,'scenario-problem':s.problem,'scenario-action':s.action,'scenario-benefit':s.benefit,'sim-name':s.name,'sim-detail':s.detail,'sim-status':s.status,'sim-trigger':s.trigger,'sim-message':s.message,'sim-result-title':s.resultTitle,'sim-result-desc':s.resultDesc};
- for(const [id,text]of Object.entries(mapping)){const el=document.getElementById(id);if(el)el.textContent=text}
- document.querySelector('.sim-customer .avatar').textContent=s.initials;
- document.querySelectorAll('[data-scenario]').forEach((b,i)=>{b.setAttribute('aria-selected',String(i===index));b.tabIndex=i===index?0:-1});
- document.getElementById('scenario-panel').setAttribute('aria-labelledby','scenario-tab-'+index);
-}
-document.querySelectorAll('[data-scenario]').forEach(b=>{b.addEventListener('click',()=>selectScenario(Number(b.dataset.scenario)));b.addEventListener('keydown',e=>{const i=Number(b.dataset.scenario);let n;if(e.key==='ArrowRight'||e.key==='ArrowDown')n=(i+1)%3;if(e.key==='ArrowLeft'||e.key==='ArrowUp')n=(i+2)%3;if(e.key==='Home')n=0;if(e.key==='End')n=2;if(n!==undefined){e.preventDefault();selectScenario(n);document.getElementById('scenario-tab-'+n).focus()}})});
+// The circle explains the complete client lifecycle. No production data is used.
+document.querySelectorAll('[data-cycle]').forEach(cycle=>{
+ const buttons=[...cycle.querySelectorAll('[data-cycle-step]')];
+ function select(button){
+  for(const item of buttons){const active=item===button;item.setAttribute('aria-selected',String(active));item.tabIndex=active?0:-1;document.getElementById(item.getAttribute('aria-controls')).hidden=!active;}
+  cycle.dataset.activeStep=button.dataset.cycleStep;
+ }
+ for(const button of buttons){
+  button.addEventListener('click',()=>select(button));
+  button.addEventListener('keydown',event=>{
+   const current=buttons.indexOf(button);let next;
+   if(['ArrowRight','ArrowDown'].includes(event.key))next=(current+1)%buttons.length;
+   if(['ArrowLeft','ArrowUp'].includes(event.key))next=(current+buttons.length-1)%buttons.length;
+   if(event.key==='Home')next=0;
+   if(event.key==='End')next=buttons.length-1;
+   if(next!==undefined){event.preventDefault();select(buttons[next]);buttons[next].focus();}
+  });
+ }
+});
 const compliance=document.getElementById('compliance-form');
 compliance?.addEventListener('submit',async e=>{e.preventDefault();if(!compliance.reportValidity())return;const button=compliance.querySelector('button'),status=document.getElementById('compliance-status');if(button.disabled)return;button.disabled=true;button.textContent='Enviant…';status.textContent='';try{await NintecAPI.subscribe(document.getElementById('compliance-email').value);status.textContent='Gràcies! Hem rebut el teu email i t’avisarem quan estigui disponible.';status.className='success-text';compliance.reset();button.textContent='Sol·licitud rebuda ✓'}catch{status.textContent='No s’ha pogut enviar. Torna-ho a provar o escriu a info@nintecsolutions.com.';status.className='error';button.disabled=false;button.textContent='Torna-ho a provar ↗'}});
 if(document.getElementById('booking')){

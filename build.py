@@ -1,5 +1,6 @@
 from pathlib import Path
 import shutil,json,html,os
+from cycle import render_cycle
 ROOT=Path(__file__).parent; SRC=ROOT/'src'; OUT=ROOT/'dist'
 ORIGIN=os.environ.get('SITE_ORIGIN','https://nintec360-redisseny.ijubany.chatgpt.site').rstrip('/')
 pages=json.loads((SRC/'pages.json').read_text())
@@ -11,6 +12,9 @@ shutil.copytree(SRC/'assets',OUT/'assets');shutil.copy(SRC/'style.css',OUT/'styl
 for key,meta in pages.items():
  path='/' if key=='index' else '/'+key+'/'
  content=(SRC/(key+'.html')).read_text()
+ if '{{CYCLE_WHEEL}}' in content:
+  wheel,details=render_cycle(SRC,key)
+  content=content.replace('{{CYCLE_WHEEL}}',wheel).replace('{{CYCLE_DETAILS}}',details)
  nav=(SRC/'header.html').read_text().replace('data-page="'+key+'"','aria-current="page"')
  footer=(SRC/'footer.html').read_text()
  structured={'@context':'https://schema.org','@type':'Organization','name':'Nintec Solutions','legalName':'NINTEC DIGITAL SOLUTIONS, S.L.','url':ORIGIN,'email':'info@nintecsolutions.com','telephone':'+34684766844','address':{'@type':'PostalAddress','streetAddress':'Av. Ernest Lluch, 32, Torre TCM2, Planta 1, Porta 1.17','addressLocality':'Mataró','postalCode':'08302','addressRegion':'Barcelona','addressCountry':'ES'}}
