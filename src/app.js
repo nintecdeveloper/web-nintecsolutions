@@ -2,25 +2,7 @@
 const menu=document.querySelector('.menu-toggle');
 menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));document.querySelector('.site-header').classList.toggle('menu-open',open)});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu?.setAttribute('aria-expanded','false');document.querySelector('.site-header').classList.remove('menu-open')}});
-// The circle explains the complete client lifecycle. No production data is used.
-document.querySelectorAll('[data-cycle]').forEach(cycle=>{
- const buttons=[...cycle.querySelectorAll('[data-cycle-step]')];
- function select(button){
-  for(const item of buttons){const active=item===button;item.setAttribute('aria-selected',String(active));item.tabIndex=active?0:-1;document.getElementById(item.getAttribute('aria-controls')).hidden=!active;}
-  cycle.dataset.activeStep=button.dataset.cycleStep;
- }
- for(const button of buttons){
-  button.addEventListener('click',()=>select(button));
-  button.addEventListener('keydown',event=>{
-   const current=buttons.indexOf(button);let next;
-   if(['ArrowRight','ArrowDown'].includes(event.key))next=(current+1)%buttons.length;
-   if(['ArrowLeft','ArrowUp'].includes(event.key))next=(current+buttons.length-1)%buttons.length;
-   if(event.key==='Home')next=0;
-   if(event.key==='End')next=buttons.length-1;
-   if(next!==undefined){event.preventDefault();select(buttons[next]);buttons[next].focus();}
-  });
- }
-});
+// The shared circle player is loaded separately.
 const compliance=document.getElementById('compliance-form');
 compliance?.addEventListener('submit',async e=>{e.preventDefault();if(!compliance.reportValidity())return;const button=compliance.querySelector('button'),status=document.getElementById('compliance-status');if(button.disabled)return;button.disabled=true;button.textContent='Enviant…';status.textContent='';try{await NintecAPI.subscribe(document.getElementById('compliance-email').value);status.textContent='Gràcies! Hem rebut el teu email i t’avisarem quan estigui disponible.';status.className='success-text';compliance.reset();button.textContent='Sol·licitud rebuda ✓'}catch{status.textContent='No s’ha pogut enviar. Torna-ho a provar o escriu a info@nintecsolutions.com.';status.className='error';button.disabled=false;button.textContent='Torna-ho a provar ↗'}});
 if(document.getElementById('booking')){

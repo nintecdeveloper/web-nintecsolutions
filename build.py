@@ -6,11 +6,14 @@ ORIGIN=os.environ.get('SITE_ORIGIN','https://nintec360-redisseny.ijubany.chatgpt
 pages=json.loads((SRC/'pages.json').read_text())
 # Refresh styles when their content changes, including for returning visitors.
 STYLE_VERSION=hashlib.sha256((SRC/'style.css').read_bytes()).hexdigest()[:12]
+APP_VERSION=hashlib.sha256((SRC/'app.js').read_bytes()).hexdigest()[:12]
+CYCLE_VERSION=hashlib.sha256((SRC/'cycle-player.js').read_bytes()).hexdigest()[:12]
 OUT.mkdir(exist_ok=True)
 for p in OUT.iterdir():
  if p.is_dir(): shutil.rmtree(p)
  else:p.unlink()
 shutil.copytree(SRC/'assets',OUT/'assets');shutil.copy(SRC/'style.css',OUT/'style.css');shutil.copy(SRC/'app.js',OUT/'app.js');shutil.copy(SRC/'api.js',OUT/'api.js')
+shutil.copy(SRC/'cycle-player.js',OUT/'cycle-player.js')
 for key,meta in pages.items():
  path='/' if key=='index' else '/'+key+'/'
  content=(SRC/(key+'.html')).read_text()
@@ -21,7 +24,7 @@ for key,meta in pages.items():
  footer=(SRC/'footer.html').read_text()
  structured={'@context':'https://schema.org','@type':'Organization','name':'Nintec Solutions','legalName':'NINTEC DIGITAL SOLUTIONS, S.L.','url':ORIGIN,'email':'info@nintecsolutions.com','telephone':'+34684766844','address':{'@type':'PostalAddress','streetAddress':'Av. Ernest Lluch, 32, Torre TCM2, Planta 1, Porta 1.17','addressLocality':'Mataró','postalCode':'08302','addressRegion':'Barcelona','addressCountry':'ES'}}
  title=html.escape(meta['title']); desc=html.escape(meta['description'],quote=True)
- doc=f'''<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><meta name="description" content="{desc}"><link rel="canonical" href="{ORIGIN}{path}"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:type" content="website"><meta property="og:locale" content="ca_ES"><meta property="og:site_name" content="Nintec Solutions"><meta property="og:url" content="{ORIGIN}{path}"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#5c39d9"><link rel="icon" href="/assets/logo-mark.png"><link rel="stylesheet" href="/style.css?v={STYLE_VERSION}"><script defer src="/api.js"></script><script defer src="/app.js"></script><script type="application/ld+json">{json.dumps(structured,ensure_ascii=False)}</script></head><body><a class="skip" href="#main">Salta al contingut</a>{nav}<main id="main">{content}</main>{footer}</body></html>'''
+ doc=f'''<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><meta name="description" content="{desc}"><link rel="canonical" href="{ORIGIN}{path}"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:type" content="website"><meta property="og:locale" content="ca_ES"><meta property="og:site_name" content="Nintec Solutions"><meta property="og:url" content="{ORIGIN}{path}"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#5c39d9"><link rel="icon" href="/assets/logo-mark.png"><link rel="stylesheet" href="/style.css?v={STYLE_VERSION}"><script defer src="/api.js"></script><script defer src="/cycle-player.js?v={CYCLE_VERSION}"></script><script defer src="/app.js?v={APP_VERSION}"></script><script type="application/ld+json">{json.dumps(structured,ensure_ascii=False)}</script></head><body><a class="skip" href="#main">Salta al contingut</a>{nav}<main id="main">{content}</main>{footer}</body></html>'''
  target=OUT/'index.html' if key=='index' else OUT/key/'index.html';target.parent.mkdir(exist_ok=True);target.write_text(doc)
 aliases={'index.dc.html':'/','nintec-360.dc.html':'/nintec360/','contacte.dc.html':'/contacte/','equip.dc.html':'/equip/','nintec-finance.dc.html':'/finance/','nintec-compliance.dc.html':'/compliance/','politica-privacitat.dc.html':'/privacitat/','politica-cookies.dc.html':'/cookies/','termes-condicions.dc.html':'/termes/','nintec-360':'/nintec360/','nintec-finance':'/finance/','nintec-compliance':'/compliance/'}
 (OUT/'_redirects').write_text('\n'.join('/'+a+' '+b+' 301' for a,b in aliases.items())+'\n')

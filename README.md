@@ -78,3 +78,11 @@ El bloc «El context, sempre a mà» incorpora l’exemple fictici d’Anna G.: 
 ## Compra i pagament en el relat general
 
 La tercera etapa compartida del cercle és «Venda i reserva»: explica compra, pagament, agenda i derivació segons el procés. Restauració mostra el pagament amb Stripe quan aplica; retail mostra la compra digital amb Shopify i la continuïtat posterior. Cada marca apareix una vegada al seu cas i una vegada a les eines compatibles. La demo del CRM manté la compra completada i la següent acció. Les mètriques dels casos es preserven. Aquest canvi és narratiu i no incorpora cap connexió de pagament nova a la web.
+
+## Cercle viu i pauses de lectura
+
+`src/cycle-player.js` controla el cercle compartit sense dependències: 6 segons per etapa, 18 segons després de seleccionar amb clic/toc, i 1,5 segons d’espera en abandonar el hover o el focus de teclat. La pausa conserva el temps restant. La seqüència automàtica recorre només les sis etapes; el CRM continua sent context central consultable manualment. El connector indica el progrés i el text canvia amb un fade discret. Es reserva l’alçada màxima del panell per evitar salts de pàgina.
+
+Hi ha un control explícit per pausar/reprendre. `prefers-reduced-motion` desactiva l’autoplay i el moviment; la selecció manual es manté. La visibilitat de la finestra i del cercle atura el temporitzador. S’alliberen temporitzadors, animacions, listeners i observadors quan s’elimina el component o es deixa la pàgina, i es recupera el funcionament en tornar amb la memòria cau de navegació.
+
+Validació addicional: `node --test tests/cycle-player.test.cjs` comprova temporitzacions, pauses superposades, lectura de 18 segons, visibilitat, reducció de moviment i neteja. Provat al navegador el retorn 06 → 01, la sincronització, hover, teclat, pausa explícita i disposició mòbil. Els fitxers JavaScript modificats inclouen una empremta del contingut a la URL perquè es carregui la versió actualitzada.
