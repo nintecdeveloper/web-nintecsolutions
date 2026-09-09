@@ -1,8 +1,62 @@
 [
- {"label":"Captació i entrada","short":"Captació<br>i entrada","moment":"ABANS / NOUS CONTACTES","title":"Cada contacte entra al sistema.","problem":"Els leads de la web, els anuncis i les consultes arriben per llocs diferents.","action":"Rep les entrades de formularis, trucades, WhatsApp o email i activa el primer contacte.","benefit":"L’equip té un punt de partida comú per atendre les oportunitats.","record":"Origen del contacte · Canal · Dades del client"},
- {"label":"Atenció i qualificació","short":"Atenció i<br>qualificació","moment":"DURANT / ENTENDRE I RESOLDRE","title":"De la consulta a una necessitat clara.","problem":"Et truquen fora d’horari o l’equip rep les mateixes preguntes una vegada i una altra.","action":"Respon, entén el context i l’idioma, consulta la informació del negoci i qualifica la necessitat.","benefit":"El client pot avançar sense esperar que l’equip estigui disponible.","record":"Necessitat · Resum de la conversa · Qualificació"},
- {"label":"Agenda i derivació","short":"Agenda i<br>derivació","moment":"DURANT / PASSAR A L’ACCIÓ","title":"La conversa es converteix en una gestió.","problem":"Després de respondre, encara cal consultar l’agenda o trobar la persona adequada.","action":"Consulta disponibilitat, agenda cites o reserves i deriva a l’equip amb el context quan cal.","benefit":"Menys coordinació manual i converses que arriben a la persona adequada.","record":"Cita o reserva · Responsable · Resultat"},
- {"label":"Seguiment","short":"Seguiment","moment":"DESPRÉS / CONTINUAR EL PROCÉS","title":"El que queda pendent té un següent pas.","problem":"Un lead no respon, una cita no està confirmada o encara falta documentació.","action":"Reprèn el contacte, recorda la cita o demana el document segons les regles del negoci.","benefit":"El seguiment deixa de dependre de recordar-se’n i perseguir cada client.","record":"Tasca pendent · Acció programada · Resposta"},
- {"label":"Ressenyes i fidelització","short":"Ressenyes i<br>fidelització","moment":"DESPRÉS / MANTENIR LA RELACIÓ","title":"El servei acaba. La relació pot continuar.","problem":"Després del servei no sempre hi ha temps per recollir feedback o mantenir el contacte.","action":"Fa seguiment de l’experiència, facilita la sol·licitud d’una ressenya i activa accions de fidelització.","benefit":"L’empresa pot conèixer l’experiència del client i donar continuïtat a la relació.","record":"Servei completat · Feedback · Historial"},
- {"label":"Reactivació i campanyes","short":"Reactivació<br>i campanyes","moment":"TORNAR A COMENÇAR / ACTIVACIÓ COMERCIAL","title":"La base de dades també pot iniciar converses.","problem":"Tens clients antics o segments comercials amb qui no tornes a contactar.","action":"Activa campanyes massives segmentades de reactivació, fidelització o prospecció i gestiona les respostes.","benefit":"Generes noves converses comercials que tornen al mateix cicle d’atenció i gestió.","record":"Segment · Campanya d’origen · Resultat de cada contacte"}
+  {
+    "label": "Captació i entrada",
+    "short": "Captació<br>i entrada",
+    "moment": "ABANS / NOUS CONTACTES",
+    "title": "Cada contacte entra al sistema.",
+    "problem": "Els leads de la web, els anuncis i les consultes arriben per llocs diferents.",
+    "action": "Rep les entrades de formularis, trucades, WhatsApp o email i activa el primer contacte.",
+    "benefit": "L’equip té un punt de partida comú per atendre les oportunitats.",
+    "record": "Origen del contacte · Canal · Dades del client"
+  },
+  {
+    "label": "Atenció i qualificació",
+    "short": "Atenció i<br>qualificació",
+    "moment": "DURANT / ENTENDRE I RESOLDRE",
+    "title": "De la consulta a una necessitat clara.",
+    "problem": "Et truquen fora d’horari o l’equip rep les mateixes preguntes una vegada i una altra.",
+    "action": "Respon, entén el context i l’idioma, consulta la informació del negoci i qualifica la necessitat.",
+    "benefit": "El client pot avançar sense esperar que l’equip estigui disponible.",
+    "record": "Necessitat · Resum de la conversa · Qualificació"
+  },
+  {
+    "label": "Venda i reserva",
+    "short": "Venda i<br>reserva",
+    "moment": "DURANT / PASSAR A L’ACCIÓ",
+    "title": "Del «sí» a una compra, una reserva o una derivació.",
+    "problem": "El client ja ha decidit, però encara falta completar el pagament, confirmar la reserva o coordinar el següent pas.",
+    "action": "Segons el procés, acompanya el client fins a la compra o el pagament i registra la comanda. També consulta disponibilitat, agenda cites o reserves i deriva amb context quan cal.",
+    "benefit": "El client pot completar l’acció dins del mateix procés comercial. L’equip rep el resultat i sap què toca fer després.",
+    "record": "Producte o servei · Estat del pagament · Comanda, cita o reserva · Responsable"
+  },
+  {
+    "label": "Seguiment",
+    "short": "Seguiment",
+    "moment": "DESPRÉS / CONTINUAR EL PROCÉS",
+    "title": "El que queda pendent té un següent pas.",
+    "problem": "Un client no respon, un pagament queda pendent o una comanda necessita seguiment.",
+    "action": "Reprèn el contacte, recorda una cita o un pagament pendent i dona continuïtat a la compra segons les regles del negoci.",
+    "benefit": "El seguiment deixa de dependre de recordar-se’n i perseguir cada client.",
+    "record": "Estat de la gestió · Tasca pendent · Acció programada · Resposta"
+  },
+  {
+    "label": "Ressenyes i fidelització",
+    "short": "Ressenyes i<br>fidelització",
+    "moment": "DESPRÉS / MANTENIR LA RELACIÓ",
+    "title": "El servei acaba. La relació pot continuar.",
+    "problem": "Després del servei no sempre hi ha temps per recollir feedback o mantenir el contacte.",
+    "action": "Fa seguiment de l’experiència, facilita la sol·licitud d’una ressenya i activa accions de fidelització.",
+    "benefit": "L’empresa pot conèixer l’experiència del client i donar continuïtat a la relació.",
+    "record": "Servei completat · Feedback · Historial"
+  },
+  {
+    "label": "Reactivació i campanyes",
+    "short": "Reactivació<br>i campanyes",
+    "moment": "TORNAR A COMENÇAR / ACTIVACIÓ COMERCIAL",
+    "title": "La base de dades també pot iniciar converses.",
+    "problem": "Tens clients antics o segments comercials amb qui no tornes a contactar.",
+    "action": "Activa campanyes massives segmentades de reactivació, fidelització o prospecció i gestiona les respostes.",
+    "benefit": "Generes noves converses comercials que tornen al mateix cicle d’atenció i gestió.",
+    "record": "Segment · Campanya d’origen · Resultat de cada contacte"
+  }
 ]
