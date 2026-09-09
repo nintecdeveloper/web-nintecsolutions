@@ -20,7 +20,7 @@ function setup() {
  }
  return {player, tick, timers, get advances(){return advances}, get state(){return state}};
 }
-test('starts only when visible, advances at six seconds, and uses one timer', () => {
+test('starts only when visible, advances at four seconds, and uses one timer', () => {
  const s=setup(); s.tick(100000); assert.equal(s.advances,0); assert.equal(s.timers.size,0);
  s.player.setPaused('offscreen',false); s.tick(AUTO_MS-1); assert.equal(s.advances,0);
  s.tick(1); assert.equal(s.advances,1); assert.equal(s.timers.size,1);
@@ -28,13 +28,13 @@ test('starts only when visible, advances at six seconds, and uses one timer', ()
 });
 test('hover freezes the remaining dwell; leaving adds 1.5 seconds without restarting', () => {
  const s=setup(); s.player.setPaused('offscreen',false); s.tick(2000);
- s.player.setPaused('hover',true); assert.equal(s.player.snapshot().remaining,4000);
+ s.player.setPaused('hover',true); assert.equal(s.player.snapshot().remaining,2000);
  s.tick(60000); assert.equal(s.advances,0); assert.equal(s.timers.size,0);
  s.player.setPaused('hover',false,LEAVE_MS); s.tick(LEAVE_MS); assert.equal(s.advances,0);
- s.tick(3999); assert.equal(s.advances,0); s.tick(1); assert.equal(s.advances,1);
+ s.tick(1999); assert.equal(s.advances,0); s.tick(1); assert.equal(s.advances,1);
 });
-test('a tap holds the selected content for 18 seconds and the next stage gets six', () => {
- const s=setup(); s.player.setPaused('offscreen',false); s.tick(5000); s.player.hold();
+test('a tap holds the selected content for 18 seconds and the next stage gets four', () => {
+ const s=setup(); s.player.setPaused('offscreen',false); s.tick(3000); s.player.hold();
  s.tick(READ_MS-1); assert.equal(s.advances,0); s.tick(1); assert.equal(s.advances,1);
  s.tick(AUTO_MS); assert.equal(s.advances,2);
 });
@@ -50,7 +50,7 @@ test('hidden tabs and offscreen sections have no timers and preserve progress', 
  const s=setup(); s.player.setPaused('offscreen',false); s.tick(2500);
  s.player.setPaused('hidden-tab',true); s.player.setPaused('offscreen',true);
  s.player.setPaused('hidden-tab',false); s.tick(60000); assert.equal(s.timers.size,0);
- s.player.setPaused('offscreen',false); s.tick(3499); assert.equal(s.advances,0);
+ s.player.setPaused('offscreen',false); s.tick(1499); assert.equal(s.advances,0);
  s.tick(1); assert.equal(s.advances,1);
 });
 test('reduced motion blocks autoplay even after manual interaction and visibility changes', () => {
@@ -62,13 +62,13 @@ test('explicit pause persists until resumed, independently of hover', () => {
  const s=setup(); s.player.setPaused('offscreen',false); s.tick(1000);
  s.player.setPaused('user',true); s.player.setPaused('hover',true);
  s.player.setPaused('hover',false,LEAVE_MS); s.tick(60000); assert.equal(s.timers.size,0);
- s.player.setPaused('user',false); s.tick(LEAVE_MS+5000); assert.equal(s.advances,1);
+ s.player.setPaused('user',false); s.tick(LEAVE_MS+3000); assert.equal(s.advances,1);
 });
 test('reentering during the resume delay freezes it; disposal cancels pending work', () => {
  const s=setup(); s.player.setPaused('offscreen',false); s.tick(2000);
  s.player.setPaused('hover',true); s.player.setPaused('hover',false,LEAVE_MS); s.tick(500);
  s.player.setPaused('hover',true); s.tick(30000); assert.equal(s.advances,0);
- s.player.setPaused('hover',false,LEAVE_MS); s.tick(LEAVE_MS+3999); assert.equal(s.advances,0);
+ s.player.setPaused('hover',false,LEAVE_MS); s.tick(LEAVE_MS+1999); assert.equal(s.advances,0);
  s.player.destroy(); s.tick(60000); assert.equal(s.advances,0); assert.equal(s.timers.size,0);
  s.player.setPaused('offscreen',false); s.player.hold(); assert.equal(s.timers.size,0);
 });

@@ -81,7 +81,7 @@ La tercera etapa compartida del cercle és «Venda i reserva»: explica compra, 
 
 ## Cercle viu i pauses de lectura
 
-`src/cycle-player.js` controla el cercle compartit sense dependències: 6 segons per etapa, 18 segons després de seleccionar amb clic/toc, i 1,5 segons d’espera en abandonar el hover o el focus de teclat. La pausa conserva el temps restant. La seqüència automàtica recorre només les sis etapes; el CRM continua sent context central consultable manualment. El connector indica el progrés i el text canvia amb un fade discret. Es reserva l’alçada màxima del panell per evitar salts de pàgina.
+`src/cycle-player.js` controla el cercle compartit sense dependències: 4 segons per etapa, 18 segons després de seleccionar amb clic/toc, i 1,5 segons d’espera en abandonar el hover o el focus de teclat. La pausa conserva el temps restant. La seqüència automàtica recorre només les sis etapes; el CRM continua sent context central consultable manualment. El connector indica el progrés i el text canvia amb un fade discret. Es reserva l’alçada màxima del panell per evitar salts de pàgina.
 
 Hi ha un control explícit per pausar/reprendre. `prefers-reduced-motion` desactiva l’autoplay i el moviment; la selecció manual es manté. La visibilitat de la finestra i del cercle atura el temporitzador. S’alliberen temporitzadors, animacions, listeners i observadors quan s’elimina el component o es deixa la pàgina, i es recupera el funcionament en tornar amb la memòria cau de navegació.
 

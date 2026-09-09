@@ -1,7 +1,7 @@
 /* The six stages advance together with their explanation. CRM is manual context. */
 (function (global) {
  'use strict';
- const AUTO_MS = 6000, READ_MS = 18000, LEAVE_MS = 1500;
+ const AUTO_MS = 4000, READ_MS = 18000, LEAVE_MS = 1500;
 
  // One cancellable timer, with the unspent reading time preserved on every pause.
  function createPlayback({now = () => performance.now(), setTimer = setTimeout,
