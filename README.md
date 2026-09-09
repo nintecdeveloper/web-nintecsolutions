@@ -70,3 +70,7 @@ Cada cas mostra problema, procés assumit per Nintec360, canvi operatiu i result
 ## Adaptació al negoci
 
 L’antiga secció tècnica d’integracions ara explica com Nintec360 encaixa amb les eines i els processos existents. Un esquema mostra les eines actuals, les gestions que assumeix Nintec360 i la informació que torna al sistema de l’equip. Les set integracions es mantenen en una franja secundària. S’ha eliminat l’entrada «Integracions» de la navegació compartida; la portada enllaça a `#adaptacio` i l’antic `#integracions` es conserva com a destí compatible. Validats els enllaços de les deu pàgines i revisada la secció en escriptori i mòbil.
+
+## Venda dins del context del client
+
+El bloc «El context, sempre a mà» incorpora l’exemple fictici d’Anna G.: consulta per WhatsApp, necessitat, producte seleccionat, pagament confirmat i comanda registrada. El següent pas és preparar la comanda. El recorregut queda visible, amb disposició vertical en mòbil. No s’ha afegit cap funcionalitat de compra ni s’ha modificat el backend. La referència al CSS inclou una empremta del contingut perquè les actualitzacions visuals arribin també als visitants que ja havien obert la web.
