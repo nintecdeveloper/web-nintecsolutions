@@ -109,3 +109,7 @@ Comprobar ambas salidas: `python3 tests/validate.py`, `python3 tests/validate.py
 Los WebP están versionados. Para regenerarlos desde originales, `scripts/optimize_images.py` necesita Pillow y Arial instalado. Esto no es necesario para construir la web.
 
 Un token HTML real de Search Console puede suministrarse mediante `GOOGLE_SITE_VERIFICATION` al construir producción. No hay token predeterminado. `_redirects` y `_headers` necesitan soporte/configuración equivalente en el proveedor público. Consultar `SEO_AUDIT.md` y `GOOGLE_INDEXING_CHECKLIST.md`; no confundir el build público con un despliegue efectivo en Wix.
+
+## Vercel
+
+La preparación actual para **GitHub → Vercel → Preview** se describe en `VERCEL_SETUP.md`. Vercel usa `vercel.json` y `scripts/build_vercel.py`; no interpreta `_redirects` ni `_headers`. Se conserva el flujo original de Sites por separado. No se ha cambiado el dominio ni Wix.

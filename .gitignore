@@ -1,3 +1,39 @@
+# Generated output and local tooling
 dist/
+.vercel/
+node_modules/
 __pycache__/
+*.py[cod]
 .DS_Store
+.venv/
+venv/
+coverage/
+*.log
+# Environment values and private credentials (including nested files)
+.env
+.env.*
+*.env
+*.env.*
+secrets/
+private/
+credentials/
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+*service-account*.json
+*service_account*.json
+credentials.json
+credentials.*.json
+.npmrc
+.netrc
+.git-credentials
+# Local exports and archives
+work/
+*.zip
+*.tar
+*.tar.gz
