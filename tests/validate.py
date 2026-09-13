@@ -1,8 +1,8 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import json,xml.etree.ElementTree as ET
-root=Path(__file__).resolve().parents[1];dist=root/'dist';errors=[];pages=list(dist.rglob('index.html'))
+import json,sys,xml.etree.ElementTree as ET
+root=Path(__file__).resolve().parents[1];dist=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else root/'dist';errors=[];pages=list(dist.rglob('index.html'))
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.ids=[];self.links=[];self.sources=[];self.h1=0;self.title=0;self.lang=None;self.canonical=0;self.description=0;self.labels=[];self.fields=[]
  def handle_starttag(self,tag,attrs):

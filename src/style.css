@@ -85,3 +85,7 @@
 .language-picker>nav>a span{font-size:13px}
 .language-picker>nav>a:hover,.language-picker>nav>a:focus-visible,.language-picker>nav>a[aria-current]{background:var(--lavender);color:var(--purple)}
 @media(max-width:650px){.nav-actions{display:flex!important}.language-picker>nav{position:absolute!important;inset:auto 0 auto auto!important;top:calc(100% + 9px)!important}.language-picker{display:block!important}}
+.breadcrumbs{display:flex;gap:9px;align-items:center;padding-top:22px;font-size:12px;color:var(--muted)}
+.breadcrumbs a{color:var(--purple)}
+.product-links{font-size:13px;line-height:1.9;margin:18px 0;color:var(--purple)}
+.product-links a{text-decoration:underline;text-underline-offset:3px}

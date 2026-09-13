@@ -97,3 +97,15 @@ El selector nadiu funciona també sense JavaScript. Amb JavaScript, desa només 
 `src/locales/runtime.json` declara els missatges que necessita el navegador. `src/i18n.js` resol idioma, preferència i validació dels formularis. El calendari formata els noms dels dies i mesos amb Intl, mantenint dates ISO, zona Europe/Madrid i contracte de reserva. Les confirmacions, conflictes, errors de connexió, càrrega i avisos de Compliance utilitzen els mateixos catàlegs.
 
 Per afegir contingut: modifica la plantilla catalana i afegeix les dues traduccions; per a un missatge dinàmic, afegeix també la clau a `runtime.json` i utilitza `t()`. Executa `python3 build.py`, `python3 tests/validate.py` i `node --test tests/i18n.test.cjs tests/cycle-player.test.cjs tests/api.test.cjs`. La validació cobreix les 30 pàgines. Les proves de formularis fan servir transport local simulat, sense escriure registres reals.
+
+## SEO y producción
+
+El build predeterminado `python3 build.py` genera `dist` para revisión privada en Sites, con noindex. El dominio público verificado es `https://www.nintecsolutions.com`; actualmente sigue en Wix.
+
+Generar el paquete público sin alterar la revisión: `python3 build.py --production --output ../nintec360-production`.
+
+Comprobar ambas salidas: `python3 tests/validate.py`, `python3 tests/validate.py ../nintec360-production` y `python3 tests/seo.test.py dist ../nintec360-production`. Pruebas de interacción: `node --test tests/i18n.test.cjs tests/cycle-player.test.cjs tests/api.test.cjs`.
+
+Los WebP están versionados. Para regenerarlos desde originales, `scripts/optimize_images.py` necesita Pillow y Arial instalado. Esto no es necesario para construir la web.
+
+Un token HTML real de Search Console puede suministrarse mediante `GOOGLE_SITE_VERIFICATION` al construir producción. No hay token predeterminado. `_redirects` y `_headers` necesitan soporte/configuración equivalente en el proveedor público. Consultar `SEO_AUDIT.md` y `GOOGLE_INDEXING_CHECKLIST.md`; no confundir el build público con un despliegue efectivo en Wix.
