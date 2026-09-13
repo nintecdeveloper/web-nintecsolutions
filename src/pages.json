@@ -1,0 +1,62 @@
+{
+  "index": {
+    "title": "Agents d’IA i automatització per a empreses | Nintec",
+    "description": "Nintec crea agents d’IA per a empreses. Descobreix Nintec360 per a trucades, WhatsApp, seguiment i vendes, i les solucions d’automatització de factures.",
+    "label": "Inici",
+    "indexable": true
+  },
+  "nintec360": {
+    "title": "Nintec360 | Agent d’IA per a trucades, WhatsApp i CRM",
+    "description": "Automatitza l’atenció al client amb Nintec360: trucades, WhatsApp, email, CRM, agenda i seguiment. Compra, pagament o derivació segons les teves regles.",
+    "label": "Nintec360",
+    "indexable": true
+  },
+  "casos": {
+    "title": "Casos reals de Nintec360 | Nintec Solutions",
+    "description": "Com Nintec360 s’ha aplicat a restauració, una immobiliària i retail. Problemes, accions i resultats de casos concrets.",
+    "label": "Casos reals",
+    "indexable": true
+  },
+  "equip": {
+    "title": "L’equip de Nintec Solutions | Tecnocampus, Mataró",
+    "description": "Coneix les persones darrere de Nintec360. Tecnologia per a empreses, creada des del Tecnocampus de Mataró, Barcelona.",
+    "label": "Qui som",
+    "indexable": true
+  },
+  "contacte": {
+    "title": "Reserva una auditoria gratuïta | Nintec Solutions",
+    "description": "30 minuts per valorar l’encaix de Nintec360 al teu negoci. Tria disponibilitat real o proposa un altre horari.",
+    "label": "Auditoria gratuïta",
+    "indexable": true
+  },
+  "finance": {
+    "title": "OCR de factures i automatització amb IA | Nintec Finance",
+    "description": "Extreu dades de factures amb OCR i IA, revisa-les i connecta-les amb la comptabilitat. Nintec Finance per reduir la introducció manual de documents.",
+    "label": "Nintec Finance",
+    "indexable": true
+  },
+  "compliance": {
+    "title": "Nintec Compliance — Pròximament | Nintec Solutions",
+    "description": "Producte en desenvolupament relacionat amb el compliment normatiu i la IA. Rep un avís quan estigui disponible.",
+    "label": "Nintec Compliance",
+    "indexable": true
+  },
+  "privacitat": {
+    "title": "Política de privacitat | Nintec Solutions",
+    "description": "Informació sobre el tractament de dades del lloc web de Nintec Solutions.",
+    "label": "Política de privacitat",
+    "indexable": false
+  },
+  "cookies": {
+    "title": "Política de cookies | Nintec Solutions",
+    "description": "Informació sobre les cookies del lloc web de Nintec Solutions.",
+    "label": "Política de cookies",
+    "indexable": false
+  },
+  "termes": {
+    "title": "Termes i condicions | Nintec Solutions",
+    "description": "Termes d’ús del lloc web informatiu de Nintec Solutions.",
+    "label": "Termes i condicions",
+    "indexable": false
+  }
+}

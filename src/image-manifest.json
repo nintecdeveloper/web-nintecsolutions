@@ -1,0 +1,87 @@
+{
+  "joel": {
+    "original_bytes": 23292,
+    "variants": [
+      {
+        "file": "joel-320.webp",
+        "width": 320,
+        "height": 278,
+        "bytes": 8490
+      },
+      {
+        "file": "joel-468.webp",
+        "width": 468,
+        "height": 406,
+        "bytes": 14882
+      }
+    ]
+  },
+  "marc": {
+    "original_bytes": 26663,
+    "variants": [
+      {
+        "file": "marc-320.webp",
+        "width": 320,
+        "height": 278,
+        "bytes": 10838
+      },
+      {
+        "file": "marc-468.webp",
+        "width": 468,
+        "height": 406,
+        "bytes": 18678
+      }
+    ]
+  },
+  "adam": {
+    "original_bytes": 48047,
+    "variants": [
+      {
+        "file": "adam-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 8114
+      },
+      {
+        "file": "adam-553.webp",
+        "width": 553,
+        "height": 553,
+        "bytes": 18004
+      }
+    ]
+  },
+  "gerard": {
+    "original_bytes": 104498,
+    "variants": [
+      {
+        "file": "gerard-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 7322
+      },
+      {
+        "file": "gerard-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 21428
+      }
+    ]
+  },
+  "linus": {
+    "original_bytes": 640938,
+    "variants": [
+      {
+        "file": "linus-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 5964
+      },
+      {
+        "file": "linus-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 16054
+      }
+    ]
+  }
+}

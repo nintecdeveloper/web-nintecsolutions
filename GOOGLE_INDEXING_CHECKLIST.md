@@ -1,0 +1,13 @@
+# Google: cinco pasos después de preparar la web
+
+Estado actual: el rediseño está preparado, pero el dominio público todavía sirve Wix. No se ha solicitado ni confirmado indexación en Google.
+
+1. **Publicar la nueva web en el dominio real.** Entrega `Nintec360-produccion-SEO.zip` al responsable de la web. Debe publicar su contenido con el proveedor que corresponda y aplicar sus reglas de redirección y errores. No basta con actualizar la revisión privada de Sites. Antes del lanzamiento, confirmar contactos y completar los textos legales pendientes. Si hace falta cambiar de hosting, decidirlo expresamente con ese responsable.
+
+2. **Comprobar cuatro direcciones.** Abre `https://www.nintecsolutions.com/` y `https://www.nintecsolutions.com/nintec360/`: deben mostrar la nueva web. Abre también [robots.txt](https://www.nintecsolutions.com/robots.txt) y [sitemap.xml](https://www.nintecsolutions.com/sitemap.xml): este último debe contener las 21 páginas del rediseño en CA/ES/EN, no la lista antigua de Wix. El responsable debe confirmar que HTTP y sin www redirigen a HTTPS con www, las páginas comerciales no llevan noindex y una página inexistente devuelve 404.
+
+3. **Verificar la propiedad en Google Search Console.** Entra en [Search Console](https://search.google.com/search-console), añade la propiedad de dominio `nintecsolutions.com` y copia el registro DNS que Google te proporciona. El responsable del dominio lo añade y tú pulsas «Verificar». Si ya existe una propiedad verificada, úsala. Como alternativa, la propiedad de prefijo URL admite otros métodos; este proyecto puede incluir un token HTML real al construir producción. Nunca uses un token de ejemplo. [Ayuda oficial de verificación](https://support.google.com/webmasters/answer/9008080).
+
+4. **Enviar el sitemap e inspeccionar dos páginas.** En «Sitemaps», envía `https://www.nintecsolutions.com/sitemap.xml`. En «Inspección de URLs», comprueba la portada y `/nintec360/`, ejecuta la prueba de URL publicada y solicita indexación si Google la permite. Si la prueba muestra bloqueo o error, resuélvelo antes. Enviar o solicitar no garantiza indexación. [Ayuda oficial de rastreo](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl).
+
+5. **Revisar el resultado cuando Google haya rastreado.** Consulta «Indexación > Páginas» (antes Coverage), «Sitemaps» y «Métricas web principales». Revisa errores de rastreo, duplicados/canonical elegido e idiomas. Comprueba también variantes ES/EN. Que los borradores legales aparezcan excluidos por noindex es deliberado; que ocurra en páginas comerciales requiere corregirlo. No hay un plazo garantizado ni una promesa de posiciones.
