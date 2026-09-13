@@ -113,3 +113,5 @@ Un token HTML real de Search Console puede suministrarse mediante `GOOGLE_SITE_V
 ## Vercel
 
 La preparación actual para **GitHub → Vercel → Preview** se describe en `VERCEL_SETUP.md`. Vercel usa `vercel.json` y `scripts/build_vercel.py`; no interpreta `_redirects` ni `_headers`. Se conserva el flujo original de Sites por separado. No se ha cambiado el dominio ni Wix.
+
+Deployment Vercel configurat.

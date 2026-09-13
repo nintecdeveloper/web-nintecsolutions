@@ -37,3 +37,7 @@ work/
 *.zip
 *.tar
 *.tar.gz
+
+# Separate local clones; never include nested repositories
+/web nintec solutions/
+/web-nintecsolutions/
