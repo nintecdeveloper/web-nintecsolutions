@@ -1,0 +1,1990 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "python3 scripts/build_vercel.py",
+  "outputDirectory": "dist",
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/index.dc.html",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-360.dc.html",
+      "destination": "https://www.nintecsolutions.com/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/contacte.dc.html",
+      "destination": "https://www.nintecsolutions.com/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/equip.dc.html",
+      "destination": "https://www.nintecsolutions.com/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-finance.dc.html",
+      "destination": "https://www.nintecsolutions.com/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-compliance.dc.html",
+      "destination": "https://www.nintecsolutions.com/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/politica-privacitat.dc.html",
+      "destination": "https://www.nintecsolutions.com/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/politica-cookies.dc.html",
+      "destination": "https://www.nintecsolutions.com/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/termes-condicions.dc.html",
+      "destination": "https://www.nintecsolutions.com/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-360",
+      "destination": "https://www.nintecsolutions.com/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-360/",
+      "destination": "https://www.nintecsolutions.com/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-finance",
+      "destination": "https://www.nintecsolutions.com/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-finance/",
+      "destination": "https://www.nintecsolutions.com/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-compliance",
+      "destination": "https://www.nintecsolutions.com/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec-compliance/",
+      "destination": "https://www.nintecsolutions.com/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/the-card",
+      "destination": "https://www.nintecsolutions.com/es/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/the-card/",
+      "destination": "https://www.nintecsolutions.com/es/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/accessibility-statement",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/accessibility-statement/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-1",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-1/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-2",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-2/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/#canals",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-3",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-3/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-4",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-4/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-6",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-6/",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/help-center",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/help-center/",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-5",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-5/",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-7",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-7/",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-8",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-8/",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-9",
+      "destination": "https://www.nintecsolutions.com/es/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-9/",
+      "destination": "https://www.nintecsolutions.com/es/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-10",
+      "destination": "https://www.nintecsolutions.com/es/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-10/",
+      "destination": "https://www.nintecsolutions.com/es/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-11",
+      "destination": "https://www.nintecsolutions.com/es/termes/#titular",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blank-11/",
+      "destination": "https://www.nintecsolutions.com/es/termes/#titular",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/index.html",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/index.html",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec360/index.html",
+      "destination": "https://www.nintecsolutions.com/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nintec360",
+      "destination": "https://www.nintecsolutions.com/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/nintec360/index.html",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/nintec360",
+      "destination": "https://www.nintecsolutions.com/es/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/nintec360/index.html",
+      "destination": "https://www.nintecsolutions.com/en/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/nintec360",
+      "destination": "https://www.nintecsolutions.com/en/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/casos/index.html",
+      "destination": "https://www.nintecsolutions.com/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/casos",
+      "destination": "https://www.nintecsolutions.com/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/casos/index.html",
+      "destination": "https://www.nintecsolutions.com/es/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/casos",
+      "destination": "https://www.nintecsolutions.com/es/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/casos/index.html",
+      "destination": "https://www.nintecsolutions.com/en/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/casos",
+      "destination": "https://www.nintecsolutions.com/en/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/equip",
+      "destination": "https://www.nintecsolutions.com/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/es/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/equip",
+      "destination": "https://www.nintecsolutions.com/es/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/en/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/equip",
+      "destination": "https://www.nintecsolutions.com/en/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/contacte/index.html",
+      "destination": "https://www.nintecsolutions.com/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/contacte",
+      "destination": "https://www.nintecsolutions.com/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/contacte/index.html",
+      "destination": "https://www.nintecsolutions.com/es/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/contacte",
+      "destination": "https://www.nintecsolutions.com/es/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/contacte/index.html",
+      "destination": "https://www.nintecsolutions.com/en/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/contacte",
+      "destination": "https://www.nintecsolutions.com/en/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/finance",
+      "destination": "https://www.nintecsolutions.com/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/es/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/finance",
+      "destination": "https://www.nintecsolutions.com/es/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/en/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/finance",
+      "destination": "https://www.nintecsolutions.com/en/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/compliance",
+      "destination": "https://www.nintecsolutions.com/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/compliance",
+      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/en/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/compliance",
+      "destination": "https://www.nintecsolutions.com/en/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/privacitat/index.html",
+      "destination": "https://www.nintecsolutions.com/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/privacitat",
+      "destination": "https://www.nintecsolutions.com/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/privacitat/index.html",
+      "destination": "https://www.nintecsolutions.com/es/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/privacitat",
+      "destination": "https://www.nintecsolutions.com/es/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/privacitat/index.html",
+      "destination": "https://www.nintecsolutions.com/en/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/privacitat",
+      "destination": "https://www.nintecsolutions.com/en/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/cookies/index.html",
+      "destination": "https://www.nintecsolutions.com/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/cookies",
+      "destination": "https://www.nintecsolutions.com/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/cookies/index.html",
+      "destination": "https://www.nintecsolutions.com/es/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/cookies",
+      "destination": "https://www.nintecsolutions.com/es/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/cookies/index.html",
+      "destination": "https://www.nintecsolutions.com/en/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/cookies",
+      "destination": "https://www.nintecsolutions.com/en/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/termes/index.html",
+      "destination": "https://www.nintecsolutions.com/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/termes",
+      "destination": "https://www.nintecsolutions.com/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/termes/index.html",
+      "destination": "https://www.nintecsolutions.com/es/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/termes",
+      "destination": "https://www.nintecsolutions.com/es/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/termes/index.html",
+      "destination": "https://www.nintecsolutions.com/en/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/termes",
+      "destination": "https://www.nintecsolutions.com/en/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.nintecsolutions.com/:path*",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/index.dc.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-360.dc.html",
+      "destination": "/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contacte.dc.html",
+      "destination": "/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/equip.dc.html",
+      "destination": "/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-finance.dc.html",
+      "destination": "/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-compliance.dc.html",
+      "destination": "/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/politica-privacitat.dc.html",
+      "destination": "/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/politica-cookies.dc.html",
+      "destination": "/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/termes-condicions.dc.html",
+      "destination": "/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-360",
+      "destination": "/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-360/",
+      "destination": "/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-finance",
+      "destination": "/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-finance/",
+      "destination": "/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-compliance",
+      "destination": "/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec-compliance/",
+      "destination": "/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/the-card",
+      "destination": "/es/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/the-card/",
+      "destination": "/es/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/accessibility-statement",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/accessibility-statement/",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank/",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-1",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-1/",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-2",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-2/",
+      "destination": "/es/nintec360/#canals",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-3",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-3/",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-4",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-4/",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-6",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-6/",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/help-center",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/help-center/",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-5",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-5/",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-7",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-7/",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-8",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-8/",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-9",
+      "destination": "/es/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-9/",
+      "destination": "/es/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-10",
+      "destination": "/es/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-10/",
+      "destination": "/es/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-11",
+      "destination": "/es/termes/#titular",
+      "statusCode": 301
+    },
+    {
+      "source": "/blank-11/",
+      "destination": "/es/termes/#titular",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/index.html",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/index.html",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec360/index.html",
+      "destination": "/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nintec360",
+      "destination": "/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/nintec360/index.html",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/nintec360",
+      "destination": "/es/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/nintec360/index.html",
+      "destination": "/en/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/nintec360",
+      "destination": "/en/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/casos/index.html",
+      "destination": "/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/casos",
+      "destination": "/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos/index.html",
+      "destination": "/es/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/casos",
+      "destination": "/es/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos/index.html",
+      "destination": "/en/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/casos",
+      "destination": "/en/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/equip/index.html",
+      "destination": "/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/equip",
+      "destination": "/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/equip/index.html",
+      "destination": "/es/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/equip",
+      "destination": "/es/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/equip/index.html",
+      "destination": "/en/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/equip",
+      "destination": "/en/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contacte/index.html",
+      "destination": "/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contacte",
+      "destination": "/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/contacte/index.html",
+      "destination": "/es/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/contacte",
+      "destination": "/es/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/contacte/index.html",
+      "destination": "/en/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/contacte",
+      "destination": "/en/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/finance/index.html",
+      "destination": "/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/finance",
+      "destination": "/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/finance/index.html",
+      "destination": "/es/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/finance",
+      "destination": "/es/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/finance/index.html",
+      "destination": "/en/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/finance",
+      "destination": "/en/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compliance/index.html",
+      "destination": "/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compliance",
+      "destination": "/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/compliance/index.html",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/compliance",
+      "destination": "/es/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/compliance/index.html",
+      "destination": "/en/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/compliance",
+      "destination": "/en/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacitat/index.html",
+      "destination": "/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacitat",
+      "destination": "/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/privacitat/index.html",
+      "destination": "/es/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/privacitat",
+      "destination": "/es/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/privacitat/index.html",
+      "destination": "/en/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/privacitat",
+      "destination": "/en/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cookies/index.html",
+      "destination": "/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cookies",
+      "destination": "/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/cookies/index.html",
+      "destination": "/es/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/cookies",
+      "destination": "/es/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/cookies/index.html",
+      "destination": "/en/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/cookies",
+      "destination": "/en/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/termes/index.html",
+      "destination": "/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/termes",
+      "destination": "/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/termes/index.html",
+      "destination": "/es/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/termes",
+      "destination": "/es/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/termes/index.html",
+      "destination": "/en/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/termes",
+      "destination": "/en/termes/",
+      "statusCode": 301
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "missing": [
+        {
+          "type": "host",
+          "value": "www.nintecsolutions.com"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/privacitat/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/es/privacitat/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/en/privacitat/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/cookies/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/es/cookies/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/en/cookies/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/termes/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/es/termes/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/en/termes/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/es/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/en/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/es/",
+      "destination": "/es/index.html"
+    },
+    {
+      "source": "/en/",
+      "destination": "/en/index.html"
+    },
+    {
+      "source": "/nintec360/",
+      "destination": "/nintec360/index.html"
+    },
+    {
+      "source": "/es/nintec360/",
+      "destination": "/es/nintec360/index.html"
+    },
+    {
+      "source": "/en/nintec360/",
+      "destination": "/en/nintec360/index.html"
+    },
+    {
+      "source": "/casos/",
+      "destination": "/casos/index.html"
+    },
+    {
+      "source": "/es/casos/",
+      "destination": "/es/casos/index.html"
+    },
+    {
+      "source": "/en/casos/",
+      "destination": "/en/casos/index.html"
+    },
+    {
+      "source": "/equip/",
+      "destination": "/equip/index.html"
+    },
+    {
+      "source": "/es/equip/",
+      "destination": "/es/equip/index.html"
+    },
+    {
+      "source": "/en/equip/",
+      "destination": "/en/equip/index.html"
+    },
+    {
+      "source": "/contacte/",
+      "destination": "/contacte/index.html"
+    },
+    {
+      "source": "/es/contacte/",
+      "destination": "/es/contacte/index.html"
+    },
+    {
+      "source": "/en/contacte/",
+      "destination": "/en/contacte/index.html"
+    },
+    {
+      "source": "/finance/",
+      "destination": "/finance/index.html"
+    },
+    {
+      "source": "/es/finance/",
+      "destination": "/es/finance/index.html"
+    },
+    {
+      "source": "/en/finance/",
+      "destination": "/en/finance/index.html"
+    },
+    {
+      "source": "/compliance/",
+      "destination": "/compliance/index.html"
+    },
+    {
+      "source": "/es/compliance/",
+      "destination": "/es/compliance/index.html"
+    },
+    {
+      "source": "/en/compliance/",
+      "destination": "/en/compliance/index.html"
+    },
+    {
+      "source": "/privacitat/",
+      "destination": "/privacitat/index.html"
+    },
+    {
+      "source": "/es/privacitat/",
+      "destination": "/es/privacitat/index.html"
+    },
+    {
+      "source": "/en/privacitat/",
+      "destination": "/en/privacitat/index.html"
+    },
+    {
+      "source": "/cookies/",
+      "destination": "/cookies/index.html"
+    },
+    {
+      "source": "/es/cookies/",
+      "destination": "/es/cookies/index.html"
+    },
+    {
+      "source": "/en/cookies/",
+      "destination": "/en/cookies/index.html"
+    },
+    {
+      "source": "/termes/",
+      "destination": "/termes/index.html"
+    },
+    {
+      "source": "/es/termes/",
+      "destination": "/es/termes/index.html"
+    },
+    {
+      "source": "/en/termes/",
+      "destination": "/en/termes/index.html"
+    }
+  ]
+}
