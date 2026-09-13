@@ -8,12 +8,12 @@ function madridNow(now=new Date()){
  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now).map(p=>[p.type,p.value]));
  return {date:parts.year+'-'+parts.month+'-'+parts.day,minutes:Number(parts.hour)*60+Number(parts.minute)};
 }
-function businessDays(now=new Date()){
+function businessDays(now=new Date(),locale='ca-ES'){
  const local=madridNow(now), date=new Date(local.date+'T12:00:00Z'),days=[];
  while(days.length<12){
   if(date.getUTCDay()!==0&&date.getUTCDay()!==6){
    const iso=date.toISOString().slice(0,10);
-   days.push({date:iso,label:new Intl.DateTimeFormat('ca-ES',{weekday:'long',day:'numeric',month:'long',timeZone:'UTC'}).format(date),short:new Intl.DateTimeFormat('ca-ES',{weekday:'short',timeZone:'UTC'}).format(date),number:date.getUTCDate(),slots:SLOTS.map(time=>{const [h,m]=time.split(':').map(Number);return {time,taken:iso===local.date&&h*60+m<=local.minutes+60}})});
+   days.push({date:iso,label:new Intl.DateTimeFormat(locale,{weekday:'long',day:'numeric',month:'long',timeZone:'UTC'}).format(date),short:new Intl.DateTimeFormat(locale,{weekday:'short',timeZone:'UTC'}).format(date),number:date.getUTCDate(),slots:SLOTS.map(time=>{const [h,m]=time.split(':').map(Number);return {time,taken:iso===local.date&&h*60+m<=local.minutes+60}})});
   }date.setUTCDate(date.getUTCDate()+1);
  }return days;
 }
@@ -25,8 +25,8 @@ async function request(path,payload){
   const text=await response.text();return text?JSON.parse(text):null;
  }finally{clearTimeout(timer)}
 }
-async function availability(now=new Date()){
- const days=businessDays(now);
+async function availability(now=new Date(),locale='ca-ES'){
+ const days=businessDays(now,locale);
  const rows=await request('rpc/get_franges_ocupades',{_desde:days[0].date,_fins:days[days.length-1].date});
  if(!Array.isArray(rows)||rows.some(r=>typeof r.data!=='string'||typeof r.hora!=='string'))throw new Error('invalid availability');
  const taken=new Set(rows.map(r=>r.data+' '+r.hora.slice(0,5)));

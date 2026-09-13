@@ -87,7 +87,7 @@
   function render(state) {
    if (animation) {animation.cancel(); animation = null;}
    cycle.dataset.cyclePlayback = state.running ? 'running' : state.waiting ? 'waiting' : 'paused';
-   toggle.textContent = userPaused ? 'Reprendre recorregut' : 'Pausar recorregut';
+   toggle.textContent = userPaused ? window.NintecI18n.t("Reprendre recorregut") : window.NintecI18n.t("Pausar recorregut");
    toggle.setAttribute('aria-pressed', String(userPaused));
    const activeIndex = stages.indexOf(selected);
    for (const path of paths) {

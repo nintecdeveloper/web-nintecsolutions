@@ -1,6 +1,6 @@
 # Nintec360 — redisseny
 
-Web estàtica de deu pàgines en català. HTML semàntic generat amb Python, CSS compartit i JavaScript sense dependències. No necessita React, un servidor d’aplicació ni biblioteques de tercers al navegador.
+Web estàtica de deu pàgines en català, castellà i anglès (30 rutes). HTML semàntic generat amb Python, CSS compartit i JavaScript sense dependències. No necessita React, un servidor d’aplicació ni biblioteques de tercers al navegador.
 
 ## Narrativa del cercle
 
@@ -59,7 +59,6 @@ Les caselles informen/recullen l’acceptació de privacitat a la interfície; n
 - Les mètriques dels casos han estat corroborades pel client: restauració ≈2.000 €/mes; immobiliària 100% de consultes ateses i +20% de vendes; retail +40% de ressenyes positives i +25% d’ingressos. No impliquen una previsió per a altres empreses.
 - Validar les garanties de concurrència i les polítiques del backend amb el seu responsable.
 - Fer una reserva real de validació amb dades autoritzades i comprovar-ne la recepció. No s’han creat reserves ni subscripcions de prova en producció.
-- Decidir traduccions reals abans d’incorporar ES/EN. La versió lliurada és CA.
 
 No hi ha testimonis inventats, certificacions, preus, números de clients ni garanties de resultats. Les demostracions estan identificades com a il·lustratives.
 
@@ -86,3 +85,15 @@ La tercera etapa compartida del cercle és «Venda i reserva»: explica compra, 
 Hi ha un control explícit per pausar/reprendre. `prefers-reduced-motion` desactiva l’autoplay i el moviment; la selecció manual es manté. La visibilitat de la finestra i del cercle atura el temporitzador. S’alliberen temporitzadors, animacions, listeners i observadors quan s’elimina el component o es deixa la pàgina, i es recupera el funcionament en tornar amb la memòria cau de navegació.
 
 Validació addicional: `node --test tests/cycle-player.test.cjs` comprova temporitzacions, pauses superposades, lectura de 18 segons, visibilitat, reducció de moviment i neteja. Provat al navegador el retorn 06 → 01, la sincronització, hover, teclat, pausa explícita i disposició mòbil. Els fitxers JavaScript modificats inclouen una empremta del contingut a la URL perquè es carregui la versió actualitzada.
+
+## Idiomes CA / ES / EN
+
+El català és la font compartida de les plantilles. `src/locales/es.json` i `en.json` contenen traduccions revisades per text de la font, inclosos atributs accessibles i metadades. `i18n.py` genera HTML complet per a cada idioma; no substitueix textos al DOM ni depèn d’un servei de traducció. Una cadena nova sense traducció fa fallar el build. Les marques, els noms de persones i les dades de contacte es conserven explícitament al catàleg.
+
+Rutes: català a `/`, castellà a `/es/`, anglès a `/en/`. Cada idioma conserva la mateixa estructura de pàgines i ancoratges. Els enllaços interns, canonical, Open Graph, `lang`, `hreflang` i sitemap es generen per idioma. Els identificadors tècnics dels ancoratges i els camps de l’API es mantenen estables.
+
+El selector nadiu funciona també sense JavaScript. Amb JavaScript, desa només `nintec-language` a localStorage. Una ruta amb prefix explícit ES/EN té prioritat; en entrar a una ruta sense prefix, es respecta l’idioma desat. La selecció explícita `?lang=ca` permet tornar a català; el paràmetre es retira de la URL. Sense preferència, català. Si el navegador bloqueja l’emmagatzematge, les rutes traduïdes i el selector continuen funcionant.
+
+`src/locales/runtime.json` declara els missatges que necessita el navegador. `src/i18n.js` resol idioma, preferència i validació dels formularis. El calendari formata els noms dels dies i mesos amb Intl, mantenint dates ISO, zona Europe/Madrid i contracte de reserva. Les confirmacions, conflictes, errors de connexió, càrrega i avisos de Compliance utilitzen els mateixos catàlegs.
+
+Per afegir contingut: modifica la plantilla catalana i afegeix les dues traduccions; per a un missatge dinàmic, afegeix també la clau a `runtime.json` i utilitza `t()`. Executa `python3 build.py`, `python3 tests/validate.py` i `node --test tests/i18n.test.cjs tests/cycle-player.test.cjs tests/api.test.cjs`. La validació cobreix les 30 pàgines. Les proves de formularis fan servir transport local simulat, sense escriure registres reals.
