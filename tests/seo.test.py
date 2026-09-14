@@ -35,7 +35,7 @@ for root,production in [(Path(sys.argv[1]),False),(Path(sys.argv[2]),True)]:
   assert p.meta['robots'].startswith('index,' if indexable else 'noindex,')
   if indexable:expected.add(origin+route)
   assert p.meta['og:url']==origin+route and p.meta['twitter:card']=='summary_large_image'
-  assert p.meta['og:image']==origin+'/assets/social-card.png'
+  assert p.meta['og:image']==origin+'/assets/brand/social-card.png'
   types={x['@type'] for x in p.graph};assert {'Organization','WebSite','WebPage'}<=types
   assert ('BreadcrumbList' in types)==(base!='/')
   assert ('Service' in types)==(base in ['/nintec360/','/finance/'])

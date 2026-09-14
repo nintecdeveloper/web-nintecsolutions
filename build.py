@@ -24,7 +24,8 @@ for p in OUT.iterdir():
 # Publish only optimized images plus the original logo used by structured data.
 (OUT/'assets').mkdir()
 for p in (SRC/'assets').iterdir():
- if p.suffix=='.webp' or p.name in ('social-card.png','favicon.png','logo-mark.png'):shutil.copy(p,OUT/'assets'/p.name)
+ if p.suffix=='.webp' and not p.name.startswith('logo-'):shutil.copy(p,OUT/'assets'/p.name)
+shutil.copytree(SRC/'assets/brand',OUT/'assets/brand')
 for f in versions:shutil.copy(SRC/f,OUT/f)
 # Inline the small locale bootstrap: preserve preference before painting without
 # a blocking JavaScript download. Application and circle scripts remain deferred.
@@ -41,7 +42,7 @@ for key,meta in pages.items():
  for lang in LOCALES:
   url=ORIGIN+locale_path(path,lang);indexable=PRODUCTION and meta.get('indexable',True)
   robots='index, follow, max-image-preview:large' if indexable else 'noindex, follow'
-  base=f'<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><meta name="description" content="{desc}"><link rel="canonical" href="{ORIGIN}{path}"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:type" content="website"><meta property="og:locale" content="ca_ES"><meta property="og:site_name" content="Nintec Solutions"><meta property="og:url" content="{ORIGIN}{path}"><meta name="theme-color" content="#5c39d9"><link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon.png"><link rel="stylesheet" href="/style.css?v={versions["style.css"]}"></head><body><a class="skip" href="#main">Salta al contingut</a>{nav}<main id="main">{content}</main>{footer}</body></html>'
+  base=f'<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><meta name="description" content="{desc}"><link rel="canonical" href="{ORIGIN}{path}"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:type" content="website"><meta property="og:locale" content="ca_ES"><meta property="og:site_name" content="Nintec Solutions"><meta property="og:url" content="{ORIGIN}{path}"><meta name="theme-color" content="#5c39d9"><link rel="icon" type="image/svg+xml" href="/assets/brand/nintec-icon.svg"><link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/brand/apple-touch-icon.png"><link rel="stylesheet" href="/style.css?v={versions["style.css"]}"></head><body><a class="skip" href="#main">Salta al contingut</a>{nav}<main id="main">{content}</main>{footer}</body></html>'
   doc=localize(base,lang,PAGE_PATHS,ORIGIN).replace('<span id="language-slot"></span>',selector(path,lang))
   if key!='index':doc=doc.replace('<main id="main">','<main id="main">'+breadcrumbs(meta,lang,path))
   alternates=''.join(f'<link rel="alternate" hreflang="{l}" href="{ORIGIN}{locale_path(path,l)}">' for l in LOCALES)+f'<link rel="alternate" hreflang="x-default" href="{ORIGIN}{path}">'
@@ -65,7 +66,7 @@ if PRODUCTION:
   for lang in LOCALES:entries.append(f'<url><loc>{ORIGIN}{locale_path(path,lang)}</loc>{alternatives}</url>')
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+''.join(entries)+'</urlset>')
 for lang in LOCALES:
- error=f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{translate("Pàgina no trobada · Nintec",lang)}</title><meta name="robots" content="noindex, follow"><link rel="icon" href="/assets/favicon.png"><link rel="stylesheet" href="/style.css?v={versions["style.css"]}"></head><body><main class="wrap section"><a class="brand" href="{locale_path("/",lang)}">Nintec Solutions</a><p class="eyebrow">404</p><h1>{translate("Aquesta pàgina no hi és.",lang)}</h1><div class="actions"><a class="button" href="{locale_path("/",lang)}">{translate("Torna a Nintec360 →",lang)}</a><a class="text-link" href="{locale_path("/contacte/",lang)}">{translate("Reserva una auditoria ↗",lang)}</a></div></main></body></html>'
+ error=f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{translate("Pàgina no trobada · Nintec",lang)}</title><meta name="robots" content="noindex, follow"><link rel="icon" href="/assets/brand/favicon.png"><link rel="stylesheet" href="/style.css?v={versions["style.css"]}"></head><body><main class="wrap section"><a class="brand" href="{locale_path("/",lang)}" aria-label="Nintec Solutions"><img class="brand-logo" src="/assets/brand/nintec-logo-horizontal-light.svg" width="240" height="64" alt=""></a><p class="eyebrow">404</p><h1>{translate("Aquesta pàgina no hi és.",lang)}</h1><div class="actions"><a class="button" href="{locale_path("/",lang)}">{translate("Torna a Nintec360 →",lang)}</a><a class="text-link" href="{locale_path("/contacte/",lang)}">{translate("Reserva una auditoria ↗",lang)}</a></div></main></body></html>'
  (OUT/('' if lang=='ca' else lang)/'404.html').write_text(error)
 headers='/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n'
 if not PRODUCTION:headers+='  X-Robots-Tag: noindex, follow\n'
