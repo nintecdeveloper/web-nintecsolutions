@@ -23,14 +23,14 @@ for root,production in [(Path(sys.argv[1]),False),(Path(sys.argv[2]),True)]:
  origin='https://www.nintecsolutions.com' if production else 'https://nintec360-redisseny.ijubany.chatgpt.site'
  titles=set();descs=set();expected=set()
  for f in root.rglob('index.html'):
-  route='/'+str(f.relative_to(root)).removesuffix('index.html');p=Page(f.read_text());lang=route.split('/')[1] if route.startswith(('/es/','/en/')) else 'ca'
+  route='/'+str(f.relative_to(root)).removesuffix('index.html');p=Page(f.read_text());lang=route.split('/')[1] if route.startswith(('/es/','/en/','/nl/')) else 'ca'
   assert (lang,p.title) not in titles,(route,'duplicate title');titles.add((lang,p.title))
   desc=p.meta['description'];assert (lang,desc) not in descs,(route,'duplicate description');descs.add((lang,desc))
   assert [x['href'] for x in p.links if x.get('rel')=='canonical']==[origin+route]
   alternates={x['hreflang']:x['href'] for x in p.links if x.get('rel')=='alternate'}
-  assert set(alternates)=={'ca','es','en','x-default'}
-  base=route[3:] if route.startswith(('/es/','/en/')) else route
-  for lang,prefix in [('ca',''),('es','/es'),('en','/en'),('x-default','')]:assert alternates[lang]==origin+prefix+base
+  assert set(alternates)=={'ca','es','en','nl','x-default'}
+  base=route[3:] if route.startswith(('/es/','/en/','/nl/')) else route
+  for lang,prefix in [('ca',''),('es','/es'),('en','/en'),('nl','/nl'),('x-default','')]:assert alternates[lang]==origin+prefix+base
   legal=base in ['/privacitat/','/cookies/','/termes/'];indexable=production and not legal
   assert p.meta['robots'].startswith('index,' if indexable else 'noindex,')
   if indexable:expected.add(origin+route)
@@ -45,13 +45,13 @@ for root,production in [(Path(sys.argv[1]),False),(Path(sys.argv[2]),True)]:
    for entry in img.get('srcset','').split(','):
     if entry.strip():assert (root/entry.strip().split()[0].lstrip('/')).is_file()
   assert ('/api.js' in p.scripts)==(base in ['/contacte/','/compliance/'])
-  assert ('/cycle-player.js' in p.scripts)==(base in ['/','/nintec360/'])
+  assert ('/cycle-player.js' in p.scripts)==(base=='/nintec360/')
   assert '/i18n.js' not in p.scripts
  sitemap=ET.parse(root/'sitemap.xml');locs={x.text for x in sitemap.findall('.//{*}loc')};assert locs==expected
- assert len(locs)==(21 if production else 0)
+ assert len(locs)==(28 if production else 0)
  assert 'Disallow: /' not in (root/'robots.txt').read_text()
  for line in (root/'_redirects').read_text().splitlines():
   old,new,status=line.split();assert status=='301' and old!=new
   if not new.startswith('https:'):assert (root/urlsplit(new).path.lstrip('/')/'index.html').is_file(),new
  for f in root.rglob('404.html'):assert 'noindex, follow' in f.read_text()
- print('PASS SEO:',root.name,'30 routes, metadata, reciprocal locales, schema, images, script budgets, sitemap, robots, redirects, 404 markup')
+ print('PASS SEO:',root.name,'40 routes, metadata, reciprocal locales, schema, images, script budgets, sitemap, robots, redirects, 404 markup')

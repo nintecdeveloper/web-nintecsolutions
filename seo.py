@@ -9,7 +9,7 @@ WIX_ALIASES={'the-card':'/es/finance/','privacy-policy':'/es/nintec360/','access
 def structured_data(key,meta,lang,path,origin):
  url=origin+locale_path(path,lang);org=origin+'/#organization';site=origin+'/#website'
  graph=[{'@type':'Organization','@id':org,'name':'Nintec Solutions','legalName':'Nintec Digital Solutions SL','url':origin+'/','logo':origin+'/assets/brand/nintec-icon.png','email':'info@nintecsolutions.com','telephone':'+34684766844','sameAs':['https://www.linkedin.com/company/nintec-solutions'],'address':{'@type':'PostalAddress','streetAddress':'Av. Ernest Lluch, 32, Torre TCM2, Planta 1, Porta 1.17','addressLocality':'Mataró','postalCode':'08302','addressRegion':'Barcelona','addressCountry':'ES'}},
- {'@type':'WebSite','@id':site,'url':origin+'/','name':'Nintec Solutions','publisher':{'@id':org},'inLanguage':['ca','es','en']},
+ {'@type':'WebSite','@id':site,'url':origin+'/','name':'Nintec Solutions','publisher':{'@id':org},'inLanguage':['ca','es','en','nl']},
  {'@type':'WebPage','@id':url+'#webpage','url':url,'name':translate(meta['title'],lang),'description':translate(meta['description'],lang),'isPartOf':{'@id':site},'about':{'@id':org},'inLanguage':lang}]
  if key!='index':
   graph[-1]['breadcrumb']={'@id':url+'#breadcrumb'}

@@ -5,7 +5,7 @@ from cycle import render_cycle
 from i18n import LOCALES,translate,localize,locale_path,selector
 from seo import PRODUCTION_ORIGIN,PREVIEW_ORIGIN,structured_data,breadcrumbs,sharing,redirects
 ROOT=Path(__file__).parent.resolve();SRC=ROOT/'src'
-parser=argparse.ArgumentParser(description='Build the existing trilingual static website.')
+parser=argparse.ArgumentParser(description='Build the existing multilingual static website.')
 parser.add_argument('--production',action='store_true',help='Generate the verified public www domain and indexable marketing pages.')
 parser.add_argument('--output',type=Path,default=ROOT/'dist')
 args=parser.parse_args();PRODUCTION=args.production or os.environ.get('SITE_ENV')=='production';OUT=args.output.resolve()
@@ -75,4 +75,4 @@ for key,meta in pages.items():
   for lang in LOCALES:headers+=locale_path('/'+key+'/',lang)+'\n  X-Robots-Tag: noindex, follow\n'
 headers+='/assets/*\n  Cache-Control: public, max-age=86400\n'
 (OUT/'_headers').write_text(headers)
-print(f'Built 30 pages; {len(entries)} sitemap URLs; {"production" if PRODUCTION else "private review"}; {ORIGIN}; output={OUT}')
+print(f'Built {len(pages)*len(LOCALES)} pages; {len(entries)} sitemap URLs; {"production" if PRODUCTION else "private review"}; {ORIGIN}; output={OUT}')

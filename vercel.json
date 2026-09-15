@@ -579,6 +579,28 @@
       ]
     },
     {
+      "source": "/nl/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
       "source": "/nintec360/index.html",
       "destination": "https://www.nintecsolutions.com/nintec360/",
       "statusCode": 301,
@@ -636,6 +658,28 @@
     {
       "source": "/en/nintec360",
       "destination": "https://www.nintecsolutions.com/en/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/nintec360/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/nintec360/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/nintec360",
+      "destination": "https://www.nintecsolutions.com/nl/nintec360/",
       "statusCode": 301,
       "has": [
         {
@@ -711,6 +755,28 @@
       ]
     },
     {
+      "source": "/nl/casos/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/casos",
+      "destination": "https://www.nintecsolutions.com/nl/casos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
       "source": "/equip/index.html",
       "destination": "https://www.nintecsolutions.com/equip/",
       "statusCode": 301,
@@ -768,6 +834,28 @@
     {
       "source": "/en/equip",
       "destination": "https://www.nintecsolutions.com/en/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/equip/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/equip",
+      "destination": "https://www.nintecsolutions.com/nl/equip/",
       "statusCode": 301,
       "has": [
         {
@@ -843,6 +931,28 @@
       ]
     },
     {
+      "source": "/nl/contacte/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/contacte",
+      "destination": "https://www.nintecsolutions.com/nl/contacte/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
       "source": "/finance/index.html",
       "destination": "https://www.nintecsolutions.com/finance/",
       "statusCode": 301,
@@ -900,6 +1010,28 @@
     {
       "source": "/en/finance",
       "destination": "https://www.nintecsolutions.com/en/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/finance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/finance",
+      "destination": "https://www.nintecsolutions.com/nl/finance/",
       "statusCode": 301,
       "has": [
         {
@@ -975,6 +1107,28 @@
       ]
     },
     {
+      "source": "/nl/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/compliance",
+      "destination": "https://www.nintecsolutions.com/nl/compliance/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
       "source": "/privacitat/index.html",
       "destination": "https://www.nintecsolutions.com/privacitat/",
       "statusCode": 301,
@@ -1032,6 +1186,28 @@
     {
       "source": "/en/privacitat",
       "destination": "https://www.nintecsolutions.com/en/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/privacitat/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/privacitat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/privacitat",
+      "destination": "https://www.nintecsolutions.com/nl/privacitat/",
       "statusCode": 301,
       "has": [
         {
@@ -1107,6 +1283,28 @@
       ]
     },
     {
+      "source": "/nl/cookies/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/cookies",
+      "destination": "https://www.nintecsolutions.com/nl/cookies/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
       "source": "/termes/index.html",
       "destination": "https://www.nintecsolutions.com/termes/",
       "statusCode": 301,
@@ -1164,6 +1362,28 @@
     {
       "source": "/en/termes",
       "destination": "https://www.nintecsolutions.com/en/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/termes/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/termes",
+      "destination": "https://www.nintecsolutions.com/nl/termes/",
       "statusCode": 301,
       "has": [
         {
@@ -1444,6 +1664,16 @@
       "statusCode": 301
     },
     {
+      "source": "/nl/index.html",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
       "source": "/nintec360/index.html",
       "destination": "/nintec360/",
       "statusCode": 301
@@ -1471,6 +1701,16 @@
     {
       "source": "/en/nintec360",
       "destination": "/en/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/nintec360/index.html",
+      "destination": "/nl/nintec360/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/nintec360",
+      "destination": "/nl/nintec360/",
       "statusCode": 301
     },
     {
@@ -1504,6 +1744,16 @@
       "statusCode": 301
     },
     {
+      "source": "/nl/casos/index.html",
+      "destination": "/nl/casos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/casos",
+      "destination": "/nl/casos/",
+      "statusCode": 301
+    },
+    {
       "source": "/equip/index.html",
       "destination": "/equip/",
       "statusCode": 301
@@ -1531,6 +1781,16 @@
     {
       "source": "/en/equip",
       "destination": "/en/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/equip/index.html",
+      "destination": "/nl/equip/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/equip",
+      "destination": "/nl/equip/",
       "statusCode": 301
     },
     {
@@ -1564,6 +1824,16 @@
       "statusCode": 301
     },
     {
+      "source": "/nl/contacte/index.html",
+      "destination": "/nl/contacte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/contacte",
+      "destination": "/nl/contacte/",
+      "statusCode": 301
+    },
+    {
       "source": "/finance/index.html",
       "destination": "/finance/",
       "statusCode": 301
@@ -1591,6 +1861,16 @@
     {
       "source": "/en/finance",
       "destination": "/en/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/finance/index.html",
+      "destination": "/nl/finance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/finance",
+      "destination": "/nl/finance/",
       "statusCode": 301
     },
     {
@@ -1624,6 +1904,16 @@
       "statusCode": 301
     },
     {
+      "source": "/nl/compliance/index.html",
+      "destination": "/nl/compliance/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/compliance",
+      "destination": "/nl/compliance/",
+      "statusCode": 301
+    },
+    {
       "source": "/privacitat/index.html",
       "destination": "/privacitat/",
       "statusCode": 301
@@ -1651,6 +1941,16 @@
     {
       "source": "/en/privacitat",
       "destination": "/en/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/privacitat/index.html",
+      "destination": "/nl/privacitat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/privacitat",
+      "destination": "/nl/privacitat/",
       "statusCode": 301
     },
     {
@@ -1684,6 +1984,16 @@
       "statusCode": 301
     },
     {
+      "source": "/nl/cookies/index.html",
+      "destination": "/nl/cookies/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/cookies",
+      "destination": "/nl/cookies/",
+      "statusCode": 301
+    },
+    {
       "source": "/termes/index.html",
       "destination": "/termes/",
       "statusCode": 301
@@ -1711,6 +2021,16 @@
     {
       "source": "/en/termes",
       "destination": "/en/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/termes/index.html",
+      "destination": "/nl/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/termes",
+      "destination": "/nl/termes/",
       "statusCode": 301
     }
   ],
@@ -1784,6 +2104,15 @@
       ]
     },
     {
+      "source": "/nl/privacitat/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
       "source": "/cookies/",
       "headers": [
         {
@@ -1811,6 +2140,15 @@
       ]
     },
     {
+      "source": "/nl/cookies/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
       "source": "/termes/",
       "headers": [
         {
@@ -1830,6 +2168,15 @@
     },
     {
       "source": "/en/termes/",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/nl/termes/",
       "headers": [
         {
           "key": "X-Robots-Tag",
@@ -1863,6 +2210,15 @@
           "value": "noindex, follow"
         }
       ]
+    },
+    {
+      "source": "/nl/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
     }
   ],
   "rewrites": [
@@ -1879,6 +2235,10 @@
       "destination": "/en/index.html"
     },
     {
+      "source": "/nl/",
+      "destination": "/nl/index.html"
+    },
+    {
       "source": "/nintec360/",
       "destination": "/nintec360/index.html"
     },
@@ -1889,6 +2249,10 @@
     {
       "source": "/en/nintec360/",
       "destination": "/en/nintec360/index.html"
+    },
+    {
+      "source": "/nl/nintec360/",
+      "destination": "/nl/nintec360/index.html"
     },
     {
       "source": "/casos/",
@@ -1903,6 +2267,10 @@
       "destination": "/en/casos/index.html"
     },
     {
+      "source": "/nl/casos/",
+      "destination": "/nl/casos/index.html"
+    },
+    {
       "source": "/equip/",
       "destination": "/equip/index.html"
     },
@@ -1913,6 +2281,10 @@
     {
       "source": "/en/equip/",
       "destination": "/en/equip/index.html"
+    },
+    {
+      "source": "/nl/equip/",
+      "destination": "/nl/equip/index.html"
     },
     {
       "source": "/contacte/",
@@ -1927,6 +2299,10 @@
       "destination": "/en/contacte/index.html"
     },
     {
+      "source": "/nl/contacte/",
+      "destination": "/nl/contacte/index.html"
+    },
+    {
       "source": "/finance/",
       "destination": "/finance/index.html"
     },
@@ -1937,6 +2313,10 @@
     {
       "source": "/en/finance/",
       "destination": "/en/finance/index.html"
+    },
+    {
+      "source": "/nl/finance/",
+      "destination": "/nl/finance/index.html"
     },
     {
       "source": "/compliance/",
@@ -1951,6 +2331,10 @@
       "destination": "/en/compliance/index.html"
     },
     {
+      "source": "/nl/compliance/",
+      "destination": "/nl/compliance/index.html"
+    },
+    {
       "source": "/privacitat/",
       "destination": "/privacitat/index.html"
     },
@@ -1961,6 +2345,10 @@
     {
       "source": "/en/privacitat/",
       "destination": "/en/privacitat/index.html"
+    },
+    {
+      "source": "/nl/privacitat/",
+      "destination": "/nl/privacitat/index.html"
     },
     {
       "source": "/cookies/",
@@ -1975,6 +2363,10 @@
       "destination": "/en/cookies/index.html"
     },
     {
+      "source": "/nl/cookies/",
+      "destination": "/nl/cookies/index.html"
+    },
+    {
       "source": "/termes/",
       "destination": "/termes/index.html"
     },
@@ -1985,6 +2377,10 @@
     {
       "source": "/en/termes/",
       "destination": "/en/termes/index.html"
+    },
+    {
+      "source": "/nl/termes/",
+      "destination": "/nl/termes/index.html"
     }
   ]
 }
