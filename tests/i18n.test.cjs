@@ -20,7 +20,7 @@ test('explicit language choice overrides stored preference, including a return t
 });
 test('every runtime message and t() call has a reviewed translation',()=>{
  const keys=new Set(JSON.parse(fs.readFileSync(__dirname+'/../src/locales/runtime.json','utf8')));
- for(const file of ['app.js','cycle-player.js']){
+ for(const file of ['app.js','cycle-player.js','lead-modal.js']){
   const source=fs.readFileSync(__dirname+'/../src/'+file,'utf8');
   for(const m of source.matchAll(/\bt\((['"])(.*?)\1/g))assert.ok(keys.has(m[2]),file+': '+m[2]);
  }

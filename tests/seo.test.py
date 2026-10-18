@@ -44,7 +44,7 @@ for root,production in [(Path(sys.argv[1]),False),(Path(sys.argv[2]),True)]:
    assert all(k in img for k in ['width','height','alt'])
    for entry in img.get('srcset','').split(','):
     if entry.strip():assert (root/entry.strip().split()[0].lstrip('/')).is_file()
-  assert ('/api.js' in p.scripts)==(base in ['/contacte/','/compliance/'])
+  assert '/api.js' in p.scripts and '/lead-modal.js' in p.scripts
   assert ('/cycle-player.js' in p.scripts)==(base=='/nintec360/')
   assert '/i18n.js' not in p.scripts
  sitemap=ET.parse(root/'sitemap.xml');locs={x.text for x in sitemap.findall('.//{*}loc')};assert locs==expected

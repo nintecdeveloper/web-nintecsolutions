@@ -862,5 +862,20 @@
   "NINTEC COMPLIANCE": "NINTEC COMPLIANCE",
   "A": "A",
   "B": "B",
-  "C": "C"
+  "C": "C",
+  "El nom i cognoms i l’email són obligatoris.": "Je voor- en achternaam en e-mailadres zijn verplicht.",
+  "Escriu el nom i els cognoms.": "Vul je voor- en achternaam in.",
+  "Tanca": "Sluiten",
+  "Deixa’ns les teves dades i et contactarem.": "Laat je gegevens achter en we nemen contact met je op.",
+  "Sol·licita informació": "Informatie aanvragen",
+  "Prefereixes el formulari complet?": "Liever het volledige contactformulier?",
+  "Gràcies! Hem rebut la teva sol·licitud i et contactarem.": "Bedankt! We hebben je aanvraag ontvangen en nemen contact met je op.",
+  "No hem pogut confirmar l’enviament. Si la connexió s’ha interromput, contacta amb nosaltres abans de repetir-lo.": "We konden de verzending niet bevestigen. Neem bij een onderbroken verbinding contact met ons op voordat je het opnieuw probeert.",
+  "Contacte": "Contact",
+  "×": "×",
+  "Cap hora m’encaixa.": "Geen van deze tijden past.",
+  "Nom (cognoms opcionals)": "Voornaam (achternaam optioneel)",
+  "Escriu el teu nom.": "Vul je voornaam in.",
+  "El nom i l’email són obligatoris. Els cognoms són opcionals.": "Voornaam en e-mailadres zijn verplicht. Achternaam is optioneel.",
+  "Agendem una reunió per veure com podem reduir la càrrega operativa del teu negoci i ajudar-lo a créixer.": "Plan een gesprek om te ontdekken hoe we de operationele werkdruk kunnen verlagen en je bedrijf kunnen helpen groeien."
 }
