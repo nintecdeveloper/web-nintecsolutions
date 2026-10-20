@@ -243,5 +243,180 @@
     "fit": "cover",
     "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures.",
     "permissionNotice": ""
+  },
+  "mistral": {
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Bharat,_Shri_Narendra_Damodardas_Modi_with_the_Co-Founder_and_CEO_of_Mistral_AI,_Mr._Arthur_Mensch.jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Prime_Minister_of_Bharat%2C_Shri_Narendra_Damodardas_Modi_with_the_Co-Founder_and_CEO_of_Mistral_AI%2C_Mr._Arthur_Mensch.jpg",
+    "src": "/assets/journal/mistral-1440.webp",
+    "width": 1440,
+    "height": 900,
+    "variants": [
+      {
+        "src": "/assets/journal/mistral-480.webp",
+        "width": 480,
+        "height": 300
+      },
+      {
+        "src": "/assets/journal/mistral-960.webp",
+        "width": 960,
+        "height": 600
+      },
+      {
+        "src": "/assets/journal/mistral-1440.webp",
+        "width": 1440,
+        "height": 900
+      }
+    ],
+    "creator": "Prime Minister’s Office, Government of India / Press Information Bureau",
+    "licenseName": "GODL–India",
+    "licenseUrl": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+    "alt": "Arthur Mensch i Narendra Modi asseguts durant una reunió",
+    "caption": "Arthur Mensch amb Narendra Modi a París. Fotografia d’arxiu, juny de 2026; no correspon a la presentació de Large 4.",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-20",
+    "kind": "photo",
+    "fit": "cover",
+    "permissionNotice": "",
+    "modifications": "Retall horitzontal de la fotografia original, redimensionament i conversió a WebP."
+  },
+  "robotics": {
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Innorobo_2015_Kuka_Robotics_01.jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Innorobo_2015_Kuka_Robotics_01.jpg",
+    "src": "/assets/journal/robotics-1440.webp",
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "src": "/assets/journal/robotics-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "src": "/assets/journal/robotics-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "src": "/assets/journal/robotics-1440.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    ],
+    "creator": "Scailyna",
+    "licenseName": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "alt": "Braç robòtic KUKA exposat a Innorobo",
+    "caption": "Robot KUKA a Innorobo 2015. Fotografia d’arxiu per contextualitzar la robòtica; no és una demostració de Gemini Robotics.",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-20",
+    "kind": "photo",
+    "fit": "cover",
+    "permissionNotice": "",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures."
+  },
+  "energy": {
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Power_lines_(Unsplash).jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Power_lines_%28Unsplash%29.jpg",
+    "src": "/assets/journal/energy-1440.webp",
+    "width": 1440,
+    "height": 956,
+    "variants": [
+      {
+        "src": "/assets/journal/energy-480.webp",
+        "width": 480,
+        "height": 319
+      },
+      {
+        "src": "/assets/journal/energy-960.webp",
+        "width": 960,
+        "height": 638
+      },
+      {
+        "src": "/assets/journal/energy-1440.webp",
+        "width": 1440,
+        "height": 956
+      }
+    ],
+    "creator": "Charles Devaux",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Línies elèctriques entre torres sobre turons arbrats",
+    "caption": "Línies de transport elèctric. Fotografia d’arxiu, 2016; no identifica un subministrament concret a centres de dades.",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-20",
+    "kind": "photo",
+    "fit": "cover",
+    "permissionNotice": "",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures."
+  },
+  "mcp": {
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Network_switches.jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Network_switches.jpg",
+    "src": "/assets/journal/mcp-1440.webp",
+    "width": 1440,
+    "height": 957,
+    "variants": [
+      {
+        "src": "/assets/journal/mcp-480.webp",
+        "width": 480,
+        "height": 319
+      },
+      {
+        "src": "/assets/journal/mcp-960.webp",
+        "width": 960,
+        "height": 638
+      },
+      {
+        "src": "/assets/journal/mcp-1440.webp",
+        "width": 1440,
+        "height": 957
+      }
+    ],
+    "creator": "Jon ‘ShakataGaNai’ Davis",
+    "licenseName": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "alt": "Dos commutadors de xarxa amb cables connectats",
+    "caption": "Commutadors de xarxa, 2008. Imatge d’arxiu com a metàfora de connexió; MCP és un protocol de programari.",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-20",
+    "kind": "photo",
+    "fit": "cover",
+    "permissionNotice": "",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures."
+  },
+  "credentials": {
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Camera_(Unsplash).jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Camera_%28Unsplash%29.jpg",
+    "src": "/assets/journal/credentials-1440.webp",
+    "width": 1440,
+    "height": 958,
+    "variants": [
+      {
+        "src": "/assets/journal/credentials-480.webp",
+        "width": 480,
+        "height": 319
+      },
+      {
+        "src": "/assets/journal/credentials-960.webp",
+        "width": 960,
+        "height": 639
+      },
+      {
+        "src": "/assets/journal/credentials-1440.webp",
+        "width": 1440,
+        "height": 958
+      }
+    ],
+    "creator": "Alexander Wang / darkleiv",
+    "licenseName": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "alt": "Una càmera fotogràfica Canon EOS 50D",
+    "caption": "Càmera fotogràfica. Imatge d’arxiu, 2017; no implica compatibilitat del dispositiu amb C2PA.",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-20",
+    "kind": "photo",
+    "fit": "cover",
+    "permissionNotice": "",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures."
   }
 }

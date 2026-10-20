@@ -1,0 +1,113 @@
+{
+  "id": "12",
+  "locale": "ca",
+  "slug": "google-respostes-ia-clics-web",
+  "type": "analysis",
+  "category": "Empreses i mercat",
+  "cover": "gemini",
+  "eventDate": "2025-07-22",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "6",
+    "13",
+    "16"
+  ],
+  "sources": [
+    {
+      "title": "Google users are less likely to click on links when an AI summary appears in the results",
+      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+      "publisher": "Pew Research Center",
+      "publishedAt": "2025-07-22",
+      "sourceType": "research",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "title": "AI features and your website",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "publisher": "Google Search Central",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "Si Google ja respon, qui visita la teva web?"
+  ],
+  "title": "Si Google ja respon, qui visita la teva web?",
+  "seoTitle": "Respostes amb IA i clics: què diu Pew | Nintec Journal",
+  "metaDescription": "Un estudi de Pew ajuda a entendre els clics quan Google mostra resums amb IA. Què observa, quins límits té i com interpretar-ho.",
+  "excerpt": "Aparèixer en una resposta, rebre una visita i aconseguir una consulta són tres resultats diferents.",
+  "context": "Anàlisi d’un estudi publicat el juliol de 2025 amb navegació als Estats Units del març de 2025. No és una mesura del trànsit actual de la teva web.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Una resposta al cercador pot resoldre el dubte abans que l’usuari obri una web. Per a qui publica informació, això obliga a distingir visibilitat i visita. Per a una empresa, afegeix una tercera pregunta: quina part d’aquella atenció acaba generant una conversa útil?"
+    },
+    {
+      "type": "p",
+      "text": "Pew Research Center va publicar el juliol de 2025 una anàlisi de la navegació de 900 adults dels Estats Units. Hi va observar clics a resultats tradicionals en el 8% de les visites amb resum d’IA, davant del 15% sense resum. És una observació d’aquella mostra, no una taxa universal.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Què ens diu la dada i què no"
+    },
+    {
+      "type": "p",
+      "text": "La navegació estudiada correspon al març de 2025; els resultats de les consultes es van recuperar a l’abril. Aquest desfasament i la possibilitat que canviïn els resums formen part dels límits descrits per Pew. No és un experiment que assigni aleatòriament una mateixa cerca a dos grups.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Per tant, no podem convertir la diferència en una predicció exacta per a una web concreta. Tampoc equival a afirmar que totes les visites desapareixeran. La pregunta editorial que ens interessa és com interpretar una presència al cercador quan l’usuari pot trobar-hi part de la resposta."
+    },
+    {
+      "type": "h2",
+      "text": "Una citació no és una visita"
+    },
+    {
+      "type": "p",
+      "text": "Imaginem una pàgina que explica un concepte i una altra que permet comparar un servei amb condicions detallades. Una resposta breu podria satisfer la primera intenció; la segona podria requerir explorar opcions. És un exemple per pensar en necessitats diferents, no una classificació mesurada per nosaltres."
+    },
+    {
+      "type": "p",
+      "text": "D’aquesta distinció surt una proposta de treball: observar per separat impressions, clics i accions posteriors. Si es barregen en una sola xifra, pot semblar que més aparicions equivalen a més oportunitats. També es pot donar per perduda una audiència sense revisar què fan les persones que sí que arriben."
+    },
+    {
+      "type": "p",
+      "text": "Google indica a la seva documentació que les pràctiques habituals de SEO continuen sent pertinents i que no exigeix un marcatge especial per aparèixer a les funcions d’IA. Això no garanteix que una pàgina hi sigui seleccionada ni que rebi un volum determinat de visites.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Què val la pena mesurar a la web pròpia"
+    },
+    {
+      "type": "p",
+      "text": "Proposem començar per preguntes que l’empresa pugui respondre amb les seves dades: quines pàgines reben consultes rellevants, quins continguts ajuden a decidir i on s’atura la navegació. Comparar períodes requereix considerar canvis de campanya, estacionalitat i modificacions de la mateixa web."
+    },
+    {
+      "type": "p",
+      "text": "Una prova editorial podria millorar una explicació concreta i observar-ne l’evolució, sense prometre un efecte automàtic sobre el posicionament. El valor d’una pàgina també pot estar en aportar exemples originals, condicions clares o informació que ajuda a fer el pas següent."
+    },
+    {
+      "type": "p",
+      "text": "La nostra lectura de Pew és que cal separar resultats abans de treure conclusions. Ser visible, ser visitat i ser escollit no són el mateix. El repte és entendre aquesta cadena amb dades pròpies, mentre el cercador canvia la manera de presentar les respostes."
+    }
+  ],
+  "primaryKeyword": "Si Google ja respon, qui visita la teva web?"
+}

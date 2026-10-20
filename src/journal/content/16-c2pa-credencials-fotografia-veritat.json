@@ -1,0 +1,111 @@
+{
+  "id": "16",
+  "locale": "ca",
+  "slug": "c2pa-credencials-fotografia-veritat",
+  "type": "context",
+  "category": "Seguretat i societat",
+  "cover": "credentials",
+  "eventDate": "2026-10-20",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "3",
+    "11",
+    "12"
+  ],
+  "sources": [
+    {
+      "title": "Guiding Principles for C2PA Designs and Specifications",
+      "url": "https://c2pa.org/principles/",
+      "publisher": "C2PA",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "title": "C2PA FAQ",
+      "url": "https://c2pa.org/faqs/",
+      "publisher": "C2PA",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "Una fotografia amb credencials és una fotografia verdadera?"
+  ],
+  "title": "Una fotografia amb credencials és una fotografia verdadera?",
+  "seoTitle": "C2PA: procedència d’imatges i veritat | Nintec Journal",
+  "metaDescription": "Les credencials de contingut poden explicar la procedència d’un arxiu. Per què això no substitueix comprovar què mostra i en quin context es publica.",
+  "excerpt": "Saber d’on ve un arxiu ajuda a interpretar-lo. No converteix automàticament el seu contingut o el seu peu de foto en un fet cert.",
+  "context": "Guia de context amb documentació de C2PA consultada el 20 d’octubre de 2026. Aquesta data correspon a la revisió, no a un nou llançament de l’estàndard.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Una fotografia pot ser real i, alhora, servir per explicar una història falsa. N’hi ha prou d’acompanyar una escena antiga amb un peu que la presenti com si fos d’avui. Per això, la pregunta sobre la confiança en les imatges té més d’una capa: arxiu, procedència i context."
+    },
+    {
+      "type": "p",
+      "text": "C2PA proposa un mecanisme per associar informació verificable sobre la creació i el tractament d’un contingut. Els seus principis distingeixen aquesta procedència dels judicis sobre si el material és bo o dolent. Verificar una vinculació no és verificar tota la història que algú explica amb aquella imatge.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Què podem aprendre de la procedència"
+    },
+    {
+      "type": "p",
+      "text": "El valor d’un historial és aportar informació per fer preguntes millors. Qui ha declarat una operació? Quina part del recorregut queda documentada? Què diu realment la credencial que està comprovant l’eina? No convé substituir aquestes preguntes per una impressió genèrica de «foto aprovada»."
+    },
+    {
+      "type": "p",
+      "text": "Imaginem una fotografia d’un acte públic que es torna a publicar anys després. Encara que el fitxer mantingui informació vàlida sobre el seu origen, el peu nou podria situar-lo en un altre lloc o moment. Aquest exemple mostra per què cal llegir el text que acompanya l’arxiu, no només inspeccionar l’arxiu."
+    },
+    {
+      "type": "h2",
+      "text": "Sense credencials no vol dir fals"
+    },
+    {
+      "type": "p",
+      "text": "Les preguntes freqüents de C2PA expliquen que les metadades poden separar-se de l’arxiu, fins i tot accidentalment. Per tant, trobar un fitxer sense aquesta informació no basta per concloure que és fals. Cal investigar el seu recorregut i evitar convertir una absència de dades en una prova de manipulació.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Una fotografia d’arxiu pot continuar sent una font útil si se’n pot investigar la procedència per altres vies. A l’inrevés, una cadena tècnica de dades no resol per si sola el significat d’una escena. Les dues preguntes mereixen espai propi: què sabem del fitxer i què podem sostenir sobre el fet representat."
+    },
+    {
+      "type": "p",
+      "text": "També cal evitar que una interfície simplifiqui massa la resposta. En una lectura editorial, un indicador hauria d’ajudar a entendre què s’ha comprovat, en lloc de suggerir que totes les afirmacions associades a la fotografia han rebut una validació independent."
+    },
+    {
+      "type": "h2",
+      "text": "Com llegiríem una imatge amb aquesta informació"
+    },
+    {
+      "type": "p",
+      "text": "Proposem començar pel que afirma la publicació: persona, lloc, data i esdeveniment. Després, contrastar la font original i revisar què aporta la credencial. Si hi ha un buit, val més descriure’l que omplir-lo amb una conclusió que la informació disponible no sosté."
+    },
+    {
+      "type": "p",
+      "text": "En aquest Journal, per exemple, un peu que diu «fotografia d’arxiu» pretén separar la imatge de la data de la notícia. L’acreditació identifica autor i condicions d’ús. Cap d’aquests elements implica que hi hàgim verificat credencials C2PA ni que la fotografia documenti l’anunci concret del titular."
+    },
+    {
+      "type": "p",
+      "text": "La nostra lectura és que la procedència pot reforçar el treball de verificació quan es comunica amb precisió. El pas que no convé fer és convertir una comprovació tècnica en una garantia de veritat. Saber més d’un arxiu és útil precisament perquè permet continuar preguntant, no perquè elimini la necessitat de fer-ho."
+    }
+  ],
+  "primaryKeyword": "Una fotografia amb credencials és una fotografia verdadera?",
+  "eventDateLabel": "Documentació consultada:"
+}

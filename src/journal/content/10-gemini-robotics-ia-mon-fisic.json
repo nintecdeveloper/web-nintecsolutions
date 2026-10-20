@@ -1,0 +1,110 @@
+{
+  "id": "10",
+  "locale": "ca",
+  "slug": "gemini-robotics-ia-mon-fisic",
+  "type": "analysis",
+  "category": "Recerca i infraestructura",
+  "cover": "robotics",
+  "eventDate": "2026-07-30",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "9",
+    "13",
+    "14"
+  ],
+  "sources": [
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "publisher": "Google DeepMind",
+      "publishedAt": "2026-07-30",
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "title": "Gemini Robotics",
+      "url": "https://deepmind.google/models/gemini-robotics/",
+      "publisher": "Google DeepMind",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "La IA surt de la pantalla"
+  ],
+  "title": "La IA surt de la pantalla: què poden fer els robots amb Gemini Robotics?",
+  "seoTitle": "Gemini Robotics: de la conversa al moviment | Nintec Journal",
+  "metaDescription": "Visió, llenguatge i moviment: què proposa Gemini Robotics 2 i per què una demostració encara no equival a un robot preparat per a qualsevol feina.",
+  "excerpt": "Entendre una instrucció és només el principi quan la resposta ha de moure un cos i manipular objectes reals.",
+  "context": "Anàlisi de Gemini Robotics 2, anunciat el 30 de juliol de 2026. Les capacitats descrites pel fabricant no són una prova pròpia ni una garantia de desplegament general.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Quan una IA respon amb text, podem llegir-lo abans d’actuar. Quan controla un robot, la resposta pot desplaçar un objecte, obrir un calaix o ocupar l’espai d’una persona. El salt del llenguatge al moviment canvia les preguntes que cal fer sobre fiabilitat, control i utilitat."
+    },
+    {
+      "type": "p",
+      "text": "Google DeepMind va presentar Gemini Robotics 2 el 30 de juliol de 2026. L’anunci descriu control del cos, destresa i col·laboració entre robots. Ho tractem com a capacitats comunicades pel fabricant, no com a resultats verificats per nosaltres en una instal·lació real.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Veure, entendre i actuar"
+    },
+    {
+      "type": "p",
+      "text": "La proposta combina models que relacionen imatges i instruccions amb accions, i components de raonament per planificar. La documentació de DeepMind diferencia aquesta planificació de l’execució motora. El punt important per al lector és que una bona resposta verbal no demostra, tota sola, que la manipulació física funcionarà.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pensem en la petició «recull la taula». Per a una prova útil, caldria concretar què compta com a taula recollida, quins objectes es poden moure i on s’han de deixar. Un got trencat o una tassa amb líquid no haurien de quedar amagats dins d’una única puntuació d’èxit."
+    },
+    {
+      "type": "h2",
+      "text": "Una demostració no és un torn de feina"
+    },
+    {
+      "type": "p",
+      "text": "Un vídeo pot mostrar una tasca ben resolta i continuar deixant preguntes obertes. Quants intents hi ha hagut? Quin marge de preparació tenia l’entorn? S’ha produït alguna intervenció? Són preguntes per avaluar una demostració, no una acusació sobre com s’ha enregistrat una peça concreta."
+    },
+    {
+      "type": "p",
+      "text": "La nostra proposta de lectura seria separar la tasca mostrada de la tasca que una empresa necessita. Un magatzem podria requerir que la feina es repetís durant hores, amb objectes diferents i sense bloquejar el pas. Aquesta exigència no es pot deduir d’una seqüència curta que només mostra un moviment."
+    },
+    {
+      "type": "p",
+      "text": "També caldria observar què passa quan el sistema no pot continuar. Aturar-se, demanar ajuda i deixar l’espai en condicions segures són comportaments que val la pena incloure en una prova. El temps necessari per recuperar-se d’una excepció forma part del procés, encara que no aparegui al vídeo promocional."
+    },
+    {
+      "type": "h2",
+      "text": "La utilitat es decideix al procés complet"
+    },
+    {
+      "type": "p",
+      "text": "Per comparar una solució robòtica, proposem descriure primer la feina sencera: preparació, execució, verificació i incidències. Després, registrar on intervé una persona i per què. Això evita confondre una millora visible en una fase amb una automatització de principi a fi."
+    },
+    {
+      "type": "p",
+      "text": "El mateix criteri serveix per llegir afirmacions de flexibilitat. Aprendre una altra tasca és rellevant, però també ho són les dades, el temps i el suport necessaris per posar-la en marxa. No hem mesurat aquests costos en Gemini Robotics; són les preguntes que una avaluació posterior hauria de respondre."
+    },
+    {
+      "type": "p",
+      "text": "L’interès d’aquesta línia de recerca és ampliar el que un robot pot entendre i intentar. La distància fins a una eina quotidiana es mesurarà amb tasques repetibles, condicions explícites i límits coneguts. És aquí on una demostració prometedora pot començar a convertir-se en una operativa útil."
+    }
+  ],
+  "primaryKeyword": "La IA surt de la pantalla"
+}

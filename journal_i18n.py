@@ -13,6 +13,9 @@ MONTHS={
  'nl':'januari februari maart april mei juni juli augustus september oktober november december'.split()}
 def date(value,lang):
  d=datetime.fromisoformat(value);return f'{d.day} {MONTHS[lang][d.month-1]} {d.year}'
+def source_date(source,lang):
+ if source.get('publishedAt'):return date(source['publishedAt'],lang)
+ return {'ca':'Consulta: ','es':'Consulta: ','en':'Accessed: ','nl':'Geraadpleegd: '}[lang]+date(source['verifiedAt'],lang)
 class Translation:
  def __init__(self,lang,articles,images):
   self.lang=lang;self.catalog={**CATALOGUES.get(lang,{}),**(json.loads((ROOT/'src/journal/locales'/f'{lang}.json').read_text()) if lang!='ca' else {})}
@@ -20,7 +23,7 @@ class Translation:
   names={'JOURNAL_BOOTSTRAP','/','Nintec Solutions','NINTEC JOURNAL','GPT-6 / HAIKU 5.5'}
   for im in images.values():
    if 'i col·laboradors' not in im['creator']:names.add(im['creator'])
-   if im['licenseName'].startswith('CC BY'):names.add(im['licenseName'])
+   if im['licenseName'].startswith(('CC BY','CC0','GODL')):names.add(im['licenseName'])
   for a in articles:
    for s in a['sources']:
     names.update([s['publisher'],'['+s['publisher']+']'])
@@ -30,7 +33,7 @@ class Translation:
    for source in a['sources']:
     title=source['title'];self.catalog[title+' ↗']=self.tr(title)+' ↗'
     kind={'primary':'Font primària','reporting':'Informació periodística','research':'Publicació científica'}[source['sourceType']]
-    self.catalog[f'{source["publisher"]} · {date(source["publishedAt"],"ca")} · {kind}']=f'{source["publisher"]} · {date(source["publishedAt"],lang)} · {self.tr(kind)}'
+    self.catalog[f'{source["publisher"]} · {source_date(source,"ca")} · {kind}']=f'{source["publisher"]} · {source_date(source,lang)} · {self.tr(kind)}'
    for key in ['eventDate','verifiedAt','datePublished','dateModified']:
     if a.get(key):self.catalog[date(a[key],'ca')]=date(a[key],lang)
    self.catalog['· Fonts comprovades: '+date(a['verifiedAt'],'ca')]=['· Fonts comprovades: ','· Fuentes comprobadas: ','· Sources checked: ','· Bronnen gecontroleerd: '][LOCALES.index(lang)]+date(a['verifiedAt'],lang)

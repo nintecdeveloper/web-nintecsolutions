@@ -1,6 +1,6 @@
 # Nintec Journal · CA / ES / EN / NL
 
-El Journal es publica com a HTML estàtic en els quatre idiomes de la web. Inclou vuit articles complets, portada, arxiu i criteri editorial: 44 rutes del Journal, 84 pàgines totals i 72 URL indexables al sitemap.
+El Journal es publica com a HTML estàtic en els quatre idiomes de la web. Inclou setze articles complets, portada, arxiu i criteri editorial: 76 rutes del Journal, 116 pàgines totals i 104 URL indexables al sitemap.
 
 - Català: `/blog/`
 - Castellà: `/es/blog/`
@@ -30,7 +30,7 @@ Els noms propis, títols originals de fonts externes i avisos obligatoris de lli
 5. En publicar: establir `status: published` i el timestamp real amb zona horària. `eventDate` és la data dels fets; no substituir-la per la de publicació ni retrodatatar articles. Si hi ha una actualització substancial, afegir `dateModified` i explicar-la.
 6. Regenerar `vercel.json`, executar proves i build de producció. Revisar diff i secrets, fer commit i push normal a main amb autorització. Vercel reconstrueix des de les fonts.
 
-L’edició inicial cobreix els fets del 28/09 al 19/10/2026. Les dates de publicació són les reals, posteriors als fets. Si s’amplia l’arxiu, actualitzar el rang visible als quatre idiomes.
+L’edició inicial cobreix els fets del 28/09 al 19/10/2026. Les dates de publicació són les reals, posteriors als fets. L’ampliació del 20/10/2026 afegeix vuit peces completes en quatre idiomes (IDs 9–16). L’arxiu mostra dates de referència, sense un rang fix: els estudis antics continuen identificats com a context. Les fonts sense data de publicació coneguda mostren la data de consulta, no una data inventada. La guia C2PA identifica explícitament la revisió de documentació.
 
 ## Comprovacions
 

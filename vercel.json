@@ -2361,6 +2361,710 @@
       ]
     },
     {
+      "source": "/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/mistral-large-4-control-ia-europa",
+      "destination": "https://www.nintecsolutions.com/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/mistral-large-4-control-ia-europa",
+      "destination": "https://www.nintecsolutions.com/es/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/mistral-large-4-control-ia-europa",
+      "destination": "https://www.nintecsolutions.com/en/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/mistral-large-4-control-ia-europa",
+      "destination": "https://www.nintecsolutions.com/nl/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "https://www.nintecsolutions.com/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "https://www.nintecsolutions.com/es/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "https://www.nintecsolutions.com/en/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "https://www.nintecsolutions.com/nl/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/prompt-injection-agents-web-permisos",
+      "destination": "https://www.nintecsolutions.com/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/prompt-injection-agents-web-permisos",
+      "destination": "https://www.nintecsolutions.com/es/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/prompt-injection-agents-web-permisos",
+      "destination": "https://www.nintecsolutions.com/en/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/prompt-injection-agents-web-permisos",
+      "destination": "https://www.nintecsolutions.com/nl/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/google-respostes-ia-clics-web",
+      "destination": "https://www.nintecsolutions.com/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/google-respostes-ia-clics-web",
+      "destination": "https://www.nintecsolutions.com/es/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/google-respostes-ia-clics-web",
+      "destination": "https://www.nintecsolutions.com/en/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/google-respostes-ia-clics-web",
+      "destination": "https://www.nintecsolutions.com/nl/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/ia-tasques-impacte-feina",
+      "destination": "https://www.nintecsolutions.com/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/ia-tasques-impacte-feina",
+      "destination": "https://www.nintecsolutions.com/es/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/ia-tasques-impacte-feina",
+      "destination": "https://www.nintecsolutions.com/en/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/ia-tasques-impacte-feina",
+      "destination": "https://www.nintecsolutions.com/nl/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "https://www.nintecsolutions.com/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "https://www.nintecsolutions.com/es/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "https://www.nintecsolutions.com/en/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "https://www.nintecsolutions.com/nl/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/mcp-connectar-ia-eines-dades",
+      "destination": "https://www.nintecsolutions.com/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/mcp-connectar-ia-eines-dades",
+      "destination": "https://www.nintecsolutions.com/es/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/mcp-connectar-ia-eines-dades",
+      "destination": "https://www.nintecsolutions.com/en/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/mcp-connectar-ia-eines-dades",
+      "destination": "https://www.nintecsolutions.com/nl/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "https://www.nintecsolutions.com/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "https://www.nintecsolutions.com/es/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "https://www.nintecsolutions.com/en/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "https://www.nintecsolutions.com/nl/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
       "source": "/:path*",
       "destination": "https://www.nintecsolutions.com/:path*",
       "statusCode": 301,
@@ -3440,6 +4144,326 @@
       "source": "/nl/blog/microsoft-maia-xips-infraestructura-ia",
       "destination": "/nl/blog/microsoft-maia-xips-infraestructura-ia/",
       "statusCode": 301
+    },
+    {
+      "source": "/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/mistral-large-4-control-ia-europa",
+      "destination": "/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "/es/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/mistral-large-4-control-ia-europa",
+      "destination": "/es/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "/en/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/mistral-large-4-control-ia-europa",
+      "destination": "/en/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/mistral-large-4-control-ia-europa/index.html",
+      "destination": "/nl/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/mistral-large-4-control-ia-europa",
+      "destination": "/nl/blog/mistral-large-4-control-ia-europa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "/es/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "/es/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "/en/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "/en/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/gemini-robotics-ia-mon-fisic/index.html",
+      "destination": "/nl/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/gemini-robotics-ia-mon-fisic",
+      "destination": "/nl/blog/gemini-robotics-ia-mon-fisic/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/prompt-injection-agents-web-permisos",
+      "destination": "/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "/es/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/prompt-injection-agents-web-permisos",
+      "destination": "/es/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "/en/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/prompt-injection-agents-web-permisos",
+      "destination": "/en/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/prompt-injection-agents-web-permisos/index.html",
+      "destination": "/nl/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/prompt-injection-agents-web-permisos",
+      "destination": "/nl/blog/prompt-injection-agents-web-permisos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/google-respostes-ia-clics-web",
+      "destination": "/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "/es/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/google-respostes-ia-clics-web",
+      "destination": "/es/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "/en/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/google-respostes-ia-clics-web",
+      "destination": "/en/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/google-respostes-ia-clics-web/index.html",
+      "destination": "/nl/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/google-respostes-ia-clics-web",
+      "destination": "/nl/blog/google-respostes-ia-clics-web/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ia-tasques-impacte-feina",
+      "destination": "/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "/es/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/ia-tasques-impacte-feina",
+      "destination": "/es/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "/en/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/ia-tasques-impacte-feina",
+      "destination": "/en/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/ia-tasques-impacte-feina/index.html",
+      "destination": "/nl/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/ia-tasques-impacte-feina",
+      "destination": "/nl/blog/ia-tasques-impacte-feina/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "/es/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "/es/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "/en/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "/en/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/ia-electricitat-xarxa-centres-dades/index.html",
+      "destination": "/nl/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/ia-electricitat-xarxa-centres-dades",
+      "destination": "/nl/blog/ia-electricitat-xarxa-centres-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/mcp-connectar-ia-eines-dades",
+      "destination": "/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "/es/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/mcp-connectar-ia-eines-dades",
+      "destination": "/es/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "/en/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/mcp-connectar-ia-eines-dades",
+      "destination": "/en/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/mcp-connectar-ia-eines-dades/index.html",
+      "destination": "/nl/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/mcp-connectar-ia-eines-dades",
+      "destination": "/nl/blog/mcp-connectar-ia-eines-dades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "/es/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "/es/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "/en/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "/en/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/c2pa-credencials-fotografia-veritat/index.html",
+      "destination": "/nl/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/c2pa-credencials-fotografia-veritat",
+      "destination": "/nl/blog/c2pa-credencials-fotografia-veritat/",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -3965,6 +4989,134 @@
     {
       "source": "/nl/blog/microsoft-maia-xips-infraestructura-ia/",
       "destination": "/nl/blog/microsoft-maia-xips-infraestructura-ia/index.html"
+    },
+    {
+      "source": "/blog/mistral-large-4-control-ia-europa/",
+      "destination": "/blog/mistral-large-4-control-ia-europa/index.html"
+    },
+    {
+      "source": "/es/blog/mistral-large-4-control-ia-europa/",
+      "destination": "/es/blog/mistral-large-4-control-ia-europa/index.html"
+    },
+    {
+      "source": "/en/blog/mistral-large-4-control-ia-europa/",
+      "destination": "/en/blog/mistral-large-4-control-ia-europa/index.html"
+    },
+    {
+      "source": "/nl/blog/mistral-large-4-control-ia-europa/",
+      "destination": "/nl/blog/mistral-large-4-control-ia-europa/index.html"
+    },
+    {
+      "source": "/blog/gemini-robotics-ia-mon-fisic/",
+      "destination": "/blog/gemini-robotics-ia-mon-fisic/index.html"
+    },
+    {
+      "source": "/es/blog/gemini-robotics-ia-mon-fisic/",
+      "destination": "/es/blog/gemini-robotics-ia-mon-fisic/index.html"
+    },
+    {
+      "source": "/en/blog/gemini-robotics-ia-mon-fisic/",
+      "destination": "/en/blog/gemini-robotics-ia-mon-fisic/index.html"
+    },
+    {
+      "source": "/nl/blog/gemini-robotics-ia-mon-fisic/",
+      "destination": "/nl/blog/gemini-robotics-ia-mon-fisic/index.html"
+    },
+    {
+      "source": "/blog/prompt-injection-agents-web-permisos/",
+      "destination": "/blog/prompt-injection-agents-web-permisos/index.html"
+    },
+    {
+      "source": "/es/blog/prompt-injection-agents-web-permisos/",
+      "destination": "/es/blog/prompt-injection-agents-web-permisos/index.html"
+    },
+    {
+      "source": "/en/blog/prompt-injection-agents-web-permisos/",
+      "destination": "/en/blog/prompt-injection-agents-web-permisos/index.html"
+    },
+    {
+      "source": "/nl/blog/prompt-injection-agents-web-permisos/",
+      "destination": "/nl/blog/prompt-injection-agents-web-permisos/index.html"
+    },
+    {
+      "source": "/blog/google-respostes-ia-clics-web/",
+      "destination": "/blog/google-respostes-ia-clics-web/index.html"
+    },
+    {
+      "source": "/es/blog/google-respostes-ia-clics-web/",
+      "destination": "/es/blog/google-respostes-ia-clics-web/index.html"
+    },
+    {
+      "source": "/en/blog/google-respostes-ia-clics-web/",
+      "destination": "/en/blog/google-respostes-ia-clics-web/index.html"
+    },
+    {
+      "source": "/nl/blog/google-respostes-ia-clics-web/",
+      "destination": "/nl/blog/google-respostes-ia-clics-web/index.html"
+    },
+    {
+      "source": "/blog/ia-tasques-impacte-feina/",
+      "destination": "/blog/ia-tasques-impacte-feina/index.html"
+    },
+    {
+      "source": "/es/blog/ia-tasques-impacte-feina/",
+      "destination": "/es/blog/ia-tasques-impacte-feina/index.html"
+    },
+    {
+      "source": "/en/blog/ia-tasques-impacte-feina/",
+      "destination": "/en/blog/ia-tasques-impacte-feina/index.html"
+    },
+    {
+      "source": "/nl/blog/ia-tasques-impacte-feina/",
+      "destination": "/nl/blog/ia-tasques-impacte-feina/index.html"
+    },
+    {
+      "source": "/blog/ia-electricitat-xarxa-centres-dades/",
+      "destination": "/blog/ia-electricitat-xarxa-centres-dades/index.html"
+    },
+    {
+      "source": "/es/blog/ia-electricitat-xarxa-centres-dades/",
+      "destination": "/es/blog/ia-electricitat-xarxa-centres-dades/index.html"
+    },
+    {
+      "source": "/en/blog/ia-electricitat-xarxa-centres-dades/",
+      "destination": "/en/blog/ia-electricitat-xarxa-centres-dades/index.html"
+    },
+    {
+      "source": "/nl/blog/ia-electricitat-xarxa-centres-dades/",
+      "destination": "/nl/blog/ia-electricitat-xarxa-centres-dades/index.html"
+    },
+    {
+      "source": "/blog/mcp-connectar-ia-eines-dades/",
+      "destination": "/blog/mcp-connectar-ia-eines-dades/index.html"
+    },
+    {
+      "source": "/es/blog/mcp-connectar-ia-eines-dades/",
+      "destination": "/es/blog/mcp-connectar-ia-eines-dades/index.html"
+    },
+    {
+      "source": "/en/blog/mcp-connectar-ia-eines-dades/",
+      "destination": "/en/blog/mcp-connectar-ia-eines-dades/index.html"
+    },
+    {
+      "source": "/nl/blog/mcp-connectar-ia-eines-dades/",
+      "destination": "/nl/blog/mcp-connectar-ia-eines-dades/index.html"
+    },
+    {
+      "source": "/blog/c2pa-credencials-fotografia-veritat/",
+      "destination": "/blog/c2pa-credencials-fotografia-veritat/index.html"
+    },
+    {
+      "source": "/es/blog/c2pa-credencials-fotografia-veritat/",
+      "destination": "/es/blog/c2pa-credencials-fotografia-veritat/index.html"
+    },
+    {
+      "source": "/en/blog/c2pa-credencials-fotografia-veritat/",
+      "destination": "/en/blog/c2pa-credencials-fotografia-veritat/index.html"
+    },
+    {
+      "source": "/nl/blog/c2pa-credencials-fotografia-veritat/",
+      "destination": "/nl/blog/c2pa-credencials-fotografia-veritat/index.html"
     }
   ]
 }

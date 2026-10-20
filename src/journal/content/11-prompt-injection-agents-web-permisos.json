@@ -1,0 +1,113 @@
+{
+  "id": "11",
+  "locale": "ca",
+  "slug": "prompt-injection-agents-web-permisos",
+  "type": "context",
+  "category": "Seguretat i societat",
+  "cover": "sonnet",
+  "eventDate": "2025-11-24",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "4",
+    "15",
+    "16"
+  ],
+  "sources": [
+    {
+      "title": "Mitigating the risk of prompt injections in browser use",
+      "url": "https://www.anthropic.com/research/prompt-injection-defenses",
+      "publisher": "Anthropic",
+      "publishedAt": "2025-11-24",
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "title": "LLM01:2025 Prompt Injection",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "publisher": "OWASP",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "Quan una pàgina web intenta donar ordres al teu agent d’IA"
+  ],
+  "title": "Quan una pàgina web intenta donar ordres al teu agent d’IA",
+  "seoTitle": "Prompt injection: contingut, ordres i permisos | Nintec Journal",
+  "metaDescription": "Què és la injecció de prompts i per què llegir una web no hauria de donar-li permís per decidir què fa un agent amb les teves dades.",
+  "excerpt": "El problema apareix quan el sistema confon informació que ha de llegir amb instruccions que està autoritzat a executar.",
+  "context": "Peça de context basada en recerca d’Anthropic de novembre de 2025 i documentació d’OWASP. No descriu un incident nou a Nintec.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Un agent rep l’encàrrec de comparar proveïdors i visita una web. La pàgina conté informació útil, però també un text que intenta canviar-li la feina. El risc no és que la pàgina tingui una opinió: és que el sistema tracti aquell contingut extern com una ordre amb autoritat."
+    },
+    {
+      "type": "p",
+      "text": "Això és una forma d’injecció indirecta de prompts. OWASP la diferencia de les instruccions introduïdes directament per qui utilitza el sistema: aquí el missatge arriba a través d’un document, una web o una altra font que l’agent consulta.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Llegir una instrucció no és rebre autorització"
+    },
+    {
+      "type": "p",
+      "text": "Per entendre el límit, proposem un exemple senzill. Un assistent que resumeix una factura ha de poder llegir-hi una adreça de cobrament. Això no significa que la factura pugui autoritzar una transferència. El document aporta dades a la tasca; l’autorització ha de venir del procés i de la persona corresponent."
+    },
+    {
+      "type": "p",
+      "text": "Aquest exemple és conceptual, no un incident que hàgim observat. Serveix per separar dues preguntes: què diu el material i què té permís per fer el sistema. Si totes dues respostes provenen del mateix text extern, la frontera queda mal definida."
+    },
+    {
+      "type": "h2",
+      "text": "La defensa no depèn només del model"
+    },
+    {
+      "type": "p",
+      "text": "Anthropic va explicar el novembre de 2025 millores de resistència per a agents de navegador, però també va advertir que la injecció de prompts continuava sent un problema obert. El resultat d’una prova del fabricant no equival a immunitat en tots els entorns.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "OWASP planteja defenses com restringir privilegis, separar contingut extern i requerir control humà en operacions sensibles. No presenta una única mesura com una solució completa. La qüestió pràctica és reduir el que pot passar si el model interpreta malament un contingut.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "p",
+      "text": "En una revisió de disseny, preguntaríem si l’agent que compara preus necessita també enviar correus o modificar dades de clients. Si no ho necessita, aquella capacitat no aporta res a la feina concreta. Separar operacions facilita entendre l’abast d’un error i decidir on revisar el resultat."
+    },
+    {
+      "type": "h2",
+      "text": "Què convé observar en una prova"
+    },
+    {
+      "type": "p",
+      "text": "Un exercici útil seria comprovar que el sistema continua respectant l’encàrrec original quan els documents inclouen instruccions alienes a la tasca. La prova s’hauria de fer amb dades fictícies i eines sense efectes reals. L’objectiu seria observar les fronteres del sistema, no exposar informació de clients."
+    },
+    {
+      "type": "p",
+      "text": "També caldria registrar quina informació ha motivat una acció i qui l’ha autoritzada. Si una proposta d’enviament apareix sense que l’usuari l’hagi demanat, el procés hauria de permetre detectar aquesta desviació abans de convertir-la en una comunicació real."
+    },
+    {
+      "type": "p",
+      "text": "La nostra lectura és que un agent útil necessita accés, però aquest accés ha de correspondre a una feina definida. La pregunta decisiva no és només si sap navegar. És si pot llegir un entorn que no controla sense deixar que aquell entorn decideixi, per ell, què està autoritzat a fer."
+    }
+  ],
+  "primaryKeyword": "Quan una pàgina web intenta donar ordres al teu agent d’IA"
+}

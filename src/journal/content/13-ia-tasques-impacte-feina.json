@@ -1,0 +1,113 @@
+{
+  "id": "13",
+  "locale": "ca",
+  "slug": "ia-tasques-impacte-feina",
+  "type": "analysis",
+  "category": "Empreses i mercat",
+  "cover": "anthropic",
+  "eventDate": "2026-01-15",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "10",
+    "12",
+    "15"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Economic Index: New building blocks for understanding AI use",
+      "url": "https://www.anthropic.com/research/economic-index-primitives",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-01-15",
+      "sourceType": "research",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "title": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+      "publisher": "ILO",
+      "publishedAt": "2025-05-20",
+      "sourceType": "research",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "La IA transforma tasques"
+  ],
+  "title": "La IA transforma tasques: què sabem del seu impacte en la feina?",
+  "seoTitle": "IA i feina: tasques, ús i ocupació | Nintec Journal",
+  "metaDescription": "L’Economic Index d’Anthropic i l’estudi de l’OIT ajuden a distingir ús de la IA, exposició de tasques i canvis reals en l’ocupació.",
+  "excerpt": "Veure una tasca dins d’una conversa amb IA no demostra que hagi desaparegut el lloc de treball de qui la feia.",
+  "context": "Anàlisi de l’Economic Index publicat el gener de 2026 i de l’estudi d’exposició de l’OIT de maig de 2025. Són metodologies diferents, no un recompte d’acomiadaments.",
+  "body": [
+    {
+      "type": "p",
+      "text": "El debat sobre IA i feina sovint salta d’una capacitat a una conclusió: si un model redacta un informe, desapareixerà la feina de qui el redactava. Entre totes dues afirmacions hi ha decisions d’organització, comprovacions de qualitat i altres responsabilitats que no caben dins d’una única demostració."
+    },
+    {
+      "type": "p",
+      "text": "L’Economic Index d’Anthropic publicat el 15 de gener de 2026 analitza converses de novembre de 2025 i incorpora mesures de complexitat, autonomia i èxit. És una finestra sobre l’ús de Claude, amb límits que el mateix informe reconeix, no una fotografia de tot el mercat laboral.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Una tasca no és una professió sencera"
+    },
+    {
+      "type": "p",
+      "text": "Imaginem una persona que prepara pressupostos. Redactar el document és només una part del treball: també pot haver d’aclarir necessitats, negociar excepcions i comprovar que el compromís es pot complir. Que una eina ajudi en la redacció no resol automàticament la resta d’aquest procés."
+    },
+    {
+      "type": "p",
+      "text": "L’estudi de l’OIT de maig de 2025 mesura exposició de tasques a IA generativa. Planteja la transformació dels llocs com un efecte més probable que la substitució completa en moltes ocupacions, perquè continuen incloent aportació humana. Exposició vol dir potencial de canvi, no acomiadaments observats.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Mesurar ús també exigeix llegir el mètode"
+    },
+    {
+      "type": "p",
+      "text": "Anthropic adverteix que les persones poden triar per al model tasques que creuen que resoldrà bé. També poden dividir-les i corregir-ne els resultats. Això importa quan es comparen converses reals amb proves tancades: no s’està observant exactament la mateixa situació.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "La nostra lectura és que cal mantenir separades capacitat tècnica, adopció i efecte organitzatiu. Una empresa pot provar una eina sense desplegar-la. Pot desplegar-la i canviar el repartiment de feina. I pot necessitar més revisió de la prevista. Cap d’aquests passos es dedueix només d’un recompte de converses."
+    },
+    {
+      "type": "p",
+      "text": "També seria inadequat presentar una estimació de temps estalviat com si fos una mesura directa de benefici net. En una avaluació pròpia, caldria decidir si s’hi inclouen preparació, correccions i verificació final. Sense aquesta frontera, dues xifres de productivitat poden estar parlant de feines diferents."
+    },
+    {
+      "type": "h2",
+      "text": "La pregunta útil dins d’una empresa"
+    },
+    {
+      "type": "p",
+      "text": "Proposem observar un procés concret durant un període definit. Quines tasques canvien? Qui revisa el resultat? Quins errors cal corregir? Quines hores es poden dedicar a una altra feina? Aquesta mena de registre seria més útil per prendre decisions internes que extrapolar un titular global."
+    },
+    {
+      "type": "p",
+      "text": "L’exemple d’un equip de suport ho mostra: es podria distingir el temps de preparar una resposta del temps de resoldre el cas. Si el missatge surt abans però el problema continua obert, la millora observada en una fase no explica tota l’experiència del client."
+    },
+    {
+      "type": "p",
+      "text": "Els estudis ofereixen vocabulari i senyals per investigar el canvi. No decideixen com es repartiran els beneficis ni quines polítiques adoptarà cada empresa. La qüestió que proposem seguir és què canvia en la feina real i amb quina evidència, evitant convertir una possibilitat tècnica en un futur laboral inevitable."
+    }
+  ],
+  "primaryKeyword": "La IA transforma tasques"
+}

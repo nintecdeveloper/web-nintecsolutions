@@ -32,3 +32,33 @@ Les pàgines de Commons indiquen la revisió de la llicència de Flickr. No s’
 La peça GPT-6 / Haiku utilitza una composició tipogràfica HTML/CSS. No s’ha pogut establir el permís aplicable a les portades candidates dels anuncis. No s’han descarregat ni publicat aquestes portades, ni s’han generat fotos amb IA. La imatge social d’aquesta peça usa l’asset de marca existent.
 
 La biblioteca de Google permet reutilitzar les imatges de la seva pàgina amb crèdit, però no s’ha estès aquest permís a la portada d’Argon. Per això s’utilitza la fotografia amb llicència oberta.
+
+## Ampliació del 20 d’octubre de 2026 · articles 9–16
+
+Vuit peces noves, escrites i traduïdes íntegrament a CA/ES/EN/NL. No es presenten com a vuit notícies del dia: la portada combina anàlisi i context i cada article conserva la data del fet o estudi. Els exemples de pressupostos, reunions, robòtica i proves de permisos són hipotètics, explícitament identificats. No es documenten proves pròpies, clients nous ni mètriques de Nintec.
+
+| ID | Tema | Base factual revisada | Límit editorial |
+| --- | --- | --- | --- |
+| 9 | Mistral Large 4 | Mistral, 06/10/2026, https://mistral.ai/news/mistral-large-4/ | API en preview; pesos previstos a finals de mes, no publicats segons l’anunci revisat. Anàlisi de control operatiu, sense benchmarks propis. |
+| 10 | Gemini Robotics 2 | Google DeepMind, 30/07/2026, https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/ i documentació del producte | Capacitats atribuïdes al fabricant; demostració i torn de feina no són equivalents. |
+| 11 | Prompt injection | Anthropic, 24/11/2025, https://www.anthropic.com/research/prompt-injection-defenses i OWASP https://genai.owasp.org/llmrisk/llm01-prompt-injection/ | Context defensiu; no incident propi ni promesa d’immunitat. |
+| 12 | Cerca i clics | Pew, 22/07/2025, https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/ i Google Search Central https://developers.google.com/search/docs/appearance/ai-features | 900 adults EUA, navegació març i recuperació abril 2025; associació observada, no experiment causal ni predicció del trànsit actual. |
+| 13 | IA i feina | Anthropic Economic Index, 15/01/2026, https://www.anthropic.com/research/economic-index-primitives i ILO, 20/05/2025, https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure | Ús, exposició i ocupació són mesures diferents; sense extrapolar acomiadaments. |
+| 14 | Energia | IEA, 16/04/2026, https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary | Eficiència per tasca vs consum agregat; exemple aritmètic explícitament hipotètic. |
+| 15 | MCP | Arquitectura oficial https://modelcontextprotocol.io/docs/learn/architecture i Linux Foundation, 09/12/2025, https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation | Protocol compartit no és certificació de cada servidor ni permisos universals. |
+| 16 | C2PA | https://c2pa.org/principles/ i https://c2pa.org/faqs/, consultats 20/10/2026 | Data de revisió identificada com a tal; procedència no és garantia de veritat. No afirmem haver verificat C2PA en les imatges del Journal. |
+
+Les fonts sense data coneguda de publicació mostren «Consulta» (localitzat) amb la data real de verificació. Les dates de consulta no es fan passar per dates de publicació de la font. Els títols originals de les fonts i els noms d’autoria es mantenen.
+
+### Fotografies incorporades
+
+`src/journal/images.json` conserva URL de l’original, pàgina de drets, autoria, llicència, mides, modificacions i data de verificació. Derivats WebP 480/960/1440, sense generació d’imatges. Els fitxers amb ShareAlike mantenen la mateixa llicència; el crèdit públic enllaça la llicència i declara l’adaptació/retall.
+
+- **Mistral:** Arthur Mensch amb Narendra Modi, París, juny 2026. Prime Minister’s Office, Government of India / Press Information Bureau, GODL–India. Fotografia d’arxiu, no llançament del model. Retall horitzontal de l’original (0,650,2200,2025), redimensionament i WebP; atribució i llicència visibles.
+- **Robòtica:** KUKA a Innorobo 2015, Scailyna, CC BY-SA 4.0. No és un robot ni una demostració de Gemini. Orientació EXIF normalitzada i dimensions adaptades.
+- **Energia:** Charles Devaux, Power lines (Unsplash), 2016, CC0 1.0. Publicació anterior al canvi de llicència d’Unsplash del 2017, documentada a Commons. No s’atribueix a un centre de dades concret.
+- **MCP:** Network switches, Jon ‘ShakataGaNai’ Davis, 2008, CC BY-SA 3.0. Metàfora de connexió identificada; MCP és programari.
+- **C2PA:** Camera (Unsplash), Alexander Wang / darkleiv, 04/03/2017, CC0 1.0 anterior al canvi de llicència. No s’afirma compatibilitat C2PA del dispositiu.
+- **Altres peces:** es reutilitzen les fotografies acreditades de Google (cerca), reunió a Anthropic (seguretat) i Dario Amodei (Economic Index), amb els peus d’arxiu existents.
+
+La portada prioritza Mistral, cerca i robòtica. La graella conté els 16 articles; la selecció d’anàlisi conserva tres targetes per no ampliar innecessàriament el bloc. L’arxiu elimina el rang fix inicial i conserva els 16 elements ordenats per data de referència.

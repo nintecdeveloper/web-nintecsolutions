@@ -1,0 +1,102 @@
+{
+  "id": "14",
+  "locale": "ca",
+  "slug": "ia-electricitat-xarxa-centres-dades",
+  "type": "analysis",
+  "category": "Recerca i infraestructura",
+  "cover": "energy",
+  "eventDate": "2026-04-16",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "8",
+    "9",
+    "10"
+  ],
+  "sources": [
+    {
+      "title": "Key Questions on Energy and AI — Executive summary",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "publisher": "IEA",
+      "publishedAt": "2026-04-16",
+      "sourceType": "research",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "La IA necessita electricitat"
+  ],
+  "title": "La IA necessita electricitat: pot la xarxa seguir el ritme?",
+  "seoTitle": "IA, electricitat i centres de dades | Nintec Journal",
+  "metaDescription": "Els centres de dades necessiten més que xips. Llegim l’anàlisi de l’IEA sobre electricitat, connexions i els límits físics del creixement de la IA.",
+  "excerpt": "El calendari d’un nou model i el d’una connexió elèctrica no són el mateix. Aquesta diferència també condiciona la cursa de la IA.",
+  "context": "Anàlisi del report Key Questions on Energy and AI, publicat per l’IEA el 16 d’abril de 2026. Les projeccions no són consums futurs ja observats.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Una aplicació d’IA pot semblar immaterial: s’obre al navegador, rep una petició i retorna una resposta. Però aquella resposta depèn d’equips que necessiten electricitat. Quan la conversa passa dels models als centres de dades, apareixen calendaris, connexions i infraestructures que no es poden actualitzar com una aplicació."
+    },
+    {
+      "type": "p",
+      "text": "L’informe de l’IEA d’abril de 2026 situa les connexions a la xarxa i les cadenes de subministrament entre els factors que condicionen l’expansió. També diferencia l’eficiència de cada tasca del consum total: més ús pot coexistir amb menys energia per operació.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Eficiència i demanda responen preguntes diferents"
+    },
+    {
+      "type": "p",
+      "text": "Un exemple aritmètic ajuda a veure-ho. Si una tasca hipotètica consumeix la meitat però es fa quatre vegades més, el consum conjunt es duplica. No és una dada d’un model concret; és una manera de mostrar per què una millora individual no permet deduir el resultat agregat."
+    },
+    {
+      "type": "p",
+      "text": "També importa què s’està comptant. Una resposta curta i una feina que encadena moltes operacions no són unitats equivalents. Abans de comparar dues xifres, convé identificar la tasca, el temps observat i els equips inclosos. Sense aquesta frontera, una dada molt precisa pot acabar responent una pregunta diferent de la que ens interessa."
+    },
+    {
+      "type": "h2",
+      "text": "Tenir energia no és tenir-la al lloc adequat"
+    },
+    {
+      "type": "p",
+      "text": "L’IEA assenyala que la concentració de demanda i els ritmes diferents d’inversió poden crear tensions locals. El mateix informe evita donar per fet un únic efecte sobre els preus: depèn de l’equilibri entre oferta i demanda i de les decisions del sistema elèctric.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Per interpretar un anunci d’infraestructura, proposem distingir ubicació prevista, connexió acordada, construcció i operació. Un projecte anunciat no és un centre que ja consumeixi tota la potència prevista. Tampoc una capacitat instal·lada explica, tota sola, quanta energia s’utilitza al llarg de l’any."
+    },
+    {
+      "type": "p",
+      "text": "Aquesta distinció ajuda a formular preguntes concretes. Quan entrarà en servei? Quina part de la infraestructura està disponible? Quina utilització s’ha mesurat? No cal convertir el lector en enginyer: cal evitar que fases diferents d’un projecte quedin resumides en una sola xifra espectacular."
+    },
+    {
+      "type": "h2",
+      "text": "Què hauria d’acompanyar una promesa de creixement"
+    },
+    {
+      "type": "p",
+      "text": "La nostra lectura és que els anuncis de capacitat guanyen valor quan expliquen les seves dependències. Un calendari amb fites verificables permet revisar què s’ha completat i què continua pendent. Una projecció sense condicions pot semblar un fet encara que depengui d’obres, equipament o demanda futura."
+    },
+    {
+      "type": "p",
+      "text": "Per a una empresa que utilitza IA, aquest debat aporta context sobre continuïtat i disponibilitat, no una predicció automàtica de la factura. El contracte concret, el tipus de servei i l’ús propi continuen sent necessaris per entendre el cost que realment assumirà."
+    },
+    {
+      "type": "p",
+      "text": "La cursa de la IA inclou allò que es veu a la pantalla i allò que ho sosté. Mirar la xarxa elèctrica obliga a mantenir juntes dues escales: l’eficiència d’una operació i la infraestructura que permet repetir-la. El creixement s’haurà de comprovar en totes dues."
+    }
+  ],
+  "primaryKeyword": "La IA necessita electricitat"
+}

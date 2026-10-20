@@ -1,0 +1,110 @@
+{
+  "id": "15",
+  "locale": "ca",
+  "slug": "mcp-connectar-ia-eines-dades",
+  "type": "context",
+  "category": "Models i productes",
+  "cover": "mcp",
+  "eventDate": "2025-12-09",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "11",
+    "9",
+    "13"
+  ],
+  "sources": [
+    {
+      "title": "Architecture overview",
+      "url": "https://modelcontextprotocol.io/docs/learn/architecture",
+      "publisher": "Model Context Protocol",
+      "publishedAt": null,
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    },
+    {
+      "title": "Linux Foundation Announces the Formation of the Agentic AI Foundation",
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+      "publisher": "Linux Foundation",
+      "publishedAt": "2025-12-09",
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "MCP"
+  ],
+  "title": "MCP: el connector que ajuda la IA a treballar amb altres eines",
+  "seoTitle": "Què és MCP i què permet connectar | Nintec Journal",
+  "metaDescription": "MCP facilita la connexió entre aplicacions d’IA, dades i eines. Expliquem què estandarditza i per què els permisos continuen sent essencials.",
+  "excerpt": "Una manera comuna de connectar sistemes no equival a donar a l’agent permís per fer qualsevol cosa.",
+  "context": "Guia de context. La Linux Foundation va anunciar la incorporació de MCP a l’Agentic AI Foundation el desembre de 2025; la documentació tècnica s’ha revisat per a aquesta peça.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Una IA pot explicar molt bé què caldria fer i, tanmateix, no tenir accés a la informació necessària per fer-ho. La diferència entre una resposta general i una acció útil sovint passa per connectar documents, aplicacions i operacions concretes. Aquí és on entra Model Context Protocol, conegut com a MCP."
+    },
+    {
+      "type": "p",
+      "text": "La documentació del protocol defineix una arquitectura de clients i servidors per intercanviar context i exposar capacitats. Entre aquestes capacitats hi ha eines executables, recursos de dades i plantilles d’interacció. MCP organitza la comunicació; no dicta tota la lògica de l’aplicació d’IA.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Un exemple sense màgia"
+    },
+    {
+      "type": "p",
+      "text": "Imaginem un assistent que ajuda a preparar reunions. Una connexió podria permetre consultar l’agenda i una altra recuperar documents autoritzats. L’aplicació utilitzaria aquesta informació per preparar un resum. És un exemple de disseny, no una afirmació que qualsevol calendari o repositori funcioni automàticament amb qualsevol agent."
+    },
+    {
+      "type": "p",
+      "text": "Perquè el procés sigui útil, encara caldria saber quin client s’ha d’atendre, quins documents són pertinents i què passa si una consulta falla. Parlar un protocol comú facilita una part de l’intercanvi, però no decideix aquestes regles de negoci."
+    },
+    {
+      "type": "h2",
+      "text": "Un estàndard compartit, no una connexió universal garantida"
+    },
+    {
+      "type": "p",
+      "text": "El 9 de desembre de 2025, la Linux Foundation va anunciar l’Agentic AI Foundation amb MCP entre els projectes fundadors aportats. Aquesta governança compartida és rellevant per seguir l’evolució del protocol, sense confondre-la amb una certificació de cada servidor que el fa servir.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Per avaluar una connexió concreta, proposem revisar quines operacions ofereix, quina versió admet i qui la manté. Un nom de protocol en una presentació no respon aquestes preguntes. També cal provar el comportament quan falta una dada o el servei connectat no està disponible."
+    },
+    {
+      "type": "p",
+      "text": "La comparació amb un endoll és útil només fins a cert punt: ajuda a imaginar una interfície comuna, però pot ocultar que aquí també circulen significats i permisos. Una ordre mal interpretada continua sent una ordre mal interpretada encara que hagi viatjat en un format correcte."
+    },
+    {
+      "type": "h2",
+      "text": "Connectar no és autoritzar-ho tot"
+    },
+    {
+      "type": "p",
+      "text": "En l’exemple de les reunions, consultar una hora lliure i cancel·lar una cita són accions diferents. Una configuració pot necessitar la primera i no la segona. El disseny hauria de reflectir aquesta diferència de manera visible i comprovable, en lloc de tractar tot l’accés al calendari com un únic paquet."
+    },
+    {
+      "type": "p",
+      "text": "Una prova que proposem és retirar una capacitat i comprovar que l’assistent explica el límit sense inventar un resultat. Una altra és revisar què queda registrat després d’una operació. L’objectiu és entendre la connexió com una part del procés que es pot inspeccionar, no com una caixa que simplement «integra IA»."
+    },
+    {
+      "type": "p",
+      "text": "MCP interessa perquè dona una base comuna a una feina que sovint es repeteix: posar eines i context a l’abast d’una aplicació. El valor final es comprovarà en què pot resoldre aquella connexió, amb quins límits i amb una responsabilitat clara sobre les accions que arribi a executar."
+    }
+  ],
+  "primaryKeyword": "MCP"
+}

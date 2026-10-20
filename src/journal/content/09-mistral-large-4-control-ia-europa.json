@@ -1,0 +1,102 @@
+{
+  "id": "9",
+  "locale": "ca",
+  "slug": "mistral-large-4-control-ia-europa",
+  "type": "analysis",
+  "category": "Models i productes",
+  "cover": "mistral",
+  "eventDate": "2026-10-06",
+  "coverageSlot": "2026-10-20",
+  "verifiedAt": "2026-10-20",
+  "status": "published",
+  "datePublished": "2026-10-20T17:35:32+02:00",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "relatedIds": [
+    "7",
+    "8",
+    "15"
+  ],
+  "sources": [
+    {
+      "title": "Introducing Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "publisher": "Mistral",
+      "publishedAt": "2026-10-06",
+      "sourceType": "primary",
+      "verifiedAt": "2026-10-20"
+    }
+  ],
+  "tags": [
+    "Mistral Large 4"
+  ],
+  "title": "Mistral Large 4: l’aposta europea per tenir més control sobre la IA",
+  "seoTitle": "Mistral Large 4: disponibilitat i control | Nintec Journal",
+  "metaDescription": "Què canvia amb Mistral Large 4 i què queda pendent: API en preview, pesos anunciats i preguntes sobre el control del desplegament.",
+  "excerpt": "Una alternativa europea també s’ha de valorar per com es desplega, qui l’opera i què està disponible avui.",
+  "context": "Anàlisi de l’anunci del 6 d’octubre de 2026. A data de revisió, la publicació dels pesos està anunciada per a finals de mes.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Mistral Large 4 posa una pregunta europea al centre del debat sobre la IA: a més de poder fer servir un model, quin control es té sobre la seva operació? L’anunci del 6 d’octubre situa l’API en preview pública i preveu publicar els pesos a finals de mes. Són dos moments diferents.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Aquesta distinció evita interpretar un compromís futur com una disponibilitat actual. La nostra lectura de l’anunci se centra en les decisions que obre, sense atribuir al model resultats d’una prova independent que no hem fet."
+    },
+    {
+      "type": "h2",
+      "text": "Accedir al model i operar-lo són decisions diferents"
+    },
+    {
+      "type": "p",
+      "text": "Una API permet incorporar respostes d’un proveïdor a una aplicació. El negoci pot decidir què envia i com utilitza el resultat, però ha de comprovar les condicions del servei. Tenir accés als pesos obre altres opcions de desplegament; no elimina la necessitat d’infraestructura, personal ni manteniment."
+    },
+    {
+      "type": "p",
+      "text": "Imaginem una empresa que vol analitzar documentació interna. La primera pregunta útil no és si el model és europeu, sinó on es processarà aquesta documentació, qui podrà accedir-hi i què passarà amb els registres. Són decisions que cal aterrar al servei contractat, no deduir del domicili del fabricant."
+    },
+    {
+      "type": "h2",
+      "text": "Control també significa responsabilitat operativa"
+    },
+    {
+      "type": "p",
+      "text": "Operar una instal·lació pròpia pot donar marge per decidir actualitzacions, capacitat i connexions. També obliga a assumir incidències, monitoratge i recuperació. Delegar aquestes funcions en un servei gestionat és una altra opció. No hi ha una resposta universal que serveixi igual per a una petita empresa i una organització amb equip especialitzat."
+    },
+    {
+      "type": "p",
+      "text": "Un exemple de comparació seria executar el mateix conjunt de documents amb dues alternatives i registrar errors, temps de resposta i treball de revisió. Caldria incloure en el cost les hores dedicades a mantenir el sistema. Aquesta és una proposta de prova, no una afirmació sobre quin producte guanyaria."
+    },
+    {
+      "type": "p",
+      "text": "També convé preguntar com s’exporten les dades i què implica abandonar la plataforma. Poder canviar de proveïdor sobre el paper és diferent de tenir una migració documentada i provada. El control es veu especialment quan una dependència falla o les necessitats canvien."
+    },
+    {
+      "type": "h2",
+      "text": "Què caldrà comprovar després de la preview",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "El següent punt de verificació serà la publicació efectiva dels pesos i de les condicions aplicables. Fins aleshores, no correspon donar per tancades les opcions d’ús que dependran d’aquella entrega. Una previsió comercial és una peça del calendari, no una llicència ja examinada."
+    },
+    {
+      "type": "p",
+      "text": "Per a una decisió empresarial, proposem separar tres carpetes: capacitat demostrada en les tasques pròpies, condicions d’ús comprovades i responsabilitat de l’operació. Això permet comparar alternatives sense convertir la procedència del fabricant en una resposta automàtica a totes les preguntes."
+    },
+    {
+      "type": "p",
+      "text": "Mistral Large 4 interessa perquè amplia aquesta conversa sobre alternatives i control. La pregunta que val la pena conservar és concreta: quines decisions podrà prendre l’empresa, amb quins recursos i sota quines condicions? La resposta s’ha de construir amb evidència disponible i revisar quan arribin les entregues anunciades."
+    }
+  ],
+  "primaryKeyword": "Mistral Large 4"
+}
