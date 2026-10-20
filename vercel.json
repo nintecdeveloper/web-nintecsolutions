@@ -1393,6 +1393,974 @@
       ]
     },
     {
+      "source": "/blog/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog",
+      "destination": "https://www.nintecsolutions.com/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog",
+      "destination": "https://www.nintecsolutions.com/es/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog",
+      "destination": "https://www.nintecsolutions.com/en/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog",
+      "destination": "https://www.nintecsolutions.com/nl/blog/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/arxiu/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/arxiu",
+      "destination": "https://www.nintecsolutions.com/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/arxiu/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/arxiu",
+      "destination": "https://www.nintecsolutions.com/es/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/arxiu/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/arxiu",
+      "destination": "https://www.nintecsolutions.com/en/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/arxiu/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/arxiu",
+      "destination": "https://www.nintecsolutions.com/nl/blog/arxiu/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/criteri-editorial/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/criteri-editorial",
+      "destination": "https://www.nintecsolutions.com/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/criteri-editorial/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/criteri-editorial",
+      "destination": "https://www.nintecsolutions.com/es/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/criteri-editorial/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/criteri-editorial",
+      "destination": "https://www.nintecsolutions.com/en/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/criteri-editorial/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/criteri-editorial",
+      "destination": "https://www.nintecsolutions.com/nl/blog/criteri-editorial/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "https://www.nintecsolutions.com/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "https://www.nintecsolutions.com/es/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "https://www.nintecsolutions.com/en/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "https://www.nintecsolutions.com/nl/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/openai-dots-agents-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/openai-dots-agents-ia",
+      "destination": "https://www.nintecsolutions.com/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/openai-dots-agents-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/openai-dots-agents-ia",
+      "destination": "https://www.nintecsolutions.com/es/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/openai-dots-agents-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/openai-dots-agents-ia",
+      "destination": "https://www.nintecsolutions.com/en/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/openai-dots-agents-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/openai-dots-agents-ia",
+      "destination": "https://www.nintecsolutions.com/nl/blog/openai-dots-agents-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "https://www.nintecsolutions.com/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "https://www.nintecsolutions.com/es/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "https://www.nintecsolutions.com/en/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "https://www.nintecsolutions.com/nl/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "https://www.nintecsolutions.com/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "https://www.nintecsolutions.com/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "https://www.nintecsolutions.com/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "https://www.nintecsolutions.com/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "https://www.nintecsolutions.com/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "https://www.nintecsolutions.com/es/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "https://www.nintecsolutions.com/en/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "https://www.nintecsolutions.com/nl/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/gemini-4-argon-acces-novetats",
+      "destination": "https://www.nintecsolutions.com/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/gemini-4-argon-acces-novetats",
+      "destination": "https://www.nintecsolutions.com/es/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/gemini-4-argon-acces-novetats",
+      "destination": "https://www.nintecsolutions.com/en/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/gemini-4-argon-acces-novetats",
+      "destination": "https://www.nintecsolutions.com/nl/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "https://www.nintecsolutions.com/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "https://www.nintecsolutions.com/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "https://www.nintecsolutions.com/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "https://www.nintecsolutions.com/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "https://www.nintecsolutions.com/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/es/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "https://www.nintecsolutions.com/es/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/en/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "https://www.nintecsolutions.com/en/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "https://www.nintecsolutions.com/nl/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
       "source": "/:path*",
       "destination": "https://www.nintecsolutions.com/:path*",
       "statusCode": 301,
@@ -2032,6 +3000,446 @@
       "source": "/nl/termes",
       "destination": "/nl/termes/",
       "statusCode": 301
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/index.html",
+      "destination": "/es/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog",
+      "destination": "/es/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/index.html",
+      "destination": "/en/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog",
+      "destination": "/en/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/index.html",
+      "destination": "/nl/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog",
+      "destination": "/nl/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/arxiu/index.html",
+      "destination": "/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/arxiu",
+      "destination": "/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/arxiu/index.html",
+      "destination": "/es/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/arxiu",
+      "destination": "/es/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/arxiu/index.html",
+      "destination": "/en/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/arxiu",
+      "destination": "/en/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/arxiu/index.html",
+      "destination": "/nl/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/arxiu",
+      "destination": "/nl/blog/arxiu/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/criteri-editorial/index.html",
+      "destination": "/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/criteri-editorial",
+      "destination": "/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/criteri-editorial/index.html",
+      "destination": "/es/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/criteri-editorial",
+      "destination": "/es/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/criteri-editorial/index.html",
+      "destination": "/en/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/criteri-editorial",
+      "destination": "/en/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/criteri-editorial/index.html",
+      "destination": "/nl/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/criteri-editorial",
+      "destination": "/nl/blog/criteri-editorial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "/es/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "/es/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "/en/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "/en/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/claude-sonnet-5-5-velocitat-cost/index.html",
+      "destination": "/nl/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/claude-sonnet-5-5-velocitat-cost",
+      "destination": "/nl/blog/claude-sonnet-5-5-velocitat-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/openai-dots-agents-ia/index.html",
+      "destination": "/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/openai-dots-agents-ia",
+      "destination": "/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/openai-dots-agents-ia/index.html",
+      "destination": "/es/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/openai-dots-agents-ia",
+      "destination": "/es/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/openai-dots-agents-ia/index.html",
+      "destination": "/en/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/openai-dots-agents-ia",
+      "destination": "/en/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/openai-dots-agents-ia/index.html",
+      "destination": "/nl/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/openai-dots-agents-ia",
+      "destination": "/nl/blog/openai-dots-agents-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "/es/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "/es/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "/en/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "/en/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/synthid-bio-proteines-ia-procedencia/index.html",
+      "destination": "/nl/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/synthid-bio-proteines-ia-procedencia",
+      "destination": "/nl/blog/synthid-bio-proteines-ia-procedencia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html",
+      "destination": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost",
+      "destination": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "/es/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "/es/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "/en/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "/en/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/anthropic-cyber-mission-seguretat-ia/index.html",
+      "destination": "/nl/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/anthropic-cyber-mission-seguretat-ia",
+      "destination": "/nl/blog/anthropic-cyber-mission-seguretat-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/gemini-4-argon-acces-novetats",
+      "destination": "/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "/es/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/gemini-4-argon-acces-novetats",
+      "destination": "/es/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "/en/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/gemini-4-argon-acces-novetats",
+      "destination": "/en/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/gemini-4-argon-acces-novetats/index.html",
+      "destination": "/nl/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/gemini-4-argon-acces-novetats",
+      "destination": "/nl/blog/gemini-4-argon-acces-novetats/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html",
+      "destination": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap",
+      "destination": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "/es/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "/es/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "/en/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "/en/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/microsoft-maia-xips-infraestructura-ia/index.html",
+      "destination": "/nl/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/blog/microsoft-maia-xips-infraestructura-ia",
+      "destination": "/nl/blog/microsoft-maia-xips-infraestructura-ia/",
+      "statusCode": 301
     }
   ],
   "headers": [
@@ -2381,6 +3789,182 @@
     {
       "source": "/nl/termes/",
       "destination": "/nl/termes/index.html"
+    },
+    {
+      "source": "/blog/",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/es/blog/",
+      "destination": "/es/blog/index.html"
+    },
+    {
+      "source": "/en/blog/",
+      "destination": "/en/blog/index.html"
+    },
+    {
+      "source": "/nl/blog/",
+      "destination": "/nl/blog/index.html"
+    },
+    {
+      "source": "/blog/arxiu/",
+      "destination": "/blog/arxiu/index.html"
+    },
+    {
+      "source": "/es/blog/arxiu/",
+      "destination": "/es/blog/arxiu/index.html"
+    },
+    {
+      "source": "/en/blog/arxiu/",
+      "destination": "/en/blog/arxiu/index.html"
+    },
+    {
+      "source": "/nl/blog/arxiu/",
+      "destination": "/nl/blog/arxiu/index.html"
+    },
+    {
+      "source": "/blog/criteri-editorial/",
+      "destination": "/blog/criteri-editorial/index.html"
+    },
+    {
+      "source": "/es/blog/criteri-editorial/",
+      "destination": "/es/blog/criteri-editorial/index.html"
+    },
+    {
+      "source": "/en/blog/criteri-editorial/",
+      "destination": "/en/blog/criteri-editorial/index.html"
+    },
+    {
+      "source": "/nl/blog/criteri-editorial/",
+      "destination": "/nl/blog/criteri-editorial/index.html"
+    },
+    {
+      "source": "/blog/claude-sonnet-5-5-velocitat-cost/",
+      "destination": "/blog/claude-sonnet-5-5-velocitat-cost/index.html"
+    },
+    {
+      "source": "/es/blog/claude-sonnet-5-5-velocitat-cost/",
+      "destination": "/es/blog/claude-sonnet-5-5-velocitat-cost/index.html"
+    },
+    {
+      "source": "/en/blog/claude-sonnet-5-5-velocitat-cost/",
+      "destination": "/en/blog/claude-sonnet-5-5-velocitat-cost/index.html"
+    },
+    {
+      "source": "/nl/blog/claude-sonnet-5-5-velocitat-cost/",
+      "destination": "/nl/blog/claude-sonnet-5-5-velocitat-cost/index.html"
+    },
+    {
+      "source": "/blog/openai-dots-agents-ia/",
+      "destination": "/blog/openai-dots-agents-ia/index.html"
+    },
+    {
+      "source": "/es/blog/openai-dots-agents-ia/",
+      "destination": "/es/blog/openai-dots-agents-ia/index.html"
+    },
+    {
+      "source": "/en/blog/openai-dots-agents-ia/",
+      "destination": "/en/blog/openai-dots-agents-ia/index.html"
+    },
+    {
+      "source": "/nl/blog/openai-dots-agents-ia/",
+      "destination": "/nl/blog/openai-dots-agents-ia/index.html"
+    },
+    {
+      "source": "/blog/synthid-bio-proteines-ia-procedencia/",
+      "destination": "/blog/synthid-bio-proteines-ia-procedencia/index.html"
+    },
+    {
+      "source": "/es/blog/synthid-bio-proteines-ia-procedencia/",
+      "destination": "/es/blog/synthid-bio-proteines-ia-procedencia/index.html"
+    },
+    {
+      "source": "/en/blog/synthid-bio-proteines-ia-procedencia/",
+      "destination": "/en/blog/synthid-bio-proteines-ia-procedencia/index.html"
+    },
+    {
+      "source": "/nl/blog/synthid-bio-proteines-ia-procedencia/",
+      "destination": "/nl/blog/synthid-bio-proteines-ia-procedencia/index.html"
+    },
+    {
+      "source": "/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "destination": "/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html"
+    },
+    {
+      "source": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "destination": "/es/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html"
+    },
+    {
+      "source": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "destination": "/en/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html"
+    },
+    {
+      "source": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/",
+      "destination": "/nl/blog/gpt-6-claude-haiku-5-5-interficie-cost/index.html"
+    },
+    {
+      "source": "/blog/anthropic-cyber-mission-seguretat-ia/",
+      "destination": "/blog/anthropic-cyber-mission-seguretat-ia/index.html"
+    },
+    {
+      "source": "/es/blog/anthropic-cyber-mission-seguretat-ia/",
+      "destination": "/es/blog/anthropic-cyber-mission-seguretat-ia/index.html"
+    },
+    {
+      "source": "/en/blog/anthropic-cyber-mission-seguretat-ia/",
+      "destination": "/en/blog/anthropic-cyber-mission-seguretat-ia/index.html"
+    },
+    {
+      "source": "/nl/blog/anthropic-cyber-mission-seguretat-ia/",
+      "destination": "/nl/blog/anthropic-cyber-mission-seguretat-ia/index.html"
+    },
+    {
+      "source": "/blog/gemini-4-argon-acces-novetats/",
+      "destination": "/blog/gemini-4-argon-acces-novetats/index.html"
+    },
+    {
+      "source": "/es/blog/gemini-4-argon-acces-novetats/",
+      "destination": "/es/blog/gemini-4-argon-acces-novetats/index.html"
+    },
+    {
+      "source": "/en/blog/gemini-4-argon-acces-novetats/",
+      "destination": "/en/blog/gemini-4-argon-acces-novetats/index.html"
+    },
+    {
+      "source": "/nl/blog/gemini-4-argon-acces-novetats/",
+      "destination": "/nl/blog/gemini-4-argon-acces-novetats/index.html"
+    },
+    {
+      "source": "/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "destination": "/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html"
+    },
+    {
+      "source": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "destination": "/es/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html"
+    },
+    {
+      "source": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "destination": "/en/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html"
+    },
+    {
+      "source": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/",
+      "destination": "/nl/blog/anthropic-sortida-borsa-ipo-que-se-sap/index.html"
+    },
+    {
+      "source": "/blog/microsoft-maia-xips-infraestructura-ia/",
+      "destination": "/blog/microsoft-maia-xips-infraestructura-ia/index.html"
+    },
+    {
+      "source": "/es/blog/microsoft-maia-xips-infraestructura-ia/",
+      "destination": "/es/blog/microsoft-maia-xips-infraestructura-ia/index.html"
+    },
+    {
+      "source": "/en/blog/microsoft-maia-xips-infraestructura-ia/",
+      "destination": "/en/blog/microsoft-maia-xips-infraestructura-ia/index.html"
+    },
+    {
+      "source": "/nl/blog/microsoft-maia-xips-infraestructura-ia/",
+      "destination": "/nl/blog/microsoft-maia-xips-infraestructura-ia/index.html"
     }
   ]
 }

@@ -1,0 +1,102 @@
+{
+  "id": "1",
+  "locale": "ca",
+  "slug": "claude-sonnet-5-5-velocitat-cost",
+  "title": "Claude Sonnet 5.5: què canvia en velocitat, cost i ús quotidià",
+  "seoTitle": "Claude Sonnet 5.5: velocitat, cost i novetats | Nintec",
+  "metaDescription": "Anthropic presenta Claude Sonnet 5.5. Expliquem les millores anunciades, els límits de les comparacions i què cal comprovar abans de canviar de model.",
+  "excerpt": "Anthropic posa el focus en les tasques quotidianes. Què expliquen les millores anunciades i què cal provar abans de canviar de model.",
+  "type": "news",
+  "category": "Models i productes",
+  "tags": [
+    "Claude Sonnet 5.5"
+  ],
+  "eventDate": "2026-09-28",
+  "coverageSlot": "2026-09-28",
+  "datePublished": "2026-10-20T08:19:43+02:00",
+  "verifiedAt": "2026-10-19",
+  "status": "published",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "cover": "sonnet",
+  "body": [
+    {
+      "type": "p",
+      "text": "Anthropic ha presentat Claude Sonnet 5.5 amb una proposta centrada en el treball quotidià: respondre amb més rapidesa i resoldre determinades tasques amb menys recursos. El llançament manté oberta una pregunta habitual entre els usuaris d’IA: quan compensa canviar de model?",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "L’anunci situa Sonnet en feines delimitades, com revisions de codi i preparació de materials. Això ajuda a entendre el posicionament del producte, però no elimina la necessitat de provar-lo amb els documents, les instruccions i les eines de cada equip."
+    },
+    {
+      "type": "h2",
+      "text": "L’abast que descriu Anthropic"
+    },
+    {
+      "type": "p",
+      "text": "A l’anunci del 28 de setembre, Anthropic situa Sonnet 5.5 en tasques ben especificades: programació, treball amb documents i preparació de lliurables. El contraposa a feines de més complexitat o que exigeixen més criteri, per a les quals continua orientant els usuaris cap a Opus. És una segmentació del catàleg de l’empresa, no una classificació independent.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Un exemple de prova seria donar al model actual i al nou la mateixa petició de resum, amb una instrucció que obligui a conservar dates, imports i excepcions. Caldria comprovar què omet cadascun i si el resultat es pot utilitzar sense corregir-lo. És una proposta d’avaluació, no una prova executada per Nintec. En una tasca repetitiva, l’estalvi de segons només aporta valor si no trasllada minuts de feina a la persona que revisa."
+    },
+    {
+      "type": "h2",
+      "text": "Una millora del model no és una migració automàtica"
+    },
+    {
+      "type": "p",
+      "text": "Quan una organització ja utilitza IA, canviar el motor pot afectar respostes, formats i crides a eines. Una versió nova pot resoldre millor un tipus de feina i comportar-se d’una altra manera en una excepció important. Per això, el canvi necessita una comparació amb exemples representatius."
+    },
+    {
+      "type": "p",
+      "text": "La lectura editorial és que la cursa dels models també s’està jugant en les tasques habituals. Per a qui prepara propostes, classifica peticions o revisa documents, la combinació de qualitat i temps d’espera pot ser més rellevant que una demostració excepcional."
+    },
+    {
+      "type": "h2",
+      "text": "Com llegir les xifres del llançament"
+    },
+    {
+      "type": "p",
+      "text": "Les dades de rendiment s’han de publicar amb la prova i la font corresponents. No equivalen a un percentatge garantit d’estalvi en qualsevol empresa. El cost final també depèn de les repeticions, la llargada dels textos, les integracions i la revisió posterior."
+    },
+    {
+      "type": "p",
+      "text": "Una comparació útil observaria si el resultat és correcte, si respecta les instruccions, quant triga i quanta intervenció necessita. Sense aquesta informació, una classificació pot suggerir candidats per provar, però no decidir tota sola quin model convé."
+    },
+    {
+      "type": "h2",
+      "text": "Què convé seguir"
+    },
+    {
+      "type": "p",
+      "text": "Les pròximes proves independents i les condicions vigents d’accés ajudaran a situar el llançament. Mentrestant, la conclusió prudent és concreta: Sonnet 5.5 és una novetat que mereix ser avaluada, especialment en feina repetida; la conveniència de migrar continua depenent del cas d’ús."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anunci de Claude Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "publisher": "Anthropic",
+      "sourceType": "primary",
+      "publishedAt": "2026-09-28",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "relatedIds": [
+    "4",
+    "6",
+    "8"
+  ],
+  "primaryKeyword": "Claude Sonnet 5.5",
+  "context": "Les millores anunciades són dades del fabricant. Aquesta peça no presenta proves pròpies de rendiment."
+}

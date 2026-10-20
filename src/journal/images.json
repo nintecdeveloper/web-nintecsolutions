@@ -1,0 +1,247 @@
+{
+  "synthid": {
+    "src": "/assets/journal/synthid-1200.webp",
+    "width": 1200,
+    "height": 639,
+    "variants": [
+      {
+        "src": "/assets/journal/synthid-480.webp",
+        "width": 480,
+        "height": 256
+      },
+      {
+        "src": "/assets/journal/synthid-960.webp",
+        "width": 960,
+        "height": 511
+      },
+      {
+        "src": "/assets/journal/synthid-1200.webp",
+        "width": 1200,
+        "height": 639
+      }
+    ],
+    "alt": "Esquema científic del marcatge i la detecció de procedència en seqüències i estructures de proteïnes",
+    "caption": "Figura 1 de l’estudi: esquema de les dues aproximacions de SynthID Bio, sobre seqüències i estructures.",
+    "creator": "David Stutz, Alexander I. Cowen-Rivers i col·laboradors / Nature",
+    "sourcePage": "https://www.nature.com/articles/s41586-026-10965-y",
+    "originalAssetUrl": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41586-026-10965-y/MediaObjects/41586_2026_10965_Fig1_HTML.png",
+    "licenseName": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-19",
+    "kind": "research-figure",
+    "fit": "contain",
+    "modifications": "Redimensionament i conversió a WebP; figura completa, sense retall.",
+    "permissionNotice": ""
+  },
+  "maia": {
+    "src": "/assets/journal/maia-1440.webp",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/journal/maia-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/journal/maia-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "/assets/journal/maia-1440.webp",
+        "width": 1440,
+        "height": 960
+      }
+    ],
+    "alt": "Placa del prototip Microsoft Maia 300",
+    "caption": "Placa del prototip Microsoft Maia 300. Material de premsa; no és una fotografia del desplegament previst per al 2027.",
+    "creator": "Microsoft",
+    "sourcePage": "https://news.microsoft.com/maia-2026/",
+    "originalAssetUrl": "https://msftstories.thesourcemediaassets.com/sites/760/2026/10/Maia-300-board-1.jpg",
+    "licenseName": "Ús editorial — Microsoft",
+    "licenseUrl": "https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/permissions",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-19",
+    "kind": "photo",
+    "fit": "contain",
+    "modifications": "Redimensionament i conversió a WebP; figura completa, sense retall.",
+    "permissionNotice": "Used with permission from Microsoft."
+  },
+  "dots": {
+    "src": "/assets/journal/dots-1440.webp",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/journal/dots-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/journal/dots-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "/assets/journal/dots-1440.webp",
+        "width": 1440,
+        "height": 960
+      }
+    ],
+    "alt": "Sam Altman durant una entrevista a TechCrunch Disrupt",
+    "caption": "Sam Altman a TechCrunch Disrupt. Fotografia d’arxiu, 2019.",
+    "creator": "TechCrunch / Steve Jennings",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_(48838377432).jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Disrupt_SF_TechCrunch_Disrupt_San_Francisco_2019_-_Day_2_%2848838377432%29.jpg",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-19",
+    "kind": "photo",
+    "fit": "cover",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures.",
+    "permissionNotice": ""
+  },
+  "sonnet": {
+    "src": "/assets/journal/sonnet-1440.webp",
+    "width": 1439,
+    "height": 960,
+    "variants": [
+      {
+        "src": "/assets/journal/sonnet-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/journal/sonnet-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "/assets/journal/sonnet-1440.webp",
+        "width": 1439,
+        "height": 960
+      }
+    ],
+    "alt": "Una reunió a les oficines d’Anthropic a San Francisco",
+    "caption": "Visita de Peter Kyle a Anthropic, San Francisco. Fotografia d’arxiu, 2024.",
+    "creator": "Alecsandra Dragoi / DSIT",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._(54098999333).jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-19",
+    "kind": "photo",
+    "fit": "cover",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures.",
+    "permissionNotice": ""
+  },
+  "cyber": {
+    "src": "/assets/journal/cyber-1440.webp",
+    "width": 1439,
+    "height": 1354,
+    "variants": [
+      {
+        "src": "/assets/journal/cyber-480.webp",
+        "width": 479,
+        "height": 451
+      },
+      {
+        "src": "/assets/journal/cyber-960.webp",
+        "width": 960,
+        "height": 903
+      },
+      {
+        "src": "/assets/journal/cyber-1440.webp",
+        "width": 1439,
+        "height": 1354
+      }
+    ],
+    "alt": "Passadís de servidors del superordinador Summit",
+    "caption": "El superordinador Summit. Fotografia d’arxiu, 2018, per contextualitzar la infraestructura digital; no documenta una participació en Cyber Mission.",
+    "creator": "Carlos Jones / Oak Ridge National Laboratory",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Summit_supercomputer_(44552257460).jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Summit_supercomputer_%2844552257460%29.jpg",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-19",
+    "kind": "photo",
+    "fit": "cover",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures.",
+    "permissionNotice": ""
+  },
+  "gemini": {
+    "src": "/assets/journal/gemini-1440.webp",
+    "width": 1440,
+    "height": 833,
+    "variants": [
+      {
+        "src": "/assets/journal/gemini-480.webp",
+        "width": 480,
+        "height": 278
+      },
+      {
+        "src": "/assets/journal/gemini-960.webp",
+        "width": 959,
+        "height": 555
+      },
+      {
+        "src": "/assets/journal/gemini-1440.webp",
+        "width": 1440,
+        "height": 833
+      }
+    ],
+    "alt": "Rètol de Google davant de la seva seu",
+    "caption": "Seu de Google a Mountain View. Fotografia d’arxiu, 2014.",
+    "creator": "Anthony Quintano",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Google_Headquarters_Google_Logo_(52639793897).jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Headquarters_Google_Logo_%2852639793897%29.jpg",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-19",
+    "kind": "photo",
+    "fit": "cover",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures.",
+    "permissionNotice": ""
+  },
+  "anthropic": {
+    "src": "/assets/journal/anthropic-1280.webp",
+    "width": 1280,
+    "height": 853,
+    "variants": [
+      {
+        "src": "/assets/journal/anthropic-480.webp",
+        "width": 480,
+        "height": 320
+      },
+      {
+        "src": "/assets/journal/anthropic-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "src": "/assets/journal/anthropic-1280.webp",
+        "width": 1280,
+        "height": 853
+      }
+    ],
+    "alt": "Dario Amodei assegut a l’escenari de TechCrunch Disrupt",
+    "caption": "Dario Amodei a TechCrunch Disrupt. Fotografia d’arxiu, 2023.",
+    "creator": "TechCrunch / Kimberly White",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+    "originalAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg/1280px-Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+    "licenseName": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "rightsStatus": "verified",
+    "verifiedAt": "2026-10-19",
+    "kind": "photo",
+    "fit": "cover",
+    "modifications": "Redimensionament i conversió a WebP. Retall visual a les miniatures.",
+    "permissionNotice": ""
+  }
+}

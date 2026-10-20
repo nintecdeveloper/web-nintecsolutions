@@ -4,11 +4,12 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from seo import redirects,PRODUCTION_ORIGIN
+import journal
 from i18n import LOCALES,locale_path
 
 def configuration():
  pages=json.loads((ROOT/'src/pages.json').read_text())
- paths=[locale_path('/' if k=='index' else '/'+k+'/',lang) for k in pages for lang in LOCALES]
+ paths=[locale_path('/' if k=='index' else '/'+k+'/',lang) for k in pages for lang in LOCALES]+journal.paths(journal.load_articles())
  pairs=[line.split()[:2] for line in redirects(paths,True).splitlines() if line.startswith('/')]
  # Host-specific versions first: old paths on the apex go straight to final www.
  apex=[{'type':'host','value':'nintecsolutions.com'}]

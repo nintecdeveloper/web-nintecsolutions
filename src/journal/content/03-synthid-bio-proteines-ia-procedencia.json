@@ -1,0 +1,114 @@
+{
+  "id": "3",
+  "locale": "ca",
+  "slug": "synthid-bio-proteines-ia-procedencia",
+  "title": "SynthID Bio: Google DeepMind porta les marques de procedència a les proteïnes dissenyades amb IA",
+  "seoTitle": "SynthID Bio: marques en proteïnes dissenyades amb IA",
+  "metaDescription": "Google DeepMind presenta SynthID Bio, una prova de concepte per identificar dissenys biològics creats amb IA. Què aporta i què encara no resol?",
+  "excerpt": "La procedència arriba als dissenys biològics: una prova de concepte per identificar seqüències i estructures generades amb IA.",
+  "type": "news",
+  "category": "Recerca i infraestructura",
+  "tags": [
+    "SynthID Bio"
+  ],
+  "eventDate": "2026-09-30",
+  "coverageSlot": "2026-10-04",
+  "datePublished": "2026-10-20T08:19:43+02:00",
+  "verifiedAt": "2026-10-19",
+  "status": "published",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "cover": "synthid",
+  "body": [
+    {
+      "type": "p",
+      "text": "La discussió sobre identificar allò que crea una IA també arriba a la biologia. Google DeepMind ha presentat SynthID Bio, una línia de recerca per incorporar marques de procedència en proteïnes dissenyades amb aquestes eines.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "La proposta és rellevant perquè amplia el debat més enllà de les imatges o els textos. En recerca, saber d’on prové un disseny pot ajudar a interpretar-lo i a decidir quines comprovacions necessita. Ara bé, una marca de procedència i una garantia de seguretat no són el mateix."
+    },
+    {
+      "type": "h2",
+      "text": "Què recull la publicació científica"
+    },
+    {
+      "type": "p",
+      "text": "L’article de David Stutz, Alexander I. Cowen-Rivers i col·laboradors, publicat a Nature el 30 de setembre, descriu dues aproximacions: marques en seqüències i en estructures predites de proteïnes. Els autors estudien la detecció de les marques i la preservació de funció en els dissenys seleccionats. Aquest resultat delimitat no acredita la mateixa resposta en qualsevol proteïna o condició.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "type": "p",
+      "text": "La diferència entre una marca absent i una marca no detectada també importa. Un sistema de procedència no permet concloure que tot allò que no identifica tingui origen humà. La utilitat s’ha d’examinar dins del sistema concret, amb els seus supòsits i límits. Per això, comunicar aquest treball exigeix donar tant la font científica com el context de la prova, sense convertir una propietat tècnica en una etiqueta general de confiança."
+    },
+    {
+      "type": "h2",
+      "text": "Identificar l’origen no valida tot el contingut"
+    },
+    {
+      "type": "p",
+      "text": "Una etiqueta pot informar que una peça procedeix d’un sistema concret. Aquesta informació no demostra per si sola que el resultat sigui correcte o adequat per a qualsevol ús. És una distinció que també coneixem en documents digitals: la traçabilitat aporta context, però no substitueix l’avaluació del contingut."
+    },
+    {
+      "type": "p",
+      "text": "La lectura editorial del treball és aquesta: a mesura que els sistemes generatius intervenen en més camps, també creix la importància de conservar informació sobre com s’han produït els resultats."
+    },
+    {
+      "type": "h2",
+      "text": "Una prova amb un abast concret"
+    },
+    {
+      "type": "p",
+      "text": "Cal explicar què han estudiat els investigadors i amb quines limitacions. Presentar una prova de concepte com una solució universal amagaria les preguntes que encara s’han d’investigar. També convé distingir el que recull el comunicat del que documenta l’article científic."
+    },
+    {
+      "type": "p",
+      "text": "Per al lector no especialitzat, l’aportació es pot entendre sense entrar en procediments experimentals: es tracta d’explorar una capa addicional d’identificació de dissenys. La notícia no és que ja s’hagin resolt tots els riscos de la biologia feta amb IA."
+    },
+    {
+      "type": "h2",
+      "text": "Una pregunta que travessa tot el sector"
+    },
+    {
+      "type": "p",
+      "text": "Qui ha generat un resultat? Què hi ha canviat després? En quin context s’ha validat? Són preguntes útils en ciència, informació i productes digitals. SynthID Bio mostra fins a quin punt el debat sobre procedència comença a afectar àmbits diferents."
+    },
+    {
+      "type": "p",
+      "text": "El que caldrà seguir és la validació posterior, l’abast real de la tècnica i la manera com altres equips poden comprovar-ne els resultats. El valor periodístic és explicar tant l’avenç com la distància que queda entre una demostració i una pràctica consolidada."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "publisher": "Google DeepMind",
+      "sourceType": "primary",
+      "publishedAt": "2026-09-30",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "Function-preserving watermarking of AI-generated proteins",
+      "url": "https://www.nature.com/articles/s41586-026-10965-y",
+      "publisher": "Nature",
+      "sourceType": "research",
+      "publishedAt": "2026-09-30",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "relatedIds": [
+    "5",
+    "6",
+    "7"
+  ],
+  "primaryKeyword": "SynthID Bio",
+  "context": "Prova de concepte: identificar procedència no certifica seguretat ni valida qualsevol ús del disseny."
+}

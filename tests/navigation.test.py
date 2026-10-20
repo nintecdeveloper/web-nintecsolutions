@@ -25,8 +25,10 @@ for lang in LOCALES:
  for key in pages:
   route=locale_path('/' if key=='index' else '/'+key+'/',lang)
   p=Navigation((ROOT/'dist'/route.lstrip('/')/'index.html').read_text())
-  assert [a[1] for a in p.links]==labels[lang],route
-  assert [a[0]['href'] for a in p.links]==[locale_path(s,lang) for s in ['/','/equip/','/nintec360/','/casos/']],route
+  journal_visible=(ROOT/'dist/blog/index.html').exists()
+  journal_labels={'ca':'Actualitat IA','es':'Actualidad IA','en':'AI Journal','nl':'AI-nieuws'}
+  assert [a[1] for a in p.links]==labels[lang]+([journal_labels[lang]] if journal_visible else []),route
+  assert [a[0]['href'] for a in p.links]==[locale_path(s,lang) for s in ['/','/equip/','/nintec360/','/casos/']]+([locale_path('/blog/',lang)] if journal_visible else []),route
   assert p.logos==[locale_path('/',lang)]*2,route
   assert p.languages=={l:locale_path('/' if key=='index' else '/'+key+'/',l)+'?lang='+l for l in LOCALES},route
   active=[a[0]['href'] for a in p.links if a[0].get('aria-current')=='page']

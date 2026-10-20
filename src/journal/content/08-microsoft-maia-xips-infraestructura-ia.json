@@ -1,0 +1,122 @@
+{
+  "id": "8",
+  "locale": "ca",
+  "slug": "microsoft-maia-xips-infraestructura-ia",
+  "title": "Microsoft Maia: per què la cursa de la IA també es decideix als xips",
+  "seoTitle": "Microsoft Maia: xips i infraestructura per a la IA | Nintec",
+  "metaDescription": "L’anunci de Microsoft sobre Maia posa el focus en la infraestructura de la IA. Expliquem per què capacitat, energia i cost també formen part de la cursa.",
+  "excerpt": "Maia 200 en producció i Maia 300 en l’horitzó de 2027: la capa física que condiciona la cursa de la intel·ligència artificial.",
+  "type": "analysis",
+  "category": "Recerca i infraestructura",
+  "tags": [
+    "Microsoft Maia"
+  ],
+  "eventDate": "2026-10-12",
+  "coverageSlot": "2026-10-19",
+  "datePublished": "2026-10-20T08:19:43+02:00",
+  "verifiedAt": "2026-10-19",
+  "status": "published",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "cover": "maia",
+  "body": [
+    {
+      "type": "p",
+      "text": "Els llançaments de models ocupen bona part dels titulars d’IA, però el maquinari que els fa funcionar també condiciona el mercat. L’anunci de Microsoft sobre la família Maia permet mirar aquesta capa menys visible: la infraestructura que ha de sostenir serveis d’ús continuat.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "La companyia diferencia el treball actual amb Maia 200 dels desplegaments previstos de Maia 300. Aquesta cronologia és essencial. Una previsió de producció no és una capacitat que ja estigui disponible arreu, i les estimacions del fabricant s’han de llegir com a tals."
+    },
+    {
+      "type": "h2",
+      "text": "Què està en producció i què és un pla"
+    },
+    {
+      "type": "p",
+      "text": "En el comunicat del 12 d’octubre, Microsoft situa Maia 200 en càrregues de producció i preveu desplegaments de Maia 300 el 2027. La fotografia de la placa que acompanya aquesta peça correspon a un prototip de Maia 300. Permet observar el maquinari presentat, però no prova que el desplegament anunciat ja s’hagi completat.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "La inferència és l’execució d’un model ja entrenat per obtenir una resposta a una petició. Des del punt de vista del servei, interessa que aquesta resposta arribi en un temps acceptable, amb capacitat per absorbir la demanda i sense perdre qualitat. Un xip és una part d’aquesta cadena: també hi intervenen memòria, xarxa, programari i l’organització de les càrregues."
+    },
+    {
+      "type": "p",
+      "text": "Per això, una dada d’eficiència necessita una unitat i una frontera clares. Mesura només el processador, el servidor o una instal·lació completa? Es refereix a una petició breu o a una feina llarga? S’ha mantingut el mateix nivell de qualitat? Són preguntes de lectura, no resultats d’una prova pròpia. Eviten atribuir al servei complet una millora mesurada en una part."
+    },
+    {
+      "type": "p",
+      "text": "La implicació per al mercat és una qüestió oberta: el maquinari propi pot formar part d’una estratègia de capacitat i cost, però el seu efecte sobre preus o disponibilitat s’ha de documentar quan es produeixi. L’anunci explica una direcció i un calendari. El seguiment haurà de mirar què s’ha desplegat, per a quines càrregues i amb quines mesures comparables."
+    },
+    {
+      "type": "h2",
+      "text": "Fer servir un model també té un cost físic"
+    },
+    {
+      "type": "p",
+      "text": "Entrenar un sistema és només una part del seu cicle de vida. Cada vegada que es fa servir, necessita recursos per processar la petició i generar el resultat. Quan aquest ús es repeteix moltes vegades, la manera d’organitzar el càlcul pot condicionar la capacitat de donar servei."
+    },
+    {
+      "type": "p",
+      "text": "Per això, l’anàlisi de la IA no es pot limitar a preguntar quin model resol millor una prova. També interessa saber amb quins recursos treballa i com es comporta quan moltes persones o aplicacions el fan servir alhora."
+    },
+    {
+      "type": "h2",
+      "text": "Més eficiència no garanteix automàticament menys consum total"
+    },
+    {
+      "type": "p",
+      "text": "Si una infraestructura necessita menys recursos per a una tasca, pot millorar l’eficiència d’aquell treball. Però el consum global també depèn del volum d’ús. Una millora per petició no demostra, tota sola, una reducció del consum total del servei."
+    },
+    {
+      "type": "p",
+      "text": "És una distinció útil per llegir anuncis de xips i centres de dades. Les unitats, les condicions de mesura i el tipus de càrrega importen. Comparar xifres sense aquest context pot produir una sensació de precisió que les dades no sostenen."
+    },
+    {
+      "type": "h2",
+      "text": "La infraestructura també defineix dependències"
+    },
+    {
+      "type": "p",
+      "text": "La nostra lectura és que el disseny del maquinari forma part de l’estratègia dels proveïdors. Per a qui contracta serveis d’IA, convé observar com aquesta estratègia es tradueix en disponibilitat, condicions i continuïtat de servei, sense donar per fet un efecte concret abans que es produeixi."
+    },
+    {
+      "type": "p",
+      "text": "La notícia de Maia és rellevant per això: recorda que la competència té diverses capes. Els models, les aplicacions i els xips avancen conjuntament, però cada anunci necessita proves i una cronologia pròpia."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "publisher": "Microsoft",
+      "sourceType": "primary",
+      "publishedAt": "2026-10-12",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "title": "Galeria i context de Microsoft Maia",
+      "url": "https://news.microsoft.com/maia-2026/",
+      "publisher": "Microsoft",
+      "sourceType": "primary",
+      "publishedAt": "2026-10-12",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "relatedIds": [
+    "2",
+    "4",
+    "7"
+  ],
+  "primaryKeyword": "Microsoft Maia",
+  "context": "Maia 200: producció segons Microsoft. Maia 300: desplegament previst el 2027, no un desplegament ja completat."
+}

@@ -1,0 +1,106 @@
+{
+  "id": "6",
+  "locale": "ca",
+  "slug": "gemini-4-argon-acces-novetats",
+  "title": "Gemini 4 Argon amplia l’accés: què anuncia Google i què cal comprovar",
+  "seoTitle": "Gemini 4 Argon: accés, novetats i límits | Nintec",
+  "metaDescription": "Google amplia l’accés a Gemini 4 Argon. Expliquem què anuncia el model, en què es diferencia del primer accés restringit i com llegir les proves.",
+  "excerpt": "Google amplia les vies d’accés després d’una primera fase restringida. Disponibilitat, productes i límits de les comparacions.",
+  "type": "news",
+  "category": "Models i productes",
+  "tags": [
+    "Gemini 4 Argon"
+  ],
+  "eventDate": "2026-10-13",
+  "coverageSlot": "2026-10-13",
+  "datePublished": "2026-10-20T08:19:43+02:00",
+  "verifiedAt": "2026-10-19",
+  "status": "published",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "cover": "gemini",
+  "body": [
+    {
+      "type": "p",
+      "text": "Google ha anunciat una ampliació de l’accés a Gemini 4 Argon, després d’una primera fase restringida. La notícia és important per una raó concreta: la presentació d’un model i la possibilitat d’utilitzar-lo en un entorn determinat no sempre coincideixen.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "L’empresa situa Argon en feines complexes i processos de diversos passos. Aquesta és la proposta del fabricant. Per al lector, l’interès consisteix a entendre què s’ha obert ara, a qui i amb quines condicions."
+    },
+    {
+      "type": "h2",
+      "text": "A quins entorns arriba l’ampliació"
+    },
+    {
+      "type": "p",
+      "text": "En l’anunci del 13 d’octubre, Google descriu accés per a desenvolupadors i empreses a través de l’API, AI Studio i la seva plataforma empresarial. També assenyala accés per a determinades subscripcions a Gemini, AI Mode i Antigravity. Aquestes vies no són intercanviables: la disponibilitat d’una funció s’ha de comprovar dins del producte i el compte corresponents.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "No hi ha una única pregunta sobre disponibilitat. Un equip pot necessitar que el model aparegui a l’API, que admeti les eines amb què treballa i que tingui unes condicions de tractament de dades adequades. Una persona que el fa servir al xat pot tenir altres prioritats. L’ampliació d’accés és una notícia concreta, però no substitueix aquesta verificació per compte, regió i entorn. Les condicions es poden modificar després de l’anunci; aquesta peça documenta la fase descrita el 13 d’octubre."
+    },
+    {
+      "type": "h2",
+      "text": "Dues dates que expliquen millor el llançament"
+    },
+    {
+      "type": "p",
+      "text": "L’anunci inicial i l’ampliació posterior formen una seqüència. Barrejar-los pot provocar un titular enganyós: presentar com a completament nou allò que ja s’havia anunciat, o afirmar que tothom hi podia accedir des del primer dia."
+    },
+    {
+      "type": "p",
+      "text": "La informació de disponibilitat s’ha de publicar amb la plataforma i el tipus de compte corresponents. Una opció dins d’una aplicació de consum no implica necessàriament les mateixes condicions a l’API o a les eines empresarials."
+    },
+    {
+      "type": "h2",
+      "text": "El que una demostració pot explicar"
+    },
+    {
+      "type": "p",
+      "text": "Els exemples de llançament ajuden a veure quina mena de tasques vol abordar un producte. La seva utilitat periodística augmenta quan sabem el material de partida, el resultat i què ha comprovat una persona o un sistema extern."
+    },
+    {
+      "type": "p",
+      "text": "Sense aquesta informació, una demostració és una invitació a investigar. No prova que tots els treballs del mateix camp quedin resolts ni que desaparegui la necessitat de revisió. Aquesta distinció és especialment útil en feina jurídica, científica o financera."
+    },
+    {
+      "type": "h2",
+      "text": "Una comparació útil necessita feina compartida"
+    },
+    {
+      "type": "p",
+      "text": "Quan el mercat incorpora un model més, és temptador publicar una classificació immediata. Però comparar requereix el mateix conjunt de tasques i condicions documentades. Les proves de fabricants diferents poden mesurar coses diferents."
+    },
+    {
+      "type": "p",
+      "text": "La lectura editorial d’aquesta ampliació és que l’accés també forma part de la competència. Un model pot despertar interès per la seva capacitat, però el seu impacte depèn de si es pot integrar, de les condicions aplicables i de com es comporta fora de la presentació."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "publisher": "Google",
+      "sourceType": "primary",
+      "publishedAt": "2026-10-13",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "relatedIds": [
+    "1",
+    "4",
+    "8"
+  ],
+  "primaryKeyword": "Gemini 4 Argon",
+  "context": "La presentació inicial i l’ampliació d’accés són fases del mateix model. Les condicions depenen del producte i del compte."
+}

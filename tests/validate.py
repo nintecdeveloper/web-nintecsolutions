@@ -38,7 +38,10 @@ for path,p in parsed.items():
   if not target.exists():errors.append(f'{path}: missing {link}');continue
   if u.fragment and target in parsed and u.fragment not in parsed[target].ids:errors.append(f'{path}: missing anchor {link}')
 ET.parse(dist/'sitemap.xml')
-assert len(pages)==40
+sys.path.insert(0,str(root))
+import journal
+expected_journal=len(journal.paths(journal.load_articles(True))) if (dist/'blog').exists() and 'Edició en preparació' in (dist/'blog/index.html').read_text() else len(journal.paths(journal.load_articles()))
+assert len(pages)==40+expected_journal
 assert not errors,'\n'.join(errors)
 print(f'PASS: {len(pages)} pages; internal links/anchors/assets; one h1/title/canonical/description per page; lang matches route; form labels; unique IDs; valid sitemap XML.')
 print('Homepage bytes:',(dist/'index.html').stat().st_size,'Shared JS bytes:',sum((dist/f).stat().st_size for f in ['app.js','api.js']))

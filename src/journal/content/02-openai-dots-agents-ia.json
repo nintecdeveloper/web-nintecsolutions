@@ -1,0 +1,102 @@
+{
+  "id": "2",
+  "locale": "ca",
+  "slug": "openai-dots-agents-ia",
+  "title": "OpenAI presenta Dots: el pas dels xats als agents que continuen treballant",
+  "seoTitle": "OpenAI Dots: què són els nous agents d’IA | Nintec",
+  "metaDescription": "OpenAI presenta Dots, agents que poden treballar amb eines i continuar tasques. Analitzem el canvi, els permisos i els límits que cal entendre.",
+  "excerpt": "Un ordinador al núvol, eines connectades i feina que continua. La proposta de Dots trasllada el debat cap als permisos i els resultats.",
+  "type": "news",
+  "category": "Models i productes",
+  "tags": [
+    "OpenAI Dots"
+  ],
+  "eventDate": "2026-09-29",
+  "coverageSlot": "2026-10-01",
+  "datePublished": "2026-10-20T08:19:43+02:00",
+  "verifiedAt": "2026-10-19",
+  "status": "published",
+  "author": {
+    "name": "Equip editorial de Nintec Solutions",
+    "url": "https://www.nintecsolutions.com/equip/",
+    "type": "Organization"
+  },
+  "cover": "dots",
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI ha presentat Dots, una proposta d’agents pensats per mantenir el context de la feina i continuar tasques amb eines connectades. El canvi que planteja va més enllà d’una resposta escrita: el sistema passa a participar en una seqüència de treball.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "En un xat, la conversa acostuma a avançar quan l’usuari torna a escriure. Un agent persistent es planteja al voltant d’un objectiu que pot exigir diverses accions. Aquesta diferència explica l’interès del sector, però també per què parlar d’agents requereix parlar de permisos."
+    },
+    {
+      "type": "h2",
+      "text": "Un entorn de treball, no només un model"
+    },
+    {
+      "type": "p",
+      "text": "L’anunci del 29 de setembre descriu un ordinador al núvol per a cada agent, amb navegador i connexions a aplicacions. OpenAI planteja també feina proactiva de consulta i recerca, mantenint controls sobre les accions. El desplegament anunciat inclou pilots amb especialistes d’empreses; no acredita un accés general i simultani per a qualsevol compte.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Pensem en un exemple hipotètic: preparar un resum de diverses carpetes i un esborrany de correu. Saber quins fitxers ha consultat permet revisar el resum; veure el destinatari i el contingut abans de l’enviament permet autoritzar una acció diferent. Si aquestes dues etapes queden barrejades, resulta difícil entendre què s’ha delegat. La persistència de l’agent fa més necessària aquesta visibilitat, perquè la feina pot continuar després de la primera conversa."
+    },
+    {
+      "type": "h2",
+      "text": "La pregunta és què pot fer i amb quina autorització"
+    },
+    {
+      "type": "p",
+      "text": "Consultar informació, preparar un document i enviar-lo a un destinatari tenen conseqüències diferents. Una eina que participa en aquests passos necessita límits comprensibles per a qui l’utilitza. El lector ha de poder distingir una proposta preparada d’una acció ja executada."
+    },
+    {
+      "type": "p",
+      "text": "La qüestió és especialment important quan s’hi connecten aplicacions. Un accés útil per llegir documents pot ser excessiu si també permet modificar-los. El valor del sistema s’hauria de valorar juntament amb la claredat del control que ofereix."
+    },
+    {
+      "type": "h2",
+      "text": "Del missatge al resultat verificable"
+    },
+    {
+      "type": "p",
+      "text": "Una demostració d’agent pot semblar convincent perquè mostra molts passos seguits. Per avaluar-la, convé mirar el resultat: el fitxer existeix, el destinatari és correcte i les dades utilitzades són les adequades? L’aparença de treball no és una mesura suficient."
+    },
+    {
+      "type": "p",
+      "text": "La nostra lectura és que aquesta nova etapa trasllada part de l’atenció del model a l’entorn que l’acompanya. Les connexions, els límits i la possibilitat de revisar el que ha fet passen a formar part del producte."
+    },
+    {
+      "type": "h2",
+      "text": "Què encara s’ha de contrastar"
+    },
+    {
+      "type": "p",
+      "text": "El desplegament i les condicions d’accés poden canviar. Abans de publicar una guia d’ús o una comparació de plans, cal verificar la informació vigent. Per a una notícia inicial, el més rellevant és explicar la proposta i separar les capacitats anunciades del que s’ha provat de manera independent."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Introducing Dots",
+      "url": "https://openai.com/index/introducing-dots/",
+      "publisher": "OpenAI",
+      "sourceType": "primary",
+      "publishedAt": "2026-09-29",
+      "verifiedAt": "2026-10-19"
+    }
+  ],
+  "relatedIds": [
+    "4",
+    "5",
+    "8"
+  ],
+  "primaryKeyword": "OpenAI Dots",
+  "context": "Un agent amb eines necessita permisos explícits. Accés a informació i autorització per actuar són decisions diferents."
+}

@@ -2,13 +2,17 @@ from pathlib import Path
 import shutil,json,html,os,hashlib,argparse,re
 from urllib.parse import urlsplit
 from cycle import render_cycle
+import journal
 from i18n import LOCALES,translate,localize,locale_path,selector
 from seo import PRODUCTION_ORIGIN,PREVIEW_ORIGIN,structured_data,breadcrumbs,sharing,redirects
 ROOT=Path(__file__).parent.resolve();SRC=ROOT/'src'
 parser=argparse.ArgumentParser(description='Build the existing multilingual static website.')
 parser.add_argument('--production',action='store_true',help='Generate the verified public www domain and indexable marketing pages.')
+parser.add_argument('--journal-preview',action='store_true',help='Include editorial drafts in a local noindex preview; never combine with production.')
 parser.add_argument('--output',type=Path,default=ROOT/'dist')
 args=parser.parse_args();PRODUCTION=args.production or os.environ.get('SITE_ENV')=='production';OUT=args.output.resolve()
+if args.journal_preview and PRODUCTION:raise ValueError('Journal drafts cannot be included in a production build')
+JOURNAL=journal.load_articles(args.journal_preview)
 if OUT in (ROOT,SRC) or OUT in ROOT.parents or OUT==SRC or SRC in OUT.parents:raise ValueError('Unsafe output directory')
 ORIGIN=os.environ.get('SITE_ORIGIN',PRODUCTION_ORIGIN if PRODUCTION else PREVIEW_ORIGIN).rstrip('/')
 u=urlsplit(ORIGIN)
@@ -54,6 +58,9 @@ for key,meta in pages.items():
   robots='index, follow, max-image-preview:large' if indexable else 'noindex, follow'
   base=f'<!doctype html><html lang="ca"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{title}</title><meta name="description" content="{desc}"><link rel="canonical" href="{ORIGIN}{path}"><meta property="og:title" content="{title}"><meta property="og:description" content="{desc}"><meta property="og:type" content="website"><meta property="og:locale" content="ca_ES"><meta property="og:site_name" content="Nintec Solutions"><meta property="og:url" content="{ORIGIN}{path}"><meta name="theme-color" content="#5c39d9"><link rel="icon" type="image/svg+xml" href="/assets/brand/nintec-icon.svg"><link rel="icon" type="image/png" sizes="64x64" href="/assets/brand/favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/brand/apple-touch-icon.png"><link rel="stylesheet" href="/style.css?v={versions["style.css"]}"></head><body><a class="skip" href="#main">Salta al contingut</a>{nav}<main id="main">{content}</main>{footer}</body></html>'
   doc=localize(base,lang,PAGE_PATHS,ORIGIN).replace('<span id="language-slot"></span>',selector(path,lang))
+  if JOURNAL:
+   doc=doc.replace('<a class="nav-contact"',journal.nav_link(lang)+'<a class="nav-contact"')
+   doc=doc.replace('</head>','<link rel="stylesheet" href="/journal.css">'+'</head>')
   if key!='index':doc=doc.replace('<main id="main">','<main id="main">'+breadcrumbs(meta,lang,path))
   alternates=''.join(f'<link rel="alternate" hreflang="{l}" href="{ORIGIN}{locale_path(path,l)}">' for l in LOCALES)+f'<link rel="alternate" hreflang="x-default" href="{ORIGIN}{path}">'
   messages=json.dumps({k:translate(k,lang) for k in RUNTIME_KEYS},ensure_ascii=False).replace('<','\\u003c')
@@ -63,7 +70,10 @@ for key,meta in pages.items():
   if PRODUCTION and verification:extra+=f'<meta name="google-site-verification" content="{html.escape(verification,quote=True)}">'
   doc=doc.replace('</head>',extra+'</head>')
   target=OUT/locale_path(path,lang).lstrip('/')/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(doc)
-all_paths=[locale_path(p,l) for p in PAGE_PATHS for l in LOCALES]
+journal_bootstrap='<script type="application/json" id="i18n-messages">'+json.dumps({k:translate(k,'ca') for k in RUNTIME_KEYS},ensure_ascii=False).replace('<','\\u003c')+'</script><script>'+locale_script+'</script>'
+journal_scripts=''.join(f'<script defer src="/{f}?v={versions[f]}"></script>' for f in ['api.js','app.js','lead-modal.js'])
+journal_paths=journal.build(OUT,SRC,versions,(SRC/'header.html').read_text(),(SRC/'footer.html').read_text()+lead_template,journal_bootstrap,journal_scripts,JOURNAL,PRODUCTION)
+all_paths=[locale_path(p,l) for p in PAGE_PATHS for l in LOCALES]+journal_paths
 (OUT/'_redirects').write_text(redirects(all_paths,PRODUCTION))
 # Allow crawling to read noindex; private access remains the security boundary.
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\n'+('Sitemap: '+ORIGIN+'/sitemap.xml\n' if PRODUCTION else '# Private review: no indexable URLs; pages carry noindex.\n'))
@@ -74,6 +84,12 @@ if PRODUCTION:
   path='/' if key=='index' else '/'+key+'/'
   alternatives=''.join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{ORIGIN}{locale_path(path,l)}"/>' for l in LOCALES)+f'<xhtml:link rel="alternate" hreflang="x-default" href="{ORIGIN}{path}"/>'
   for lang in LOCALES:entries.append(f'<url><loc>{ORIGIN}{locale_path(path,lang)}</loc>{alternatives}</url>')
+if PRODUCTION and JOURNAL:
+ for p in journal.base_paths(JOURNAL):
+  article=next((a for a in JOURNAL if journal.url(a)==p),None)
+  stamp=(article.get('dateModified') or article['datePublished']) if article else max(a.get('dateModified') or a['datePublished'] for a in JOURNAL)
+  alternatives=''.join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{ORIGIN}{locale_path(p,l)}"/>' for l in LOCALES)+f'<xhtml:link rel="alternate" hreflang="x-default" href="{ORIGIN}{p}"/>'
+  for lang in LOCALES:entries.append(f'<url><loc>{ORIGIN}{locale_path(p,lang)}</loc><lastmod>{stamp}</lastmod>{alternatives}</url>')
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+''.join(entries)+'</urlset>')
 for lang in LOCALES:
  error=f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{translate("Pàgina no trobada · Nintec",lang)}</title><meta name="robots" content="noindex, follow"><link rel="icon" href="/assets/brand/favicon.png"><link rel="stylesheet" href="/style.css?v={versions["style.css"]}"></head><body><main class="wrap section"><a class="brand" href="{locale_path("/",lang)}" aria-label="Nintec Solutions"><img class="brand-logo" src="/assets/brand/nintec-logo-horizontal-light.svg" width="240" height="64" alt=""></a><p class="eyebrow">404</p><h1>{translate("Aquesta pàgina no hi és.",lang)}</h1><div class="actions"><a class="button" href="{locale_path("/",lang)}">{translate("Torna a Nintec360 →",lang)}</a><a class="text-link" href="{locale_path("/contacte/",lang)}">{translate("Reserva una auditoria ↗",lang)}</a></div></main></body></html>'
@@ -85,4 +101,4 @@ for key,meta in pages.items():
   for lang in LOCALES:headers+=locale_path('/'+key+'/',lang)+'\n  X-Robots-Tag: noindex, follow\n'
 headers+='/assets/*\n  Cache-Control: public, max-age=86400\n'
 (OUT/'_headers').write_text(headers)
-print(f'Built {len(pages)*len(LOCALES)} pages; {len(entries)} sitemap URLs; {"production" if PRODUCTION else "private review"}; {ORIGIN}; output={OUT}')
+print(f'Built {len(pages)*len(LOCALES)+len(journal_paths)} pages; {len(entries)} sitemap URLs; {"production" if PRODUCTION else "private review"}; {ORIGIN}; output={OUT}')
