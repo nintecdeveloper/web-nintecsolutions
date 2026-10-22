@@ -10,9 +10,21 @@ function dailyBlocks(date){
  let seed=2166136261;
  for(const char of 'nintec-capacity-v1:'+date)seed=Math.imul(seed^char.charCodeAt(0),16777619)>>>0;
  const random=()=>{seed=(seed+0x6D2B79F5)>>>0;let n=seed;n=Math.imul(n^(n>>>15),n|1);n^=n+Math.imul(n^(n>>>7),n|61);return ((n^(n>>>14))>>>0)/4294967296};
- const count=2+Math.floor(random()*3), shuffled=[...SLOTS];
- for(let i=shuffled.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]}
- return new Set(shuffled.slice(0,count));
+ const count=2+Math.floor(random()*3),options=[];
+ const minutes=time=>{const [h,m]=time.split(':').map(Number);return h*60+m};
+ function choose(from,picked){
+  if(picked.length===count){
+   const morning=picked.filter(t=>minutes(t)<12*60).length;
+   if(morning>0&&morning<count&&Math.abs(morning-(count-morning))<=1)options.push(picked);
+   return;
+  }
+  for(let i=from;i<SLOTS.length;i++){
+   if(picked.some(t=>Math.abs(minutes(t)-minutes(SLOTS[i]))===30))continue;
+   choose(i+1,[...picked,SLOTS[i]]);
+  }
+ }
+ choose(0,[]);
+ return new Set(options[Math.floor(random()*options.length)]||[]);
 }
 function madridNow(now=new Date()){
  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Madrid',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now).map(p=>[p.type,p.value]));
@@ -41,7 +53,7 @@ async function availability(now=new Date(),locale='ca-ES'){
  const rows=await request('rpc/get_franges_ocupades',{_desde:days[0].date,_fins:days[days.length-1].date});
  if(!Array.isArray(rows)||rows.some(r=>typeof r.data!=='string'||typeof r.hora!=='string'))throw new Error('invalid availability');
  const taken=new Set(rows.map(r=>r.data+' '+r.hora.slice(0,5)));
- return days.map(d=>{const blocked=dailyBlocks(d.date);return {...d,slots:d.slots.map(s=>({...s,blocked:blocked.has(s.time),taken:s.taken||blocked.has(s.time)||taken.has(d.date+' '+s.time)}))}});
+ return days.map(d=>{const blocked=dailyBlocks(d.date);return {...d,slots:d.slots.map(s=>({...s,blocked:blocked.has(s.time),reserved:taken.has(d.date+' '+s.time),restricted:s.taken,taken:s.taken||blocked.has(s.time)||taken.has(d.date+' '+s.time)}))}});
 }
 async function reserve(contact,date,time,suggestion=''){
  if(!contact.nom?.trim()||!contact.email?.trim())throw new Error('contact');

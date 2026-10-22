@@ -10,7 +10,7 @@
   if(!link||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
   event.preventDefault();trigger=link;
   if(!dialog.open){const params=new URLSearchParams(location.search);const context={page:location.pathname,cta:link.textContent.trim(),utm:{}};for(const key of ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'])if(params.has(key))context.utm[key]=params.get(key).slice(0,150);booking.dataset.context=JSON.stringify(context);}
-  if(!dialog.open){dialog.showModal();document.documentElement.classList.add('lead-open');}
+  if(!dialog.open){dialog.showModal();document.documentElement.classList.add('lead-open');booking.dispatchEvent(new Event('booking:open'));document.getElementById('lead-full-name').focus({preventScroll:true});}
  });
  dialog.querySelector('.lead-close').addEventListener('click',()=>dialog.close());
  let outside=false;

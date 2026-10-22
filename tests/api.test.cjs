@@ -19,6 +19,25 @@ vm.createContext(context);vm.runInContext(source,context);const api=context.Nint
  const quantities=new Set(),patterns=new Set();
  for(const d of schedule){const blocks=d.slots.filter(s=>s.blocked);assert.ok(blocks.length>=2&&blocks.length<=4);assert.ok(blocks.every(s=>s.taken));quantities.add(blocks.length);patterns.add(blocks.map(s=>s.time).join(','));const same=repeat.find(x=>x.date===d.date);if(same)assert.equal(same.slots.filter(s=>s.blocked).map(s=>s.time).join(','),blocks.map(s=>s.time).join(','));}
  assert.equal(quantities.size,3);assert.ok(patterns.size>5);
+ // Artificial limits never cap bookings or hide otherwise available slots.
+ for(let month=0;month<12;month++){
+  rows=[];const day=(await api.availability(new Date(Date.UTC(2027,month,4,5))))[2];
+  const blocks=day.slots.filter(s=>s.blocked),morning=blocks.filter(s=>s.time<'12:00');
+  assert.ok(blocks.length>=2&&blocks.length<=4);
+  assert.ok(morning.length>0&&morning.length<blocks.length);
+  assert.ok(Math.abs(morning.length-(blocks.length-morning.length))<=1);
+  const minutes=t=>Number(t.slice(0,2))*60+Number(t.slice(3));
+  for(let i=1;i<blocks.length;i++)assert.notEqual(minutes(blocks[i].time)-minutes(blocks[i-1].time),30);
+  assert.equal(day.slots.filter(s=>!s.taken).length,10-blocks.length);
+  assert.ok(day.slots.every(s=>s.taken===(s.blocked||s.reserved||s.restricted)));
+  rows=day.slots.slice(0,7).map(s=>({data:day.date,hora:s.time+':00'}));
+  const occupied=(await api.availability(new Date(Date.UTC(2027,month,4,5)))).find(d=>d.date===day.date);
+  assert.equal(occupied.slots.filter(s=>s.reserved).length,7);
+  assert.ok(occupied.slots.slice(0,7).every(s=>s.taken));
+  assert.ok(occupied.slots.filter(s=>s.blocked).length<=4);
+ }
+ rows=[];
+
  const blockedTime=futureDay.slots.find(s=>s.blocked).time;calls=[];await assert.rejects(()=>api.reserve(contact,future,blockedTime),e=>e.status===409);assert.equal(calls.length,1);
  calls=[];await api.reserve(contact,null,null,'  Dijous a la tarda  ');assert.equal(calls.length,1);assert.equal(calls[0].payload.data,null);assert.equal(calls[0].payload.hora,null);assert.equal(calls[0].payload.suggeriment_horari,'Dijous a la tarda');
  await assert.rejects(()=>api.reserve(contact,null,null,''));status=500;await assert.rejects(()=>api.reserve(contact,null,null,'dijous'));status=200;
