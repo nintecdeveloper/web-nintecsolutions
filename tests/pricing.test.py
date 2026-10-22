@@ -10,9 +10,14 @@ rules={line.split()[0]:line.split()[1] for line in redirects([],True).splitlines
 for lang in LOCALES:
  path=locale_path('/pricing/',lang)
  text=(ROOT/'dist'/path.lstrip('/')/'index.html').read_text()
- assert translate('Un preu adaptat',lang) in text
- assert translate('Definim una proposta segons els canals, el volum de converses i els processos que vols automatitzar.',lang) in text
+ assert translate('Una solució que creix amb tu.',lang) in text
+ assert translate('Tria el teu punt de partida. Nosaltres adaptem Nintec360 a les necessitats del teu negoci.',lang) in text
  assert f'href="{locale_path("/contacte/",lang)}"' in text
+ assert text.count('data-gift-minutes hidden')==5
+ assert text.count('<details>')>=5
+ assert 'data-lead-cta' not in text.split('<main')[1].split('</main>')[0]
+ for price in ['299 €','499 €','799 €','1.499 €']:assert price in text
+ for name in ['starter','basic','pro','premium','enterprise']:assert f'id="{name}"' in text
  for retired in ('equip','finance','compliance'):
   base=locale_path('/'+retired+'/',lang)
   assert not (ROOT/'dist'/base.lstrip('/')).exists()
