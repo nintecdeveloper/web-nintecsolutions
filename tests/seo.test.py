@@ -44,7 +44,7 @@ for root,production in [(Path(sys.argv[1]),False),(Path(sys.argv[2]),True)]:
    assert p.graph[0]['inLanguage']==('ca' if not route.startswith(('/es/','/en/','/nl/')) else route.split('/')[1])
   else:assert {'Organization','WebSite','WebPage'}<=types
   assert ('BreadcrumbList' in types)==(base!='/')
-  assert ('Service' in types)==(base in ['/nintec360/','/finance/'])
+  assert ('Service' in types)==(base in ['/nintec360/'])
   assert not any(k in json.dumps(p.graph) for k in ['aggregateRating','priceCurrency','reviewCount'])
   for img in p.images:
    assert all(k in img for k in ['width','height','alt'])

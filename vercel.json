@@ -41,7 +41,7 @@
     },
     {
       "source": "/equip.dc.html",
-      "destination": "https://www.nintecsolutions.com/equip/",
+      "destination": "https://www.nintecsolutions.com/",
       "statusCode": 301,
       "has": [
         {
@@ -52,7 +52,7 @@
     },
     {
       "source": "/nintec-finance.dc.html",
-      "destination": "https://www.nintecsolutions.com/finance/",
+      "destination": "https://www.nintecsolutions.com/",
       "statusCode": 301,
       "has": [
         {
@@ -63,7 +63,7 @@
     },
     {
       "source": "/nintec-compliance.dc.html",
-      "destination": "https://www.nintecsolutions.com/compliance/",
+      "destination": "https://www.nintecsolutions.com/",
       "statusCode": 301,
       "has": [
         {
@@ -129,7 +129,7 @@
     },
     {
       "source": "/nintec-finance",
-      "destination": "https://www.nintecsolutions.com/finance/",
+      "destination": "https://www.nintecsolutions.com/",
       "statusCode": 301,
       "has": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "source": "/nintec-finance/",
-      "destination": "https://www.nintecsolutions.com/finance/",
+      "destination": "https://www.nintecsolutions.com/",
       "statusCode": 301,
       "has": [
         {
@@ -151,7 +151,7 @@
     },
     {
       "source": "/nintec-compliance",
-      "destination": "https://www.nintecsolutions.com/compliance/",
+      "destination": "https://www.nintecsolutions.com/",
       "statusCode": 301,
       "has": [
         {
@@ -162,7 +162,7 @@
     },
     {
       "source": "/nintec-compliance/",
-      "destination": "https://www.nintecsolutions.com/compliance/",
+      "destination": "https://www.nintecsolutions.com/",
       "statusCode": 301,
       "has": [
         {
@@ -173,7 +173,7 @@
     },
     {
       "source": "/the-card",
-      "destination": "https://www.nintecsolutions.com/es/finance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -184,7 +184,7 @@
     },
     {
       "source": "/the-card/",
-      "destination": "https://www.nintecsolutions.com/es/finance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -371,7 +371,7 @@
     },
     {
       "source": "/help-center",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -382,7 +382,7 @@
     },
     {
       "source": "/help-center/",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -393,7 +393,7 @@
     },
     {
       "source": "/blank-5",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -404,7 +404,7 @@
     },
     {
       "source": "/blank-5/",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -415,7 +415,7 @@
     },
     {
       "source": "/blank-7",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -426,7 +426,7 @@
     },
     {
       "source": "/blank-7/",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -437,7 +437,7 @@
     },
     {
       "source": "/blank-8",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -448,7 +448,7 @@
     },
     {
       "source": "/blank-8/",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
       "statusCode": 301,
       "has": [
         {
@@ -515,6 +515,402 @@
     {
       "source": "/blank-11/",
       "destination": "https://www.nintecsolutions.com/es/termes/#titular",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/equip/",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/equip",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/finance/",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/finance",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/compliance/",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/compliance",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/equip/",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/equip",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/finance/",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/finance",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/compliance/",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/compliance",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/es/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/equip/",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/equip",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/finance/",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/finance",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/compliance/",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/compliance",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/en/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/equip/",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/equip",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/equip/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/finance/",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/finance",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/finance/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/compliance/",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/compliance",
+      "destination": "https://www.nintecsolutions.com/nl/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/compliance/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/",
       "statusCode": 301,
       "has": [
         {
@@ -777,94 +1173,6 @@
       ]
     },
     {
-      "source": "/equip/index.html",
-      "destination": "https://www.nintecsolutions.com/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/equip",
-      "destination": "https://www.nintecsolutions.com/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/es/equip/index.html",
-      "destination": "https://www.nintecsolutions.com/es/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/es/equip",
-      "destination": "https://www.nintecsolutions.com/es/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/en/equip/index.html",
-      "destination": "https://www.nintecsolutions.com/en/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/en/equip",
-      "destination": "https://www.nintecsolutions.com/en/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/nl/equip/index.html",
-      "destination": "https://www.nintecsolutions.com/nl/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/nl/equip",
-      "destination": "https://www.nintecsolutions.com/nl/equip/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
       "source": "/contacte/index.html",
       "destination": "https://www.nintecsolutions.com/contacte/",
       "statusCode": 301,
@@ -944,182 +1252,6 @@
     {
       "source": "/nl/contacte",
       "destination": "https://www.nintecsolutions.com/nl/contacte/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/finance/index.html",
-      "destination": "https://www.nintecsolutions.com/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/finance",
-      "destination": "https://www.nintecsolutions.com/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/es/finance/index.html",
-      "destination": "https://www.nintecsolutions.com/es/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/es/finance",
-      "destination": "https://www.nintecsolutions.com/es/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/en/finance/index.html",
-      "destination": "https://www.nintecsolutions.com/en/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/en/finance",
-      "destination": "https://www.nintecsolutions.com/en/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/nl/finance/index.html",
-      "destination": "https://www.nintecsolutions.com/nl/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/nl/finance",
-      "destination": "https://www.nintecsolutions.com/nl/finance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/compliance/index.html",
-      "destination": "https://www.nintecsolutions.com/compliance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/compliance",
-      "destination": "https://www.nintecsolutions.com/compliance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/es/compliance/index.html",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/es/compliance",
-      "destination": "https://www.nintecsolutions.com/es/compliance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/en/compliance/index.html",
-      "destination": "https://www.nintecsolutions.com/en/compliance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/en/compliance",
-      "destination": "https://www.nintecsolutions.com/en/compliance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/nl/compliance/index.html",
-      "destination": "https://www.nintecsolutions.com/nl/compliance/",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "nintecsolutions.com"
-        }
-      ]
-    },
-    {
-      "source": "/nl/compliance",
-      "destination": "https://www.nintecsolutions.com/nl/compliance/",
       "statusCode": 301,
       "has": [
         {
@@ -1384,6 +1516,94 @@
     {
       "source": "/nl/termes",
       "destination": "https://www.nintecsolutions.com/nl/termes/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/pricing/index.html",
+      "destination": "https://www.nintecsolutions.com/pricing/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/pricing",
+      "destination": "https://www.nintecsolutions.com/pricing/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/pricing/index.html",
+      "destination": "https://www.nintecsolutions.com/es/pricing/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/es/pricing",
+      "destination": "https://www.nintecsolutions.com/es/pricing/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/pricing/index.html",
+      "destination": "https://www.nintecsolutions.com/en/pricing/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/en/pricing",
+      "destination": "https://www.nintecsolutions.com/en/pricing/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/pricing/index.html",
+      "destination": "https://www.nintecsolutions.com/nl/pricing/",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "nintecsolutions.com"
+        }
+      ]
+    },
+    {
+      "source": "/nl/pricing",
+      "destination": "https://www.nintecsolutions.com/nl/pricing/",
       "statusCode": 301,
       "has": [
         {
@@ -3092,17 +3312,17 @@
     },
     {
       "source": "/equip.dc.html",
-      "destination": "/equip/",
+      "destination": "/",
       "statusCode": 301
     },
     {
       "source": "/nintec-finance.dc.html",
-      "destination": "/finance/",
+      "destination": "/",
       "statusCode": 301
     },
     {
       "source": "/nintec-compliance.dc.html",
-      "destination": "/compliance/",
+      "destination": "/",
       "statusCode": 301
     },
     {
@@ -3132,32 +3352,32 @@
     },
     {
       "source": "/nintec-finance",
-      "destination": "/finance/",
+      "destination": "/",
       "statusCode": 301
     },
     {
       "source": "/nintec-finance/",
-      "destination": "/finance/",
+      "destination": "/",
       "statusCode": 301
     },
     {
       "source": "/nintec-compliance",
-      "destination": "/compliance/",
+      "destination": "/",
       "statusCode": 301
     },
     {
       "source": "/nintec-compliance/",
-      "destination": "/compliance/",
+      "destination": "/",
       "statusCode": 301
     },
     {
       "source": "/the-card",
-      "destination": "/es/finance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/the-card/",
-      "destination": "/es/finance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
@@ -3242,42 +3462,42 @@
     },
     {
       "source": "/help-center",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/help-center/",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/blank-5",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/blank-5/",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/blank-7",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/blank-7/",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/blank-8",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
       "source": "/blank-8/",
-      "destination": "/es/compliance/",
+      "destination": "/es/",
       "statusCode": 301
     },
     {
@@ -3308,6 +3528,186 @@
     {
       "source": "/blank-11/",
       "destination": "/es/termes/#titular",
+      "statusCode": 301
+    },
+    {
+      "source": "/equip/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/equip",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/equip/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/finance/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/finance",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/finance/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compliance/",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compliance",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/compliance/index.html",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/equip/",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/equip",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/equip/index.html",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/finance/",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/finance",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/finance/index.html",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/compliance/",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/compliance",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/compliance/index.html",
+      "destination": "/es/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/equip/",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/equip",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/equip/index.html",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/finance/",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/finance",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/finance/index.html",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/compliance/",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/compliance",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/compliance/index.html",
+      "destination": "/en/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/equip/",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/equip",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/equip/index.html",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/finance/",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/finance",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/finance/index.html",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/compliance/",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/compliance",
+      "destination": "/nl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/compliance/index.html",
+      "destination": "/nl/",
       "statusCode": 301
     },
     {
@@ -3426,46 +3826,6 @@
       "statusCode": 301
     },
     {
-      "source": "/equip/index.html",
-      "destination": "/equip/",
-      "statusCode": 301
-    },
-    {
-      "source": "/equip",
-      "destination": "/equip/",
-      "statusCode": 301
-    },
-    {
-      "source": "/es/equip/index.html",
-      "destination": "/es/equip/",
-      "statusCode": 301
-    },
-    {
-      "source": "/es/equip",
-      "destination": "/es/equip/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/equip/index.html",
-      "destination": "/en/equip/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/equip",
-      "destination": "/en/equip/",
-      "statusCode": 301
-    },
-    {
-      "source": "/nl/equip/index.html",
-      "destination": "/nl/equip/",
-      "statusCode": 301
-    },
-    {
-      "source": "/nl/equip",
-      "destination": "/nl/equip/",
-      "statusCode": 301
-    },
-    {
       "source": "/contacte/index.html",
       "destination": "/contacte/",
       "statusCode": 301
@@ -3503,86 +3863,6 @@
     {
       "source": "/nl/contacte",
       "destination": "/nl/contacte/",
-      "statusCode": 301
-    },
-    {
-      "source": "/finance/index.html",
-      "destination": "/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/finance",
-      "destination": "/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/es/finance/index.html",
-      "destination": "/es/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/es/finance",
-      "destination": "/es/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/finance/index.html",
-      "destination": "/en/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/finance",
-      "destination": "/en/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/nl/finance/index.html",
-      "destination": "/nl/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/nl/finance",
-      "destination": "/nl/finance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/compliance/index.html",
-      "destination": "/compliance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/compliance",
-      "destination": "/compliance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/es/compliance/index.html",
-      "destination": "/es/compliance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/es/compliance",
-      "destination": "/es/compliance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/compliance/index.html",
-      "destination": "/en/compliance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/en/compliance",
-      "destination": "/en/compliance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/nl/compliance/index.html",
-      "destination": "/nl/compliance/",
-      "statusCode": 301
-    },
-    {
-      "source": "/nl/compliance",
-      "destination": "/nl/compliance/",
       "statusCode": 301
     },
     {
@@ -3703,6 +3983,46 @@
     {
       "source": "/nl/termes",
       "destination": "/nl/termes/",
+      "statusCode": 301
+    },
+    {
+      "source": "/pricing/index.html",
+      "destination": "/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/pricing",
+      "destination": "/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/pricing/index.html",
+      "destination": "/es/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/es/pricing",
+      "destination": "/es/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/pricing/index.html",
+      "destination": "/en/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/pricing",
+      "destination": "/en/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/pricing/index.html",
+      "destination": "/nl/pricing/",
+      "statusCode": 301
+    },
+    {
+      "source": "/nl/pricing",
+      "destination": "/nl/pricing/",
       "statusCode": 301
     },
     {
@@ -4703,22 +5023,6 @@
       "destination": "/nl/casos/index.html"
     },
     {
-      "source": "/equip/",
-      "destination": "/equip/index.html"
-    },
-    {
-      "source": "/es/equip/",
-      "destination": "/es/equip/index.html"
-    },
-    {
-      "source": "/en/equip/",
-      "destination": "/en/equip/index.html"
-    },
-    {
-      "source": "/nl/equip/",
-      "destination": "/nl/equip/index.html"
-    },
-    {
       "source": "/contacte/",
       "destination": "/contacte/index.html"
     },
@@ -4733,38 +5037,6 @@
     {
       "source": "/nl/contacte/",
       "destination": "/nl/contacte/index.html"
-    },
-    {
-      "source": "/finance/",
-      "destination": "/finance/index.html"
-    },
-    {
-      "source": "/es/finance/",
-      "destination": "/es/finance/index.html"
-    },
-    {
-      "source": "/en/finance/",
-      "destination": "/en/finance/index.html"
-    },
-    {
-      "source": "/nl/finance/",
-      "destination": "/nl/finance/index.html"
-    },
-    {
-      "source": "/compliance/",
-      "destination": "/compliance/index.html"
-    },
-    {
-      "source": "/es/compliance/",
-      "destination": "/es/compliance/index.html"
-    },
-    {
-      "source": "/en/compliance/",
-      "destination": "/en/compliance/index.html"
-    },
-    {
-      "source": "/nl/compliance/",
-      "destination": "/nl/compliance/index.html"
     },
     {
       "source": "/privacitat/",
@@ -4813,6 +5085,22 @@
     {
       "source": "/nl/termes/",
       "destination": "/nl/termes/index.html"
+    },
+    {
+      "source": "/pricing/",
+      "destination": "/pricing/index.html"
+    },
+    {
+      "source": "/es/pricing/",
+      "destination": "/es/pricing/index.html"
+    },
+    {
+      "source": "/en/pricing/",
+      "destination": "/en/pricing/index.html"
+    },
+    {
+      "source": "/nl/pricing/",
+      "destination": "/nl/pricing/index.html"
     },
     {
       "source": "/blog/",

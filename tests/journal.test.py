@@ -59,14 +59,14 @@ with tempfile.TemporaryDirectory(prefix='nintec-journal-test-') as tmp:
     messages=json.loads(re.search(r'id="i18n-messages">(.*?)</script>',doc)[1]);assert messages
    dates=re.findall(r'<time datetime="([^"]+)">',(target/locale_path('/blog/arxiu/',lang).lstrip('/')/'index.html').read_text())
    assert dates==sorted([a['eventDate'] for a in articles],reverse=True)
-  assert len(list(target.rglob('index.html')))==40+len(journal.paths(articles))
+  assert len(list(target.rglob('index.html')))==32+len(journal.paths(articles))
   ca_home=(target/'blog/index.html').read_text()
   opening=ca_home.split('class="j-opening">',1)[1].split('</section>',1)[0]
   assert opening.index('mistral-large-4-control-ia-europa')<opening.index('google-respostes-ia-clics-web')<opening.index('gemini-robotics-ia-mon-fisic')
   assert 'Les últimes tres setmanes' not in ca_home
   subprocess.run([sys.executable,'tests/validate.py',str(target)],cwd=ROOT,check=True)
  assert '<loc>' not in (preview/'sitemap.xml').read_text()
- assert len(ET.parse(prod/'sitemap.xml').findall('.//{*}loc'))==28+len(journal.paths(articles))
+ assert len(ET.parse(prod/'sitemap.xml').findall('.//{*}loc'))==20+len(journal.paths(articles))
  refused=subprocess.run([sys.executable,'build.py','--production','--journal-preview','--output',str(Path(tmp)/'unsafe')],cwd=ROOT,env=env,capture_output=True)
  assert refused.returncode!=0 and not (Path(tmp)/'unsafe').exists()
  # Test draft exclusion on an isolated content fixture, never the working source.

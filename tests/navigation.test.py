@@ -19,7 +19,7 @@ class Navigation(HTMLParser):
  def handle_endtag(self,t):
   if t=='a':self.current=None
   if t=='nav':self.nav=False
-labels={'ca':['Inici','Qui som','Nintec360','Casos reals'],'es':['Inicio','Quiénes somos','Nintec360','Casos reales'],'en':['Home','About us','Nintec360','Real cases'],'nl':['Home','Over ons','Nintec360','Praktijkvoorbeelden']}
+labels={'ca':['Inici','Pricing','Nintec360','Casos reals'],'es':['Inicio','Pricing','Nintec360','Casos reales'],'en':['Home','Pricing','Nintec360','Real cases'],'nl':['Home','Pricing','Nintec360','Praktijkvoorbeelden']}
 pages=json.loads((ROOT/'src/pages.json').read_text())
 for lang in LOCALES:
  for key in pages:
@@ -28,12 +28,12 @@ for lang in LOCALES:
   journal_visible=(ROOT/'dist/blog/index.html').exists()
   journal_labels={'ca':'Actualitat IA','es':'Actualidad IA','en':'AI Journal','nl':'AI-nieuws'}
   assert [a[1] for a in p.links]==labels[lang]+([journal_labels[lang]] if journal_visible else []),route
-  assert [a[0]['href'] for a in p.links]==[locale_path(s,lang) for s in ['/','/equip/','/nintec360/','/casos/']]+([locale_path('/blog/',lang)] if journal_visible else []),route
+  assert [a[0]['href'] for a in p.links]==[locale_path(s,lang) for s in ['/','/pricing/','/nintec360/','/casos/']]+([locale_path('/blog/',lang)] if journal_visible else []),route
   assert p.logos==[locale_path('/',lang)]*2,route
   assert p.languages=={l:locale_path('/' if key=='index' else '/'+key+'/',l)+'?lang='+l for l in LOCALES},route
   active=[a[0]['href'] for a in p.links if a[0].get('aria-current')=='page']
-  assert active==([route] if key in ['index','equip','nintec360','casos'] else []),route
+  assert active==([route] if key in ['index','pricing','nintec360','casos'] else []),route
 nl=json.loads((ROOT/'src/locales/nl.json').read_text());en=json.loads((ROOT/'src/locales/en.json').read_text())
 assert set(nl)==set(en)
 assert all(isinstance(v,str) and v.strip() for v in nl.values())
-print('PASS: 40 pages; exact menu order; active navigation; locale home logos; reciprocal selectors; complete Dutch catalogue')
+print('PASS: 32 pages; exact menu order; active navigation; locale home logos; reciprocal selectors; complete Dutch catalogue')

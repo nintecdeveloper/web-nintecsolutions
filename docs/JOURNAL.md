@@ -1,6 +1,6 @@
 # Nintec Journal · CA / ES / EN / NL
 
-El Journal es publica com a HTML estàtic en els quatre idiomes de la web. Inclou setze articles complets, portada, arxiu i criteri editorial: 76 rutes del Journal, 116 pàgines totals i 104 URL indexables al sitemap.
+El Journal es publica com a HTML estàtic en els quatre idiomes de la web. Inclou setze articles complets, portada, arxiu i criteri editorial: 76 rutes del Journal, 108 pàgines totals i 96 URL indexables al sitemap.
 
 - Català: `/blog/`
 - Castellà: `/es/blog/`
