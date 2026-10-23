@@ -19,7 +19,7 @@ u=urlsplit(ORIGIN)
 if u.scheme!='https' or not u.netloc or u.path or u.query or u.fragment:raise ValueError('SITE_ORIGIN must be an HTTPS origin without a path')
 if PRODUCTION and ORIGIN!=PRODUCTION_ORIGIN:raise ValueError('Production origin must match the verified www domain; update seo.py only after verifying a domain change')
 pages=json.loads((SRC/'pages.json').read_text());PAGE_PATHS=['/' if k=='index' else '/'+k+'/' for k in pages]
-versions={f:hashlib.sha256((SRC/f).read_bytes()).hexdigest()[:12] for f in ['style.css','app.js','api.js','cycle-player.js','lead-modal.js','pricing.js']}
+versions={f:hashlib.sha256((SRC/f).read_bytes()).hexdigest()[:12] for f in ['style.css','app.js','api.js','cycle-player.js','lead-modal.js','pricing.js','home-explorer.js']}
 RUNTIME_KEYS=json.loads((SRC/'locales/runtime.json').read_text())
 OUT.mkdir(parents=True,exist_ok=True)
 for p in OUT.iterdir():
@@ -66,6 +66,7 @@ for key,meta in pages.items():
   messages=json.dumps({k:translate(k,lang) for k in RUNTIME_KEYS},ensure_ascii=False).replace('<','\\u003c')
   bootstrap=f'<script type="application/json" id="i18n-messages">{messages}</script><script>{locale_script}</script>'
   scripts=f'<script defer src="/api.js?v={versions["api.js"]}"></script>'+(f'<script defer src="/cycle-player.js?v={versions["cycle-player.js"]}"></script>' if has_cycle else '')+f'<script defer src="/app.js?v={versions["app.js"]}"></script><script defer src="/lead-modal.js?v={versions["lead-modal.js"]}"></script>'
+  if key=='index':scripts+=f'<script defer src="/home-explorer.js?v={versions["home-explorer.js"]}"></script>'
   if key=='pricing':scripts+=f'<script defer src="/pricing.js?v={versions["pricing.js"]}"></script>'
   extra=f'<meta name="robots" content="{robots}">'+alternates+sharing(meta,lang,path,ORIGIN)+f'<script type="application/ld+json">{structured_data(key,meta,lang,path,ORIGIN)}</script>'+bootstrap+scripts
   if PRODUCTION and verification:extra+=f'<meta name="google-site-verification" content="{html.escape(verification,quote=True)}">'

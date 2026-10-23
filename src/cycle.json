@@ -5,7 +5,7 @@
     "moment": "ABANS / NOUS CONTACTES",
     "title": "Cada contacte entra al sistema.",
     "problem": "Els leads de la web, els anuncis i les consultes arriben per llocs diferents.",
-    "action": "Rep les entrades de formularis, trucades, WhatsApp o email i activa el primer contacte.",
+    "action": "Rep les entrades de formularis, trucades, WhatsApp, missatges directes d’Instagram o email i activa el primer contacte.",
     "benefit": "L’equip té un punt de partida comú per atendre les oportunitats.",
     "record": "Origen del contacte · Canal · Dades del client"
   },
@@ -15,7 +15,7 @@
     "moment": "DURANT / ENTENDRE I RESOLDRE",
     "title": "De la consulta a una necessitat clara.",
     "problem": "Et truquen fora d’horari o l’equip rep les mateixes preguntes una vegada i una altra.",
-    "action": "Respon, entén el context i l’idioma, consulta la informació del negoci i qualifica la necessitat.",
+    "action": "Atén les converses dels canals configurats, inclosos els missatges directes d’Instagram. Entén el context i l’idioma, consulta la informació del negoci i qualifica la necessitat.",
     "benefit": "El client pot avançar sense esperar que l’equip estigui disponible.",
     "record": "Necessitat · Resum de la conversa · Qualificació"
   },

@@ -17,17 +17,23 @@ class Page(HTMLParser):
   if t=='li' and self.in_steps:self.steps+=1
  def handle_endtag(self,t):
   if t=='ol':self.in_steps=False
-expected=['corporate-hero','home-bridge','home-concept','home-capabilities','proof-section','home-team','cta-section']
+expected=['corporate-hero','home-explorer','home-capabilities','home-demos','proof-section','home-personalize','home-team','cta-section']
 for lang in LOCALES:
  root=ROOT/'dist'/locale_path('/',lang).lstrip('/')
  home=Page((root/'index.html').read_text());product=Page((root/'nintec360/index.html').read_text())
- assert len(home.sections)==7
+ assert len(home.sections)==8
  assert all(key in section.split() for key,section in zip(expected,home.sections))
- assert home.steps==4 and not home.cycle and product.cycle
+ assert home.steps==0 and not home.cycle and product.cycle
  assert {'control','campanyes','regles','adaptacio','canals','seguretat'}<=product.ids
  assert not {'control','regles','adaptacio','canals','seguretat'}&home.ids
  for path in ['/nintec360/','/pricing/','/contacte/','/casos/']:
   assert locale_path(path,lang) in home.links
+ text=(root/'index.html').read_text()
+ assert text.count('data-choice=')==10
+ assert text.count('class="home-solution"')==6
+ assert '/home-explorer.js?' in text
+ assert 'Instagram' in text
+ assert {'instagram'}<=product.ids
  assert 'campaign-section' not in ' '.join(home.sections)
  assert all(f'nintec360-tab-{i}' in product.ids for i in range(7))
-print('PASS: corporate hierarchy, four conceptual steps, product deep sections and six-stage cycle, four locales, solution links')
+print('PASS: corporate hierarchy, interactive discovery and illustrative demos, product deep sections and six-stage cycle, four locales, solution links')
