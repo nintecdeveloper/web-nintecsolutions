@@ -22,7 +22,7 @@ for lang in LOCALES:
  for retired in ('equip','finance','compliance'):
   base=locale_path('/'+retired+'/',lang)
   assert not (ROOT/'dist'/base.lstrip('/')).exists()
-  for old in (base,base.rstrip('/'),base+'index.html'):assert rules[old]==locale_path('/',lang)
+  for old in (base,base.rstrip('/'),base+'index.html'):assert old not in rules
 for f in (ROOT/'dist').rglob('*.html'):
  text=f.read_text()
  for forbidden in ('Nintec Finance','Nintec Compliance','home-ecosystem','/equip/','/finance/','/compliance/'):

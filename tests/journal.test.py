@@ -45,7 +45,7 @@ with tempfile.TemporaryDirectory(prefix='nintec-journal-test-') as tmp:
     for l in LOCALES:
      equiv=locale_path(journal.url(a),l)
      assert f'hreflang="{l}" href="https://www.nintecsolutions.com{equiv}"' in doc
-     assert f'href="{equiv}?lang={l}"' in doc
+     assert f'href="{equiv}"' in doc
     for b in a['body']:assert html.escape(t.tr(b['text']),quote=False) in doc
     for source in a['sources']:
      assert source_date(source,lang) in doc

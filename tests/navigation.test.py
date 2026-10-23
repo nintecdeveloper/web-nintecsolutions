@@ -30,7 +30,7 @@ for lang in LOCALES:
   assert [a[1] for a in p.links]==labels[lang]+([journal_labels[lang]] if journal_visible else []),route
   assert [a[0]['href'] for a in p.links]==[locale_path(s,lang) for s in ['/','/nintec360/','/pricing/','/casos/']]+([locale_path('/blog/',lang)] if journal_visible else []),route
   assert p.logos==[locale_path('/',lang)]*2,route
-  assert p.languages=={l:locale_path('/' if key=='index' else '/'+key+'/',l)+'?lang='+l for l in LOCALES},route
+  assert p.languages=={l:locale_path('/' if key=='index' else '/'+key+'/',l) for l in LOCALES},route
   active=[a[0]['href'] for a in p.links if a[0].get('aria-current')=='page']
   assert active==([route] if key in ['index','pricing','nintec360','casos'] else []),route
 nl=json.loads((ROOT/'src/locales/nl.json').read_text());en=json.loads((ROOT/'src/locales/en.json').read_text())

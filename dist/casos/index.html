@@ -4,11 +4,12 @@
  const languages=['ca','es','en','nl'],key='nintec-language';
  function basePath(path){return path.replace(/^\/(es|en|nl)(?=\/|$)/,'')||'/'}
  function pathFor(path,lang){return (lang==='ca'?'':'/'+lang)+basePath(path)}
+ // The URL path is authoritative for users and crawlers. Legacy ?lang values
+ // never change the rendered language or conflict with the server canonical.
  function resolve(url,saved){
-  const explicit=url.searchParams.get('lang'),prefix=url.pathname.match(/^\/(es|en|nl)(?:\/|$)/)?.[1];
-  const lang=languages.includes(explicit)?explicit:prefix||(languages.includes(saved)?saved:'ca');
-  const target=new URL(url);target.pathname=pathFor(url.pathname,lang);target.searchParams.delete('lang');
-  return {lang,target,save:languages.includes(explicit),redirect:target.pathname!==url.pathname};
+  const prefix=url.pathname.match(/^\/(es|en|nl)(?:\/|$)/)?.[1];
+  const lang=prefix||'ca',target=new URL(url);target.searchParams.delete('lang');
+  return {lang,target,save:false,redirect:false};
  }
  if(typeof module!=='undefined'&&module.exports){module.exports={resolve,pathFor};return}
  let saved;try{saved=localStorage.getItem(key)}catch{}
@@ -40,7 +41,7 @@
  },true);
  for(const name of ['input','change'])document.addEventListener(name,event=>event.target.setCustomValidity?.(''));
 })(typeof window!=='undefined'?window:globalThis);
-</script><script defer src="/api.js?v=6638e69dc269"></script><script defer src="/app.js?v=17e99462083f"></script><script defer src="/lead-modal.js?v=fb706bb684d7"></script></head><body><a class="skip" href="#main">Salta al contingut</a><header class="site-header"><div class="wrap nav-inner"><a href="/" class="brand" aria-label="Nintec Solutions — Inici"><img class="brand-logo" src="/assets/brand/nintec-logo-horizontal-light.svg" width="240" height="64" decoding="async" alt=""></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menú <span aria-hidden="true">☰</span></button><nav id="navigation" aria-label="Navegació principal"><a data-page="index" href="/">Inici</a><a data-page="nintec360" href="/nintec360/">Nintec360</a><a data-page="pricing" href="/pricing/">Preus</a><a aria-current="page" href="/casos/">Casos reals</a><a class="journal-nav" href="/blog/">Actualitat IA</a><a class="nav-contact" href="/contacte/">Contacte</a></nav><div class="nav-actions"><details class="language-picker"><summary aria-label="Idioma del lloc web: CA">CA <span aria-hidden="true">⌄</span></summary><nav aria-label="Idioma del lloc web"><a href="/casos/?lang=ca" lang="ca" hreflang="ca" data-language="ca" aria-current="true">CA <span>Català</span></a><a href="/es/casos/?lang=es" lang="es" hreflang="es" data-language="es">ES <span>Español</span></a><a href="/en/casos/?lang=en" lang="en" hreflang="en" data-language="en">EN <span>English</span></a><a href="/nl/casos/?lang=nl" lang="nl" hreflang="nl" data-language="nl">NL <span>Nederlands</span></a></nav></details><a class="button small" href="/contacte/" data-lead-cta>Parlem del teu negoci <span aria-hidden="true">↗</span></a></div></div></header>
+</script><script defer src="/api.js?v=6638e69dc269"></script><script defer src="/app.js?v=17e99462083f"></script><script defer src="/lead-modal.js?v=fb706bb684d7"></script></head><body><a class="skip" href="#main">Salta al contingut</a><header class="site-header"><div class="wrap nav-inner"><a href="/" class="brand" aria-label="Nintec Solutions — Inici"><img class="brand-logo" src="/assets/brand/nintec-logo-horizontal-light.svg" width="240" height="64" decoding="async" alt=""></a><button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menú <span aria-hidden="true">☰</span></button><nav id="navigation" aria-label="Navegació principal"><a data-page="index" href="/">Inici</a><a data-page="nintec360" href="/nintec360/">Nintec360</a><a data-page="pricing" href="/pricing/">Preus</a><a aria-current="page" href="/casos/">Casos reals</a><a class="journal-nav" href="/blog/">Actualitat IA</a><a class="nav-contact" href="/contacte/">Contacte</a></nav><div class="nav-actions"><details class="language-picker"><summary aria-label="Idioma del lloc web: CA">CA <span aria-hidden="true">⌄</span></summary><nav aria-label="Idioma del lloc web"><a href="/casos/" lang="ca" hreflang="ca" data-language="ca" aria-current="true">CA <span>Català</span></a><a href="/es/casos/" lang="es" hreflang="es" data-language="es">ES <span>Español</span></a><a href="/en/casos/" lang="en" hreflang="en" data-language="en">EN <span>English</span></a><a href="/nl/casos/" lang="nl" hreflang="nl" data-language="nl">NL <span>Nederlands</span></a></nav></details><a class="button small" href="/contacte/" data-lead-cta>Parlem del teu negoci <span aria-hidden="true">↗</span></a></div></div></header>
 <main id="main"><nav class="wrap breadcrumbs" aria-label="Ruta de navegació"><a href="/">Inici</a><span aria-hidden="true">/</span><span aria-current="page">Casos reals</span></nav><section class="page-hero wrap cases-hero">
   <p class="eyebrow">CASOS REALS</p>
   <h1>Darrere de cada resultat, <br><em>una feina resolta.</em></h1>

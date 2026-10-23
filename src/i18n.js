@@ -4,11 +4,12 @@
  const languages=['ca','es','en','nl'],key='nintec-language';
  function basePath(path){return path.replace(/^\/(es|en|nl)(?=\/|$)/,'')||'/'}
  function pathFor(path,lang){return (lang==='ca'?'':'/'+lang)+basePath(path)}
+ // The URL path is authoritative for users and crawlers. Legacy ?lang values
+ // never change the rendered language or conflict with the server canonical.
  function resolve(url,saved){
-  const explicit=url.searchParams.get('lang'),prefix=url.pathname.match(/^\/(es|en|nl)(?:\/|$)/)?.[1];
-  const lang=languages.includes(explicit)?explicit:prefix||(languages.includes(saved)?saved:'ca');
-  const target=new URL(url);target.pathname=pathFor(url.pathname,lang);target.searchParams.delete('lang');
-  return {lang,target,save:languages.includes(explicit),redirect:target.pathname!==url.pathname};
+  const prefix=url.pathname.match(/^\/(es|en|nl)(?:\/|$)/)?.[1];
+  const lang=prefix||'ca',target=new URL(url);target.searchParams.delete('lang');
+  return {lang,target,save:false,redirect:false};
  }
  if(typeof module!=='undefined'&&module.exports){module.exports={resolve,pathFor};return}
  let saved;try{saved=localStorage.getItem(key)}catch{}

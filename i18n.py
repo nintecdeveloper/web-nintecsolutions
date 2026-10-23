@@ -45,5 +45,5 @@ def localize(doc,lang,paths,origin):
  p=Localizer(lang,paths,origin);p.feed(doc);return ''.join(p.out)
 def selector(path,lang):
  label=translate('Idioma del lloc web',lang)
- links=''.join(f'<a href="{locale_path(path,l)}?lang={l}" lang="{l}" hreflang="{l}" data-language="{l}"'+(' aria-current="true"' if l==lang else '')+f'>{l.upper()} <span>{name}</span></a>' for l,name in [('ca','Català'),('es','Español'),('en','English'),('nl','Nederlands')])
+ links=''.join(f'<a href="{locale_path(path,l)}" lang="{l}" hreflang="{l}" data-language="{l}"'+(' aria-current="true"' if l==lang else '')+f'>{l.upper()} <span>{name}</span></a>' for l,name in [('ca','Català'),('es','Español'),('en','English'),('nl','Nederlands')])
  return f'<details class="language-picker"><summary aria-label="{label}: {lang.upper()}">{lang.upper()} <span aria-hidden="true">⌄</span></summary><nav aria-label="{label}">{links}</nav></details>'

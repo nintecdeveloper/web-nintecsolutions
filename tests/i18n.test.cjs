@@ -2,20 +2,22 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const {resolve,pathFor}=require('../src/i18n.js');
 const url=path=>new URL(path,'https://example.com');
-test('Catalan is the default; saved language applies on direct visits and refreshes',()=>{
- assert.equal(resolve(url('/casos/#retail'),null).lang,'ca');
- const es=resolve(url('/casos/?source=mail#retail'),'es');
- assert.equal(es.target.href,'https://example.com/es/casos/?source=mail#retail');assert.equal(es.redirect,true);
- assert.equal(resolve(url(es.target.href),'es').redirect,false);
- assert.equal(resolve(url('/contacte/'),'invalid').lang,'ca');
-});
-test('explicit language choice overrides stored preference, including a return to Catalan',()=>{
- for(const l of ['ca','es','en','nl']){
-  const result=resolve(url('/es/nintec360/?lang='+l+'#control'),'en');
-  assert.equal(result.lang,l);assert.equal(result.save,true);assert.equal(result.target.hash,'#control');
-  assert.equal(result.target.pathname,(l==='ca'?'':'/'+l)+'/nintec360/');assert.equal(result.target.search,'');
+test('URL language wins over saved preference on every route',()=>{
+ for(const lang of ['ca','es','en','nl'])for(const saved of [null,'ca','es','en','nl','invalid']){
+  const path=(lang==='ca'?'':'/'+lang)+'/casos/?source=mail#retail';
+  const result=resolve(url(path),saved);
+  assert.equal(result.lang,lang);assert.equal(result.redirect,false);
+  assert.equal(result.target.href,url(path).href);
  }
- assert.equal(resolve(url('/en/equip/'),'es').lang,'en');
+});
+test('legacy lang parameters cannot conflict with HTML, canonical or selected route',()=>{
+ for(const lang of ['ca','es','en','nl'])for(const query of ['ca','es','en','nl','unknown']){
+  const path=(lang==='ca'?'':'/'+lang)+'/nintec360/';
+  const result=resolve(url(path+'?lang='+query+'&utm_source=test#control'),'en');
+  assert.equal(result.lang,lang);assert.equal(result.redirect,false);
+  assert.equal(result.target.pathname,path);assert.equal(result.target.search,'?utm_source=test');
+  assert.equal(result.target.hash,'#control');
+ }
  assert.equal(pathFor('/en/','ca'),'/');assert.equal(pathFor('/es/contacte/','en'),'/en/contacte/');
 });
 test('every runtime message and t() call has a reviewed translation',()=>{

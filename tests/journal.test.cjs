@@ -11,7 +11,7 @@ test('editorial search combines accents, multiple words and a selected category'
 test('Journal language switching preserves the article across all four locales',()=>{
  const path='/blog/synthid-bio-proteines-ia-procedencia/';
  for(const from of ['ca','es','en','nl'])for(const to of ['ca','es','en','nl']){
-  const route=resolve(new URL('https://www.nintecsolutions.com'+(from==='ca'?'':'/'+from)+path+'?lang='+to),'es');
-  assert.equal(route.lang,to);assert.equal(route.target.pathname,(to==='ca'?'':'/'+to)+path);assert.equal(route.save,true);
+  const route=resolve(new URL('https://www.nintecsolutions.com'+(to==='ca'?'':'/'+to)+path),'es');
+  assert.equal(route.lang,to);assert.equal(route.target.pathname,(to==='ca'?'':'/'+to)+path);assert.equal(route.redirect,false);
  }
 });
