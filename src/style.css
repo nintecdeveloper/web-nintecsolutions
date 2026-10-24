@@ -131,3 +131,7 @@ html.lead-open{overflow:hidden}.lead-modal{border:1px solid var(--line);border-r
 @media(max-width:380px){.home-solution-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.is-enhanced .explore-panel{animation:none}.explore-choice,.home-solution{transition:none}}
 .home-explorer .section-heading:not(.horizontal)>p:last-child{position:static;max-width:720px;margin-bottom:0}.home-demos .section-heading:not(.horizontal)>.micro:last-child{font-size:12px}
+
+/* Non-interactive plan summaries, aligned below the existing descriptions. */
+.pricing-chips{list-style:none;display:flex;flex-wrap:wrap;align-content:flex-start;align-items:flex-start;gap:7px;margin:0 0 24px;padding:0;min-height:136px}.pricing-chips li{max-width:100%;border:1px solid #d8cefa;border-radius:18px;background:var(--lavender);color:var(--purple-dark);padding:5px 10px;font-size:11px;line-height:1.5;overflow-wrap:anywhere}.pricing-enterprise .pricing-chips{min-height:0;margin-bottom:26px}.pricing-enterprise .pricing-chips li{background:#ffffff0a;border-color:#c1b0ff66;color:#d9cdff}
+@media(max-width:650px){.pricing-chips{min-height:0;margin-bottom:24px}}
