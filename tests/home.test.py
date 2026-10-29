@@ -17,11 +17,11 @@ class Page(HTMLParser):
   if t=='li' and self.in_steps:self.steps+=1
  def handle_endtag(self,t):
   if t=='ol':self.in_steps=False
-expected=['corporate-hero','home-explorer','home-capabilities','home-demos','proof-section','home-personalize','home-team','cta-section']
+expected=['corporate-hero','home-explorer','home-capabilities','home-demos','proof-section','home-personalize','home-team','demo-banner','cta-section']
 for lang in LOCALES:
  root=ROOT/'dist'/locale_path('/',lang).lstrip('/')
  home=Page((root/'index.html').read_text());product=Page((root/'nintec360/index.html').read_text())
- assert len(home.sections)==8
+ assert len(home.sections)==9
  assert all(key in section.split() for key,section in zip(expected,home.sections))
  assert home.steps==0 and not home.cycle and product.cycle
  assert {'control','campanyes','regles','adaptacio','canals','seguretat'}<=product.ids
